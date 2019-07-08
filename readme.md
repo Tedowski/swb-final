@@ -1,4 +1,4 @@
-# Gulp project boilerplate
+# Skate World Better
 
   - Version 1.1
   
