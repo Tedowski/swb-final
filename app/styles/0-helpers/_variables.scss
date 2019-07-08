@@ -7,6 +7,11 @@
 // Measures
 // ***************************************
 
+$wrapper-width: 1920px;
+$container-width: 1200px;
+
+$mg-sm: 12px;
+$mg-lg: 24px;
 
 
 // Breakpoints
@@ -14,15 +19,7 @@
 
 $bkp-small: 640px;
 $bkp-medium: 960px;
-$bkp-large: 1200px;
+$bkp-large: 1400px;
 
 // Fonts
 // ***************************************
-
-$font-base: 16px;
-$font-xs: 21px;
-$font-m: 28px;
-$font-xm: 37px;
-$font-l: 50px;
-$font-xl: 67px;
-$font-xxl: 89px;

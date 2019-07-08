@@ -1,0 +1,21 @@
+.section,
+.container {
+  position: relative;
+}
+
+.section {
+  width: 100%;
+}
+
+.container {
+  margin: 0 $mg-sm;
+  max-width: $container-width;
+
+  @media (min-width: $bkp-small) {
+    margin: 0 $mg-lg;
+  }
+
+  @media (min-width: $bkp-large) {
+    margin: 0 auto;
+  }
+}

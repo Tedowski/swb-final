@@ -7,4 +7,4 @@
     <link rel="stylesheet" href="./styles/index.css">
     <title>Document</title>
 </head>
-<body>
+<body class="body">
