@@ -23,6 +23,11 @@ require_once __DIR__.'/modules/header.php';
             <div class="span__1 offset__1 span__3_m offset__1_m span__3_l offset__2_l box">ITEM</div>
         </div>
     </section>
+    <section>
+        <div class="container grid-body">
+            <button class="btn btn-block btn-sec">Button</button>
+        </div>
+    </section>
 </div>
 
 <?php
