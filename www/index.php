@@ -13,14 +13,13 @@ require_once __DIR__.'/modules/header.php';
     </section>
     <section>
         <div class="container grid-body">
-            <div class="span__4">ITEM</div>
-            <div class="span__4">ITEM</div>
-            <div class="span__4">ITEM</div>
+            <div class="span__4">ITEM 1</div>
+            <div class="span__4">ITEM 2</div>
+            <div class="span__4">ITEM 3</div>
         </div>
     </section>
     <section>
         <div class="container grid-body">
-            <div class="span__1 offset__1 span__3_m offset__1_m span__3_l offset__2_l box">ITEM</div>
         </div>
     </section>
     <section>

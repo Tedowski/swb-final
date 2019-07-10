@@ -38,6 +38,10 @@
   @media (min-width: $bkp-medium) {
     grid-template-columns: repeat(12, 1fr);
   }
+
+  & > * {
+    display: block;
+  }
 }
 
 // Grid items small viewport (4 columns)
@@ -75,6 +79,28 @@
 
 .span__4 {
   grid-column-end: span 4;
+}
+
+.hide-s-up {
+  display: none;
+}
+
+@media (max-width: $bkp-small) {
+  .hide-s {
+    display: none;
+  }
+}
+
+@media (max-width: $bkp-medium) {
+  .hide-m {
+    display: none;
+  }
+}
+
+@media (max-width: $bkp-large) {
+  .hide-l {
+    display: none;
+  }
 }
 
 // Grid items medium viewport (8 columns)
@@ -128,6 +154,10 @@
   }
   .span__8_m {
     grid-column-end: span 8;
+  }
+  
+  .hide-m-up {
+    display: none;
   }
 }
 
@@ -207,5 +237,15 @@
   }
   .span__12_l {
     grid-column-end: span 12;
+  }
+
+  .hide-l-up {
+    display: none;
+  }
+}
+
+@media (min-width: $bkp-large) {
+  .hide-xl-up {
+    display: none;
   }
 }
