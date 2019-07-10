@@ -1,0 +1,26 @@
+
+@mixin hero-height($height-s, $height-m, $height-l) {
+  height: $height-s;
+
+  @media (min-width: $bkp-small) {
+    height: $height-m;
+  }
+
+  @media (min-width: $bkp-medium) {
+    height: $height-l;
+  }
+}
+
+.hero {
+  background-color: lighten($c-prim, 35%);
+}
+
+.hero__landing {
+  @include hero-height(calc(100vh - 150px), calc(100vh - 150px), calc(100vh - 150px));
+
+  max-height: 850px;
+}
+
+.hero__subpage {
+  @include hero-height(50vh, 50vh, 50vh);
+}
