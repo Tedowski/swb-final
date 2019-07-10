@@ -6,7 +6,8 @@
   position: relative;
 }
 
-.section {
+.section,
+.main {
   width: 100%;
 }
 
@@ -37,10 +38,6 @@
 
   @media (min-width: $bkp-medium) {
     grid-template-columns: repeat(12, 1fr);
-  }
-
-  & > * {
-    display: block;
   }
 }
 
@@ -83,24 +80,6 @@
 
 .hide-s-up {
   display: none;
-}
-
-@media (max-width: $bkp-small) {
-  .hide-s {
-    display: none;
-  }
-}
-
-@media (max-width: $bkp-medium) {
-  .hide-m {
-    display: none;
-  }
-}
-
-@media (max-width: $bkp-large) {
-  .hide-l {
-    display: none;
-  }
 }
 
 // Grid items medium viewport (8 columns)
@@ -244,8 +223,61 @@
   }
 }
 
+// Viewport specific hiding and positioning
+// ***************************************
+
+@media (max-width: $bkp-small) {
+  .hide-s {
+    display: none;
+  }
+
+  .s-first {
+    order: -1
+  }
+
+  .s-last {
+    order: 1
+  }
+}
+
+@media (min-width: $bkp-small) and (max-width: $bkp-medium) {
+  .hide-m {
+    display: none;
+  }
+
+  .m-first {
+    order: -1;
+  }
+
+  .m-last {
+    order: 1
+  }
+}
+
+@media (min-width: $bkp-medium) and (max-width: $bkp-large) {
+  .hide-l {
+    display: none;
+  }
+
+  .l-first {
+    order: -1;
+  }
+
+  .l-last {
+    order: 1;
+  }
+}
+
 @media (min-width: $bkp-large) {
   .hide-xl-up {
     display: none;
+  }
+
+  .xl-first {
+    order: -1;
+  }
+
+  .xl-last {
+    order: 1;
   }
 }

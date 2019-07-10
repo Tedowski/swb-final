@@ -4,13 +4,15 @@
 $c-background: #F8F6EC;
 
 $c-prim: #50413C;
-$c-sec: #F5834D;
+$c-sec: #F5834D; // main cta color
 $c-terc: #FFCC63;
 $c-quat: #F8F6EC;
-$c-quin: #779E66;
+$c-quin: #779E66; // secondary accent cta color
 
-$c-black: #221716;
-$c-white: #F8F6EC;
+$c-black: #221716; // body font color
+$c-white: #F8F6EC; // contrast white color
+
+$c-disabled: #7e7e7e;
 
 
 
@@ -28,6 +30,11 @@ $grid-main--gap: 12px; // main body grid gutter
 $header-height: 75px;
 
 $font-size: 14px;
+
+// Button settings
+// ***************************************
+
+$btn-border-radius: 4px;
 
 // Breakpoints
 // ***************************************

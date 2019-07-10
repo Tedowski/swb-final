@@ -4,29 +4,32 @@ require_once __DIR__.'/modules/header.php';
 ?>
 
 <div class="wrapper">
-    <section>
+    <section class="hero hero__landing section">
         <div class="container grid-body">
-            <h1 class="span__4">My App</h1>
-
-            <p class="span__full">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur, aut beatae cum dolorum ea explicabo harum, id impedit ipsa maiores minima molestias nihil non odio officia sit ut?</p>
+            <div class="span__full">
+                <h1>My App</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi consectetur dolores hic magni, quis reiciendis sint ut.</p>
+            </div>
         </div>
     </section>
-    <section>
-        <div class="container grid-body">
-            <div class="span__4">ITEM 1</div>
-            <div class="span__4">ITEM 2</div>
-            <div class="span__4">ITEM 3</div>
-        </div>
-    </section>
-    <section>
-        <div class="container grid-body">
-        </div>
-    </section>
-    <section>
-        <div class="container grid-body">
-            <button class="btn btn-block btn-sec">Button</button>
-        </div>
-    </section>
+    <main class="main">
+        <section class="section">
+            <div class="container grid-body">
+                <div class="span__4">ITEM 1</div>
+                <div class="span__4">ITEM 2</div>
+                <div class="span__4">ITEM 3</div>
+            </div>
+        </section>
+        <section>
+            <div class="container grid-body">
+            </div>
+        </section>
+        <section>
+            <div class="container grid-body">
+                <button class="btn btn-block btn-sec">Button</button>
+            </div>
+        </section>
+    </main>
 </div>
 
 <?php
