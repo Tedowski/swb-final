@@ -15,9 +15,28 @@ require_once __DIR__.'/modules/header.php';
     <main class="main">
         <section class="section">
             <div class="container grid-body">
-                <div class="span__4">ITEM 1</div>
-                <div class="span__4">ITEM 2</div>
-                <div class="span__4">ITEM 3</div>
+                <div class="span__4 span__6_l">ITEM 1</div>
+                <div class="span__4 span__6_l s-first">ITEM 2</div>
+            </div>
+            <div class="container grid-body">
+                <div class="span__4">
+                    <div>Challanges</div>
+                </div>
+                <div class="span__4">
+                    <div>Challanges</div>
+                </div>
+                <div class="span__4">
+                    <div>Challanges</div>
+                </div>
+                <div class="span__4">
+                    <div>Challanges</div>
+                </div>
+                <div class="span__4">
+                    <div>Challanges</div>
+                </div>
+                <div class="span__4">
+                    <div>Challanges</div>
+                </div>
             </div>
         </section>
         <section>

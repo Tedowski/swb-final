@@ -41,6 +41,42 @@
   }
 }
 
+// Grid aligning and justifying
+// ***************************************
+
+.justify-items-start {
+  justify-items: start;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.justify-items-stretch {
+  justify-items: stretch;
+}
+
+
+.align-items-start {
+  align-items: start;
+}
+
+.align-items-end {
+  align-items: end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
 // Grid items small viewport (4 columns)
 // ***************************************
 
@@ -78,8 +114,43 @@
   grid-column-end: span 4;
 }
 
+
 .hide-s-up {
   display: none;
+}
+
+
+.justify-start-s-up {
+  justify-self: start;
+}
+
+.justify-end-s-up {
+  justify-self: end;
+}
+
+.justify-center-s-up {
+  justify-self: center;
+}
+
+.justify-stretch-s-up {
+  justify-self: stretch;
+}
+
+
+.align-start-s-up {
+  align-self: start;
+}
+
+.align-end-s-up {
+  align-self: end;
+}
+
+.align-center-s-up {
+  align-self: center;
+}
+
+.align-stretch-s-up {
+  align-self: stretch;
 }
 
 // Grid items medium viewport (8 columns)
@@ -134,9 +205,44 @@
   .span__8_m {
     grid-column-end: span 8;
   }
-  
+
+
   .hide-m-up {
     display: none;
+  }
+
+
+  .justify-start-m-up {
+    justify-self: start;
+  }
+
+  .justify-end-m-up {
+    justify-self: end;
+  }
+
+  .justify-center-m-up {
+    justify-self: center;
+  }
+
+  .justify-stretch-m-up {
+    justify-self: stretch;
+  }
+
+
+  .align-start-m-up {
+    align-self: start;
+  }
+
+  .align-end-m-up {
+    align-self: end;
+  }
+
+  .align-center-m-up {
+    align-self: center;
+  }
+
+  .align-stretch-m-up {
+    align-self: stretch;
   }
 }
 
@@ -180,7 +286,6 @@
   }
 
 
-
   .span__1_l {
     grid-column-end: span 1;
   }
@@ -218,8 +323,43 @@
     grid-column-end: span 12;
   }
 
+
   .hide-l-up {
     display: none;
+  }
+
+
+  .justify-start-l-up {
+    justify-self: start;
+  }
+
+  .justify-end-l-up {
+    justify-self: end;
+  }
+
+  .justify-center-l-up {
+    justify-self: center;
+  }
+
+  .justify-stretch-l-up {
+    justify-self: stretch;
+  }
+
+
+  .align-start-l-up {
+    align-self: start;
+  }
+
+  .align-end-l-up {
+    align-self: end;
+  }
+
+  .align-center-l-up {
+    align-self: center;
+  }
+
+  .align-stretch-l-up {
+    align-self: stretch;
   }
 }
 
@@ -238,6 +378,40 @@
   .s-last {
     order: 1
   }
+
+
+  .justify-start-s {
+    justify-self: start;
+  }
+
+  .justify-end-s {
+    justify-self: end;
+  }
+
+  .justify-center-s {
+    justify-self: center;
+  }
+
+  .justify-stretch-s {
+    justify-self: stretch;
+  }
+
+
+  .align-start-s {
+    align-self: start;
+  }
+
+  .align-end-s {
+    align-self: end;
+  }
+
+  .align-center-s {
+    align-self: center;
+  }
+
+  .align-stretch-s {
+    align-self: stretch;
+  }
 }
 
 @media (min-width: $bkp-small) and (max-width: $bkp-medium) {
@@ -251,6 +425,40 @@
 
   .m-last {
     order: 1
+  }
+
+
+  .justify-start-m {
+    justify-self: start;
+  }
+
+  .justify-end-m {
+    justify-self: end;
+  }
+
+  .justify-center-m {
+    justify-self: center;
+  }
+
+  .justify-stretch-m {
+    justify-self: stretch;
+  }
+
+
+  .align-start-m {
+    align-self: start;
+  }
+
+  .align-end-m {
+    align-self: end;
+  }
+
+  .align-center-m {
+    align-self: center;
+  }
+
+  .align-stretch-m {
+    align-self: stretch;
   }
 }
 
@@ -266,6 +474,40 @@
   .l-last {
     order: 1;
   }
+
+
+  .justify-start-l {
+    justify-self: start;
+  }
+
+  .justify-end-l {
+    justify-self: end;
+  }
+
+  .justify-center-l {
+    justify-self: center;
+  }
+
+  .justify-stretch-l {
+    justify-self: stretch;
+  }
+
+
+  .align-start-l {
+    align-self: start;
+  }
+
+  .align-end-l {
+    align-self: end;
+  }
+
+  .align-center-l {
+    align-self: center;
+  }
+
+  .align-stretch-l {
+    align-self: stretch;
+  }
 }
 
 @media (min-width: $bkp-large) {
@@ -279,5 +521,39 @@
 
   .xl-last {
     order: 1;
+  }
+
+
+  .justify-start-xl {
+    justify-self: start;
+  }
+
+  .justify-end-xl {
+    justify-self: end;
+  }
+
+  .justify-center-xl {
+    justify-self: center;
+  }
+
+  .justify-stretch-xl {
+    justify-self: stretch;
+  }
+
+
+  .align-start-xl {
+    align-self: start;
+  }
+
+  .align-end-xl {
+    align-self: end;
+  }
+
+  .align-center-xl {
+    align-self: center;
+  }
+
+  .align-stretch-xl {
+    align-self: stretch;
   }
 }
