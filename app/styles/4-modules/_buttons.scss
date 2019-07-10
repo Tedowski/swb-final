@@ -2,6 +2,7 @@ $font-size: 14px;
 $c-prim: orange;
 $c-white: #f8f8f8;
 $c-disabled: #7e7e7e;
+$btn-border-radius: 4px;
 
 // Button reset
 // ***************************************
@@ -50,7 +51,7 @@ button {
     text-transform: uppercase;
     padding: 4px 12px;
     color: $c-prim;
-    border-radius: 4px;
+    border-radius: $btn-border-radius;
 
     &:hover {
       color: darken($c-prim, 15%);
@@ -80,7 +81,7 @@ button {
 .btn-block,
 .btn-inline {
   border: 1px solid;
-  border-radius: 4px;
+  border-radius: $btn-border-radius;
 
   &:disabled {
     color: $c-disabled;

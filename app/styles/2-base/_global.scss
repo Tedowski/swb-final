@@ -14,6 +14,9 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
+    font-family: $font-body;
+    background-color: $c-background;
+    font-size: $font-size;
 }
 
 a {

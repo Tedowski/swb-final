@@ -1,21 +1,33 @@
 // Colors
 // ***************************************
 
+$c-background: #F8F6EC;
+
+$c-prim: #50413C;
+$c-sec: #F5834D;
+$c-terc: #FFCC63;
+$c-quat: #F8F6EC;
+$c-quin: #779E66;
+
+$c-black: #221716;
+$c-white: #F8F6EC;
 
 
 
 // Measures
 // ***************************************
 
-$wrapper-width: 1920px;
-$container-width: 1200px;
+$wrapper-width: 1920px; //max width of main content wrapper
+$container-width: 1200px; // max width of content container
 
-$mg-sm: 12px;
-$mg-lg: 24px;
+$mg-sm: 12px; // side gutter margin for phones
+$mg-lg: 24px; // side gutter margin for tablets and higher
 
-$grid-main--gap: 12px;
+$grid-main--gap: 12px; // main body grid gutter
 
 $header-height: 75px;
+
+$font-size: 14px;
 
 // Breakpoints
 // ***************************************
@@ -26,3 +38,7 @@ $bkp-large: 1400px;
 
 // Fonts
 // ***************************************
+
+$font-heading-main: "system";
+$font-heading-sec: "system";
+$font-body: "system";
