@@ -31,6 +31,7 @@
   display: grid;
   grid-gap: $grid-main--gap;
   grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(72px, auto);
 
   @media (min-width: $bkp-small) {
     grid-template-columns: repeat(8, 1fr);
@@ -38,6 +39,24 @@
 
   @media (min-width: $bkp-medium) {
     grid-template-columns: repeat(12, 1fr);
+  }
+
+  & > * {
+    border: 1px solid red;
+  }
+}
+
+// Custom Sub-grids
+// NOTE: This should be updated when css sub-grid support gets fixed
+// ***************************************
+
+.subgrid-2-col {
+  display: grid;
+  grid-gap: $grid-main--gap;
+  grid-template-columns: repeat(4, 1fr);
+
+  @media (min-width: $bkp-small) {
+    grid-template-columns: repeat(8, 1fr);
   }
 }
 
