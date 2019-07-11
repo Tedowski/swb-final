@@ -6,7 +6,7 @@ require_once __DIR__.'/modules/header.php';
 <div class="wrapper">
     <section class="hero hero__landing section">
         <div class="container grid-body">
-            <div class="span__full justify-center-s-up">
+            <div class="span__full text-centered">
                 <h1 class="heading">My App</h1>
                 <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi consectetur dolores hic magni, quis reiciendis sint ut.</p>
             </div>
@@ -150,7 +150,7 @@ require_once __DIR__.'/modules/header.php';
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section class="section gutter-top-xl gutter-bot-xl">
             <div class="container grid-body">
                 <div class="span__4 span__6_l">
                     <div>
@@ -189,6 +189,80 @@ require_once __DIR__.'/modules/header.php';
                 </div>
                 <div class="span__4">
                     <div>SPONSOR LOGO</div>
+                </div>
+            </div>
+        </section>
+        <section class="section gutter-top-xl gutter-bot-l">
+            <div class="container grid-body">
+                <div class="span__4 span__8_l offset__2_l">
+                    <form class="form form_main form_card">
+                        <div class="span__2 span__1_m">
+                            <div class="form__input-group">
+                                <label class="label">label</label>
+                                <div class="input-wrapper">
+                                    <input class="input" type="text" placeholder="e.g. Jon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span__2 span__1_m">
+                            <div class="form__input-group">
+                                <label class="label">label</label>
+                                <div class="input-wrapper">
+                                    <input class="input" type="text" placeholder="e.g. Doe">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">label</label>
+                                <div class="input-wrapper">
+                                    <input class="input" type="number" placeholder="Telephone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">label</label>
+                                <div class="input-wrapper">
+                                    <input class="input" type="password" placeholder="Something secure..">
+                                </div>
+                                <div class="input__helper-list">
+                                    <div class="helper-item">
+                                        <div class="icon-check-switch"><i class="fas fa-times-circle"></i></div>
+                                        <p>1 lowercase character</p>
+                                    </div>
+                                    <div class="helper-item">
+                                        <div class="icon-check-switch"><i class="fas fa-times-circle"></i></div>
+                                        <p>1 lowercase character</p>
+                                    </div>
+                                    <div class="helper-item">
+                                        <div class="icon-check-switch"><i class="fas fa-times-circle"></i></div>
+                                        <p>1 lowercase character</p>
+                                    </div>
+                                    <div class="helper-item">
+                                        <div class="icon-check-switch"><i class="fas fa-times-circle"></i></div>
+                                        <p>1 lowercase character</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span__1 margin-top-m">
+                            <button class="btn btn-sec btn-block">Secondary</button>
+                        </div>
+                        <div class="span__1 margin-top-m">
+                            <button class="btn btn-prim btn-block">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container grid-body margin-top-l">
+                <div class="span__4 span__8_l offset__2_l">
+                    <form class="form form_card">
+                        <div class="input-wrapper">
+                            <input class="input" type="text" placeholder="Your E-mail">
+                            <button class="btn btn-prim btn-block input-append">Sign me up</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>

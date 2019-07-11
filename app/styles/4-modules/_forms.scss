@@ -1,0 +1,140 @@
+.form_card {
+  padding: 72px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+// Form containers
+// ***************************************
+
+.form {
+  position: relative;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.form_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+
+  .btn {
+    width: 100%;
+  }
+}
+
+// Form item wrappers
+// ***************************************
+
+.input-wrapper {
+  position: relative;
+  border-radius: $border-radius;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
+  .btn-block {
+    border-radius: 0;
+  }
+
+  .input {
+    flex: 1;
+
+    &:first-child {
+      border-bottom-left-radius: $border-radius;
+      border-top-left-radius: $border-radius;
+    }
+
+    &:last-child {
+      border-bottom-right-radius: $border-radius;
+      border-top-right-radius: $border-radius;
+    }
+  }
+
+  .input-append {
+    order: 1;
+  }
+
+  .input-prepend {
+    order: -1;
+  }
+}
+
+.form__input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__helper-list {
+  margin-top: 16px;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-column-gap: 16px;
+  grid-row-gap: 8px;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+// Form elements
+// ***************************************
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+.input {
+  border: 2px solid lighten($c-prim, 20%);
+  background-color: lighten($c-prim, 68%);
+  font-size: 14px;
+  line-height: 24px;
+  padding: 6px 10px;
+  transition: all .3s ease;
+
+  &::placeholder {
+    transition: all .3s ease;
+    color: $c-black;
+    font-weight: 500;
+    opacity: .55;
+  }
+
+  &:hover,
+  &:active {
+    border-color: $c-sec;
+    background-color: lighten($c-sec, 46%);
+
+    &::placeholder {
+      opacity: .65;
+    }
+  }
+
+  &:focus {
+    border-color: $c-sec;
+    background-color: lighten($c-sec, 40%);
+  }
+
+  &:disabled {
+    cursor: default;
+    color: $c-disabled;
+    border-color: $c-disabled;
+    background-color: lighten($c-disabled, 40%);
+
+    &:hover {
+      border-color: currentColor;
+    }
+  }
+}
+
+.helper-item {
+  display: grid;
+  margin-left: 8px;
+  grid-template-columns: minmax(auto, 16px) auto;
+  align-items: center;
+  grid-gap: 8px;
+}
