@@ -129,6 +129,11 @@
       border-color: currentColor;
     }
   }
+
+  &.error {
+    border-color: $c-error;
+    background-color: lighten($c-error, 46%);
+  }
 }
 
 .helper-item {
