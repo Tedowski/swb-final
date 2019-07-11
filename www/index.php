@@ -224,25 +224,7 @@ require_once __DIR__.'/modules/header.php';
                             <div class="form__input-group">
                                 <label class="label">label</label>
                                 <div class="input-wrapper">
-                                    <input class="input" type="password" placeholder="Something secure..">
-                                </div>
-                                <div class="input__helper-list">
-                                    <div class="helper-item">
-                                        <div class="icon-check-switch"><i class="fas fa-times-circle"></i></div>
-                                        <p>1 lowercase character</p>
-                                    </div>
-                                    <div class="helper-item">
-                                        <div class="icon-check-switch"><i class="fas fa-times-circle"></i></div>
-                                        <p>1 lowercase character</p>
-                                    </div>
-                                    <div class="helper-item">
-                                        <div class="icon-check-switch"><i class="fas fa-times-circle"></i></div>
-                                        <p>1 lowercase character</p>
-                                    </div>
-                                    <div class="helper-item">
-                                        <div class="icon-check-switch"><i class="fas fa-times-circle"></i></div>
-                                        <p>1 lowercase character</p>
-                                    </div>
+                                    <input class="input" type="password" id="password" placeholder="Something secure.." data-min="8" data-max="24">
                                 </div>
                             </div>
                         </div>

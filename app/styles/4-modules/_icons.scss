@@ -1,0 +1,19 @@
+.icon-check-switch {
+  .fa-check-circle {
+    display: none;
+  }
+  .fa-circle {
+    display: block;
+    color: $c-quin;
+  }
+
+  .checked & {
+    .fa-check-circle {
+      display: block;
+      color: $c-success;
+    }
+    .fa-circle {
+      display: none;
+    }
+  }
+}

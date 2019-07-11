@@ -1,1 +1,2 @@
-// @codekit-append test/file.js
+// @codekit-append functionBlocks/helpPassword.js
+// @codekit-append functionBlocks/validate.js
