@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1em;
+  margin-bottom: calc(1em - 8px);
+}
+
+.heading {
+  margin-top: 1em;
+  font-size: 73px;
+}
+
+.title {
+  font-size: 44px;
+}
+
+.subtitle {
+  font-size: 25px;
+  color: $c-quin;
+}
+
+.item-headline {
+  font-size: 33px;
+}
+
+.item-subheadline {
+  font-size: 25px;
+}
+
+p {
+  line-height: calc(1em + 4px);
+  margin-bottom: 1em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.text-centered {
+  text-align: center;
+
+  & > * {
+    text-align: center;
+  }
+}
