@@ -1,7 +1,4 @@
 (function( $ ){
-
-    let green = 'green';
-
     $.fn.helpPassword = function(options) {
 
         // default options all off
@@ -86,8 +83,8 @@
         // On input tester
 
         this.on('input', function() {
-            let iMin = parseInt($(this).attr('data-min'));
-            let iMax = parseInt($(this).attr('data-max'));
+            let iMin = settings.constraints.min;
+            let iMax = settings.constraints.max;
 
            let val = $(this).val();
 
