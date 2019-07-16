@@ -77,21 +77,21 @@ function fnbValidateInput(formToValidate) {
                     $(this).addClass('invalid');
                     isValid = false;
                 }
-                break
+                break;
             case "integer":
                 let reN = /^[0-9]*$/
                 if (!reN.test(String($(this).val())) || $(this).val().length < iMin || $(this).val().length > iMax) {
                     $(this).addClass('invalid');
                     isValid = false;
                 }
-                break
+                break;
             case "email":
                 let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
                 if ($(this).val().length < iMin || $(this).val().length > iMax || !re.test(String($(this).val()).toLowerCase())) {
                     $(this).addClass('invalid');
                     isValid = false;
                 }
-                break
+                break;
             default:
                 console.log('No idea how to validate that')
 

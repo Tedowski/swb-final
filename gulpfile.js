@@ -70,6 +70,7 @@ exports.watch = function() {
     watch('./app/styles/**/*.scss', buildcss);
     watch('./app/scripts/**/*.js', buildjs);
     watch('./www/*.php').on('change', bs.reload);
+    watch('./www/modules/*.php').on('change', bs.reload);
 }
 
 exports.build = parallel(buildjs, buildcss);

@@ -1,0 +1,68 @@
+.popup {
+  position: fixed;
+  z-index: 98;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: $container-width;
+
+  background-color: $c-white;
+  padding: 16px 24px;
+  border: 4px solid;
+  border-radius: $border-radius;
+
+  .popup__icon {
+    font-size: 32px;
+  }
+}
+
+// position modifiers
+// ***************************************
+
+.popup-top {
+  top: $header-height + 24px;
+}
+
+.popup-bottom {
+  bottom: 40px;
+}
+
+// state modifiers
+// ***************************************
+
+.popup-error {
+  background-color: lighten($c-error, 25%);
+  border-color: $c-error;
+
+  .popup__icon {
+    color: $c-error;
+  }
+}
+
+.popup-warning {
+  background-color: $c-warning;
+  border-color: darken($c-warning, 25%);
+
+  .popup__icon {
+    color: darken($c-warning, 25%);
+  }
+}
+
+.popup-success {
+  background-color: lighten($c-success, 25%);
+  border-color: $c-success;
+
+  .popup__icon {
+    color: $c-success;
+  }
+}
+
+.popup-info {
+  background-color: lighten($c-quin, 25%);
+  border-color: $c-quin;
+
+  .popup__icon {
+    color: $c-quin;
+  }
+}
+
