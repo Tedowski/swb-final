@@ -1,4 +1,5 @@
-<div id="popup" class="container grid-body popup popup-top align-items-center">
+
+<div id="popup" class="container grid-body align-items-center popup">
     <div id="popupIcon" class="popup__icon span__2_l justify-center-l-up">
         <i class="fas fa-check"></i>
     </div>

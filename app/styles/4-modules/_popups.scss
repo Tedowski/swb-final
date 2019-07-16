@@ -1,6 +1,7 @@
 .popup {
   position: fixed;
   z-index: 98;
+  display: none;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -19,12 +20,28 @@
 // position modifiers
 // ***************************************
 
-.popup-top {
-  top: $header-height + 24px;
+.popup-top,
+.popup-bottom {
+  display: grid;
 }
 
+.popup-top {
+  top: -100px;
+  transition: top $popup-anim-speed-in-s ease;
+
+  &.popup-top_active {
+    top: $header-height + 24px;
+  }
+}
+
+
 .popup-bottom {
-  bottom: 40px;
+  bottom: -100px;
+  transition: bottom $popup-anim-speed-in-s ease;
+
+  &.popup-bottom_active {
+    bottom: 40px;
+  }
 }
 
 // state modifiers
