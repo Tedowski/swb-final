@@ -3,7 +3,6 @@
 $('#password').helpPassword({
     lowerCase: true,
     upperCase: true,
-    number: true,
     specialChar: true,
     length: true,
     constraints: {

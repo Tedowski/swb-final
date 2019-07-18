@@ -96,7 +96,7 @@ let messageBot = 'Bottom message';
 $('#openTop').on('click', function() {
     showPopup({
         content: messageTop,
-        state: 'success',
+        state: 'warning',
         position: 'top'
     })
 });
@@ -105,7 +105,7 @@ $('#openBot').on('click', function() {
     console.log('clicked');
     showPopup({
         content: messageBot,
-        state: 'info',
+        state: 'error',
         position: 'bottom'
     })
 })

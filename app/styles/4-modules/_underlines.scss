@@ -1,0 +1,21 @@
+$underline-stroke-width: 2px;
+$underline-border-radius: 2px;
+
+.underline-full {
+  display: block;
+  width: 100%;
+  height: $underline-stroke-width;
+  border-radius: $underline-border-radius;
+}
+
+.underline-inline {
+  display: inline-block;
+  height: $underline-stroke-width;
+  border-radius: $underline-border-radius;
+}
+
+
+
+.undrln__prim {
+  background-color: $c-prim;
+}

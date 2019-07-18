@@ -113,6 +113,7 @@ require_once __DIR__.'/modules/popup.php';
                             <div class="text-centered">
                                 <h2 class="title">Achievements</h2>
                                 <p class="subtitle">By now we have already secured the most important essentials to make this happen.</p>
+                                <div class="underline-full undrln__prim"></div>
                             </div>
                         </div>
                         <div class="span__4">
