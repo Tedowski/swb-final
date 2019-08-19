@@ -1,4 +1,15 @@
 <?php
+
+
+$sDataIndex = file_get_contents('data/page_index.json');
+$jDataIndex = json_decode($sDataIndex);
+
+$sDataAchievements = file_get_contents('data/achievements.json');
+$jDataAchievements = json_decode($sDataAchievements);
+
+$jContent = $jDataIndex->index;
+$jAchievements = $jDataAchievements->achievements;
+
 require_once __DIR__.'/modules/top.php';
 require_once __DIR__.'/modules/header.php';
 require_once __DIR__.'/modules/popup.php';
@@ -17,38 +28,71 @@ require_once __DIR__.'/modules/popup.php';
         <section class="section gutter-top-xl gutter-bot-l">
             <div class="container grid-body">
                 <div class="span__4 span__6_l justify-start-s">
-                    <div>
+                    <div class="">
                         <div>
                             <h5 class="subtitle">Challanges</h5>
-                            <h2 class="title">What’s happening in Mozambique</h2>
+                            <h2 class="title"><?= $jContent->sec_challenges->title->text ?></h2>
                         </div>
-                        <p>Skate World Better is a non-profit based in Copenhagen, Denmark. Our goal is to build the first public skatepark in Maputo, Mozambique by fall 2019 in order to support Maputo’s skateboarding community. To reach our goal we’ve teamed up with Skate-aid and ASM</p>
-                        <p>Mozambique is a country located in southeast Africa experiencing a ‘youth bulge’ in its population. We believe skateboarding can be used as a tool to keep kids away from the dangers of drug use and crime, which are unfortunately prevalent in Mozambique’s capital city.</p>
-                        <p>This project will also provide the city of Maputo with a hip and resurgent place of recreation and assembly.</p>
+                        <p><?= $jContent->sec_challenges->subtitle->text ?></p>
+<!--                        <p>Skate World Better is a non-profit based in Copenhagen, Denmark. Our goal is to build the first public skatepark in Maputo, Mozambique by fall 2019 in order to support Maputo’s skateboarding community. To reach our goal we’ve teamed up with Skate-aid and ASM</p>-->
+<!--                        <p>Mozambique is a country located in southeast Africa experiencing a ‘youth bulge’ in its population. We believe skateboarding can be used as a tool to keep kids away from the dangers of drug use and crime, which are unfortunately prevalent in Mozambique’s capital city.</p>-->
+<!--                        <p>This project will also provide the city of Maputo with a hip and resurgent place of recreation and assembly.</p>-->
                     </div>
                 </div>
                 <div class="span__4 span__6_l s-first justify-center-s justify-end-m-up">
-                    <div class="img">IMG</div>
+                    <div class="img">
+                        <img src="./images/<?= $jContent->sec_challenges->img->src ?>" alt="">
+                    </div>
                 </div>
             </div>
             <div class="container grid-body justify-items-center align-items-stretch margin-top-xl gutter-top-s">
                 <div class="span__4">
-                    <div>Challanges</div>
+                    <div>
+                        <h3><?= $jContent->sec_challenges->challenges_facts->fact_1->headline->text ?></h3>
+                        <h4><?= $jContent->sec_challenges->challenges_facts->fact_1->subheadline->text ?></h4>
+                        <p><?= $jContent->sec_challenges->challenges_facts->fact_1->body->text ?></p>
+                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_1->link->src ?>" target="_blank">Read more</a>
+                    </div>
                 </div>
                 <div class="span__4">
-                    <div>Challanges</div>
+                    <div>
+                        <h3><?= $jContent->sec_challenges->challenges_facts->fact_2->headline->text ?></h3>
+                        <h4><?= $jContent->sec_challenges->challenges_facts->fact_2->subheadline->text ?></h4>
+                        <p><?= $jContent->sec_challenges->challenges_facts->fact_2->body->text ?></p>
+                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_2->link->src ?>" target="_blank">Read more</a>
+                    </div>
                 </div>
                 <div class="span__4">
-                    <div>Challanges</div>
+                    <div>
+                        <h3><?= $jContent->sec_challenges->challenges_facts->fact_3->headline->text ?></h3>
+                        <h4><?= $jContent->sec_challenges->challenges_facts->fact_3->subheadline->text ?></h4>
+                        <p><?= $jContent->sec_challenges->challenges_facts->fact_3->body->text ?></p>
+                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_3->link->src ?>" target="_blank">Read more</a>
+                    </div>
                 </div>
                 <div class="span__4">
-                    <div>Challanges</div>
+                    <div>
+                        <h3><?= $jContent->sec_challenges->challenges_facts->fact_4->headline->text ?></h3>
+                        <h4><?= $jContent->sec_challenges->challenges_facts->fact_4->subheadline->text ?></h4>
+                        <p><?= $jContent->sec_challenges->challenges_facts->fact_4->body->text ?></p>
+                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_4->link->src ?>" target="_blank">Read more</a>
+                    </div>
                 </div>
                 <div class="span__4">
-                    <div>Challanges</div>
+                    <div>
+                        <h3><?= $jContent->sec_challenges->challenges_facts->fact_5->headline->text ?></h3>
+                        <h4><?= $jContent->sec_challenges->challenges_facts->fact_5->subheadline->text ?></h4>
+                        <p><?= $jContent->sec_challenges->challenges_facts->fact_5->body->text ?></p>
+                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_5->link->src ?>" target="_blank">Read more</a>
+                    </div>
                 </div>
                 <div class="span__4">
-                    <div>Challanges</div>
+                    <div>
+                        <h3><?= $jContent->sec_challenges->challenges_facts->fact_6->headline->text; ?></h3>
+                        <h4><?= $jContent->sec_challenges->challenges_facts->fact_6->subheadline->text; ?></h4>
+                        <p><?= $jContent->sec_challenges->challenges_facts->fact_6->body->text; ?></p>
+                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_6->link->src; ?>" target="_blank">Read more</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -58,10 +102,11 @@ require_once __DIR__.'/modules/popup.php';
                     <div>
                         <div>
                             <h5 class="subtitle">Solutions</h5>
-                            <h2 class="title">What are we doing to help</h2>
+                            <h2 class="title"><?= $jContent->sec_solutions->title->text ?></h2>
                         </div>
-                        <p>We came up with an interconnected project, that not only joints multiple activities, but also people of all origins with different interests.</p>
-                        <p>Altogether, we will create a youth center that will serve all kinds of purposes within the city of Maputo.</p>
+                        <p><?= $jContent->sec_solutions->subtitle->text ?></p>
+<!--                        <p>We came up with an interconnected project, that not only joints multiple activities, but also people of all origins with different interests.</p>-->
+<!--                        <p>Altogether, we will create a youth center that will serve all kinds of purposes within the city of Maputo.</p>-->
                     </div>
                 </div>
                 <div class="span__4 span__8_m">
@@ -69,36 +114,40 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="span__4">
                             <div>
                                 <div>
-                                    <h4 class="item-headline">Build</h4>
+                                    <h4 class="item-headline"><?= $jContent->sec_solutions->solutions->solution_1->headline->text ?></h4>
                                 </div>
-                                <p>SWB, Skate-Aid and AMS will build the first public skatepark in Mozambique along with a youth center on the property. It will be right on the coast, in the suburban area of the capital city Maputo.</p>
-                                <p>It is going to be concrete, for both, skilled skaters and beginners. The park will feature a technical and playful section, implementing urban elements, but also a real bowl.</p>
+                                <p><?= $jContent->sec_solutions->solutions->solution_1->content->text ?></p>
+<!--                                <p>SWB, Skate-Aid and AMS will build the first public skatepark in Mozambique along with a youth center on the property. It will be right on the coast, in the suburban area of the capital city Maputo.</p>-->
+<!--                                <p>It is going to be concrete, for both, skilled skaters and beginners. The park will feature a technical and playful section, implementing urban elements, but also a real bowl.</p>-->
                             </div>
                         </div>
                         <div class="span__4">
                             <div>
                                 <div>
-                                    <h4 class="item-headline">Teach</h4>
+                                    <h4 class="item-headline"><?= $jContent->sec_solutions->solutions->solution_2->headline->text ?></h4>
                                 </div>
-                                <p>Once the skatepark is built educational seminars, workshops, concerts and exhibitions will take place on Costa do Sol in the first month. After the opening ceremony ASM together with Skate-Aid will facilitate regular skateboarding lessons.</p>
+                                <p><?= $jContent->sec_solutions->solutions->solution_2->content->text ?></p>
+<!--                                <p>Once the skatepark is built educational seminars, workshops, concerts and exhibitions will take place on Costa do Sol in the first month. After the opening ceremony ASM together with Skate-Aid will facilitate regular skateboarding lessons.</p>-->
                             </div>
                         </div>
                         <div class="span__4">
                             <div>
                                 <div>
-                                    <h4 class="item-headline">Skate</h4>
+                                    <h4 class="item-headline"><?= $jContent->sec_solutions->solutions->solution_3->headline->text ?></h4>
                                 </div>
-                                <p>Through skateboarding we want to offer a playful and creative way to learn and make new friendships. In skating, competitiveness is replaced by joint effort and enthusiasm for progress.</p>
-                                <p>To bolster local skate culture we are also bringing skateboards, skate gear and experience with us, to give away in Maputo.</p>
+                                <p><?= $jContent->sec_solutions->solutions->solution_3->content->text ?></p>
+<!--                                <p>Through skateboarding we want to offer a playful and creative way to learn and make new friendships. In skating, competitiveness is replaced by joint effort and enthusiasm for progress.</p>-->
+<!--                                <p>To bolster local skate culture we are also bringing skateboards, skate gear and experience with us, to give away in Maputo.</p>-->
                             </div>
                         </div>
                         <div class="span__4">
                             <div>
                                 <div>
-                                    <h4 class="item-headline">Culture</h4>
+                                    <h4 class="item-headline"><?= $jContent->sec_solutions->solutions->solution_4->headline->text ?></h4>
                                 </div>
-                                <p>A massive wall surrounding the property will serve as free canvas for local artists and art enthusiasts.</p>
-                                <p>Furthermore, the youth center will regularly host art exhibitions, video premieres, craft workshops, lectures, readings and much more.</p>
+                                <p><?= $jContent->sec_solutions->solutions->solution_4->content->text ?></p>
+<!--                                <p>A massive wall surrounding the property will serve as free canvas for local artists and art enthusiasts.</p>-->
+<!--                                <p>Furthermore, the youth center will regularly host art exhibitions, video premieres, craft workshops, lectures, readings and much more.</p>-->
                             </div>
                         </div>
                     </div>
@@ -112,35 +161,35 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="span__full">
                             <div class="text-centered">
                                 <h2 class="title">Achievements</h2>
-                                <p class="subtitle">By now we have already secured the most important essentials to make this happen.</p>
+                                <p class="subtitle"><?= $jAchievements->subtitle->text ?></p>
                                 <div class="underline-full undrln__prim"></div>
                             </div>
                         </div>
                         <div class="span__4">
                             <div>
                                 <div class="img"></div>
-                                <h4 class="item-headline">Material Assets</h4>
-                                <p>Through our joint venture with Skate-Aid we have been able to cover the material expenses.</p>
+                                <h4 class="item-headline"><?= $jAchievements->achievements->achievement_1->heading->text ?></h4>
+                                <p><?= $jAchievements->achievements->achievement_1->content->text ?></p>
                             </div>
                         </div>
                         <div class="span__4">
                             <div>
                                 <div class="img"></div>
-                                <h4 class="item-headline">The land</h4>
-                                <p>The land is 20x40 meters, located in Costa do Sol, a suburban area of Maputo right by the ocean. It is connected with the centre by public bus line.</p>
+                                <h4 class="item-headline"><?= $jAchievements->achievements->achievement_2->heading->text ?></h4>
+                                <p><?= $jAchievements->achievements->achievement_2->content->text ?></p>
                             </div>
                         </div>
                         <div class="span__4 span__8_m span__4_l">
                             <div>
                                 <div class="img"></div>
-                                <h4 class="item-headline">Our boards</h4>
-                                <p>We have created our own design with one of our sponsors, Ambassadors skate company. Some boards will be sold to skaters around the world for funding, while the rest will be brought to Maputo for local skaters.</p>
+                                <h4 class="item-headline"><?= $jAchievements->achievements->achievement_3->heading->text ?></h4>
+                                <p><?= $jAchievements->achievements->achievement_3->content->text ?></p>
                             </div>
                         </div>
                         <div class="span__full">
                             <div class="text-centered">
-                                <h2 class="title">Section heading</h2>
-                                <p class="subtitle">Section subtitle</p>
+                                <h2 class="title">Other accomplishments</h2>
+                                <p class="subtitle"><?= $jAchievements->accomplishments->subtitle->text ?></p>
                             </div>
                         </div>
                         <div class="span__full justify-center-s-up">
@@ -157,8 +206,9 @@ require_once __DIR__.'/modules/popup.php';
                 <div class="span__4 span__6_l">
                     <div>
                         <h5 class="subtitle">Partnerships</h5>
-                        <h2 class="title">Alone we can do so little, together we can do so much.</h2>
+                        <h2 class="title"><?= $jContent->sec_partnerships->title->text ?></h2>
                     </div>
+                    <p><?= $jContent->sec_partnerships->subtitle->text ?></p>
                 </div>
                 <div class="span__4 span__6_l justify-end-m-up">
                     <div class="img">IMG</div>
