@@ -1,0 +1,10 @@
+{
+  "subscribers": [
+    {
+      "email": "jon.doe@mail.com"
+    },
+    {
+      "email": "bob.doe@mail.com"
+    }
+  ]
+}

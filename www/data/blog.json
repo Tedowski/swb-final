@@ -1,0 +1,20 @@
+{
+  "posts": {
+    "1234": {
+      "timestamp": "1234567890",
+      "title": {
+        "text": "We are making skateboard decks with our own design"
+      },
+      "subtitle": {
+        "text": "It was about the beginning of February when I walked into the office of Ambassadors and met the manager to present our project and see if we can come up with any kind of cooperation. Many of my friends are either sponsored by AMB, work for them as photographers or simply know the owners, so it was rather easy for me to arrange this meeting. Prague is very small after all, so the skate scene just knows each other quite well."
+      },
+      "content": {
+        "text": "We sat down in the office and talked about Mozambique, about our academic interest behind the project and about the role of skateboarding. Ambassadors is a long established board company operating in Czech Republic, so they very much understood what is skateboarding capable of. We had this really nice chat and I forgot for a minute that we actually met to make a deal, because it simply seemed as if we just chatted as old friends. Maybe an hour has passed and we went through the reasons of this project, the design of the board, the sizes, shapes and quantity. Jan, who is the manager, asked me to send him a document explaining what is at stake for AMB? I did that, they liked and we shook hands later on. They became official sponsors of our project and will sponsor us with some boards and clothes that we will be able to bring to Mozambique for the kids.<br><br>Thank you Ambassadors, we are looking forward to painting your logo in the skatepark.<br><br>Martin<br><br> Skate World Better"
+      },
+      "media": {
+        "type": "img",
+        "src": "path/to/media"
+      }
+    }
+  }
+}

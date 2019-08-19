@@ -1,0 +1,222 @@
+{
+  "about": {
+    "title": {
+      "text": "We are a non-profit organization based in Denmark on a mission to build the first public skatepark in Mozambique"
+    },
+    "video": {
+      "url": "https://youtu.be/pWlWUySYXJs"
+    },
+    "sec_holy_trio": {
+      "mission": {
+        "text": "Our mission is to build a concrete skatepark, with elements firing for other sports and art.<br><br> The skatepark will stand around a youth center that will host multiple cultural and educative events and regular sessions.<br><br>Our deed should help local community to grow, attract more kids, more volunteers, more artists and more attention."
+      },
+      "vision": {
+        "text": "We know how skateboarding makes people happy and motivated. We have been there, we have tried that.<br><br>Our belief is that skateboarding and good access to it will do it’s magic also in Maputo."
+      },
+      "values": {
+        "text": "We believe in enthusiasm for interesting projects that bring good to our society.<br><br>We believe in the value of human willingness rather than the value of money. We believe in great times while doing great things.<br><br>Most importantly we believe in respect to one another, as this project requires a great level of joint-action."
+      }
+    },
+    "sec_partnership_triangle": {
+      "title": {
+        "text": "Partnership triangle"
+      },
+      "subtitle": {
+        "text": "We came up with an interconnected project, that not only joints multiple activities, but also people of all origins with different interests.<br><br>Altogether, we will create a youth center that will serve all kinds of purposes within the city of Maputo."
+      },
+      "partners": {
+        "partner_1": {
+          "heading": {
+            "text": "ASM"
+          },
+          "bio": {
+            "text": "Is a Maputo based association of local skaters and skateboard enthusiasts. Apart from being an important element in the very building process, ASM provides us with all kinds of information regarding life in Mozambique, necessary documentation, accommodation and so on.<br><br>ASM’s primary role is to facilitate the necessary paperwork needed for legal construction initiation and in a later stage operating majority of the programs in the youth center."
+          },
+          "link": {
+            "url": "https://www.facebook.com/MOZAMBIQUESKATEBOARDING/"
+          }
+        },
+        "partner_2": {
+          "heading": {
+            "text": "Skate-aid"
+          },
+          "bio": {
+            "text": "Is a long established skate-development organization, that has been focused on building skateparks and making an impact in third world countries for more than two decades. Their partnership is of an immense value for us due to their vast experience and consultancy.<br><br>Skate-Aid’s primary role is to provide assets for the materials and guidance through the organization. In a later stage Skate-aid will take care of sustainability of the programs running in the youth centre."
+          },
+          "link": {
+            "url": "https://www.skate-aid.org/"
+          }
+        },
+        "partner_3": {
+          "heading": {
+            "text": "Skate World Better"
+          },
+          "bio": {
+            "text": "Our role is to facilitate the organization and logistics of the whole process. We provide supplementary funding and we take care of all the participants, from volunteers to professionals.<br><br>Our role is also to communicate with local skateboarders and the architects to come up with the most feasible project for all our activities and all levels of skateboarding."
+          },
+          "link": {
+            "url": "https://www.facebook.com/skateworldbetter/"
+          }
+        }
+      }
+    },
+    "sec_team": {
+      "subtitle": {
+        "text": "Meet the team behind this project"
+      },
+      "member_1": {
+        "name": {
+          "text": "Brendan Greene-Anderson"
+        },
+        "role": {
+          "text": "Founder"
+        },
+        "quote": {
+          "text": "Africa’s future development is dependent on the opportunities offered to its youth."
+        },
+        "bio": {
+          "text": "An American from Philadelphia, PA, earned his Bachelor of Arts from the University of Toledo (Ohio) with a major in History.<br><br>Having already finished a Master’s Degree from Norwich University (Vermont) in World History, Brendan is currently pursuing a Masters Degree in African Studies from Copenhagen University.<br><br>As such, his academic background is in history, with a specific interest in Southern African history."
+        }
+      },
+      "member_2": {
+        "name": {
+          "text": "Tomas Erskog"
+        },
+        "role": {
+          "text": "Founder"
+        },
+        "quote": {
+          "text": "Maputo is flourishing with culture everyone needs to experience"
+        },
+        "bio": {
+          "text": "Tomas was born in Sweden to a Swedish father and Zimbabwean Mother but spent his youth in Mozambique and South Africa. Having achieved a BA in Arts & Culture from Maastricht University, NL Tomas decided to undertake an MA in African Studies from Copenhagen University to connect his interest in culture with his origin.<br><br>Currently he is working as a team leader in the face-to-face fundraising department for UNICEF Denmark. For this reason he is well informed about many of the challenges that youth face internationally as well as the solutions which may aid them."
+        }
+      },
+      "member_3": {
+        "name": {
+          "text": "Martin Louzecký"
+        },
+        "role": {
+          "text": "Founder"
+        },
+        "quote": {
+          "text": "Skateboarding will bring me anywhere"
+        },
+        "bio": {
+          "text": "After finishing his BA in International territorial studies from Charles University in Prague CZE, continuing with regional studies was a natural choice for Martin.<br><br>His profound interest in African realities and the history of Euro-African interaction brought him to the African Studies at Copenhagen University. Being a skateboarder himself and a keen student of the Portuguese language his goal is to connect all his passions together. Most importantly, the personal experiences and the network community created within the project will serve his ambition to further work with NGO’s in Africa."
+        }
+      }
+    },
+    "sec_people_behind": {
+        "subtitle": {
+          "text": "Those we would not be able to make it without"
+        },
+        "people": [
+          {
+            "id": 1,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 2,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 3,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 4,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 5,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 6,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 7,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 8,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          }
+        ]
+      }
+  }
+}

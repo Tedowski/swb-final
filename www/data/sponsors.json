@@ -1,0 +1,13 @@
+{
+  "sponsors": [
+    {
+      "id": 1,
+      "img": {
+        "src": "file.jpg"
+      },
+      "link": {
+        "url": "https://www.google.com"
+      }
+    }
+  ]
+}

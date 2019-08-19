@@ -1,0 +1,716 @@
+{
+  "index": {
+    "sec_challenges": {
+      "title": {
+        "text": "What’s happening in Mozambique"
+      },
+      "subtitle": {
+        "text": "Skate World Better is a non-profit based in Copenhagen, Denmark. Our goal is to build the first public skatepark in Maputo, Mozambique by fall 2019 in order to support Maputo’s skateboarding community. To reach our goal we’ve teamed up with Skate-aid and ASM<br><br> Mozambique is a country located in southeast Africa experiencing a ‘youth bulge’ in its population. We believe skateboarding can be used as a tool to keep kids away from the dangers of drug use and crime, which are unfortunately prevalent in Mozambique’s capital city.<br><br> This project will also provide the city of Maputo with a hip and resurgent place of recreation and assembly."
+      },
+      "challenges_facts": {
+        "fact_1": {
+          "headline": {
+            "text": "29,67"
+          },
+          "subheadline": {
+            "text": "Population"
+          },
+          "body": {
+            "text": "Milion people. That is how many live in Mozambique."
+          },
+          "link": {
+            "src": "https://databank.worldbank.org/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=MOZ"
+          }
+        },
+        "fact_2": {
+          "headline": {
+            "text": "45%"
+          },
+          "subheadline": {
+            "text": "Youth"
+          },
+          "body": {
+            "text": "Of the entire population is under 15 years of age."
+          },
+          "link": {
+            "src": "https://databank.worldbank.org/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=MOZ"
+          }
+        },
+        "fact_3": {
+          "headline": {
+            "text": "0"
+          },
+          "subheadline": {
+            "text": "Skateparks"
+          },
+          "body": {
+            "text": "This many skateparks are in Mozambique."
+          },
+          "link": {
+            "src": "http://skatemoz.blogspot.com/"
+          }
+        },
+        "fact_4": {
+          "headline": {
+            "text": "2,9%"
+          },
+          "subheadline": {
+            "text": "Growth"
+          },
+          "body": {
+            "text": "That equals 300 thousands newborns each year."
+          },
+          "link": {
+            "src": "https://databank.worldbank.org/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=MOZ"
+          }
+        },
+        "fact_5": {
+          "headline": {
+            "text": "1 out of 8"
+          },
+          "subheadline": {
+            "text": "HIV"
+          },
+          "body": {
+            "text": "People is infected by HIV virus."
+          },
+          "link": {
+            "src": "https://databank.worldbank.org/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=MOZ"
+          }
+        },
+        "fact_6": {
+          "headline": {
+            "text": "1"
+          },
+          "subheadline": {
+            "text": "Bus"
+          },
+          "body": {
+            "text": "One public bus line from skatepark to city centre."
+          },
+          "link": {
+            "src": ""
+          }
+        }
+      }
+    },
+    "sec_solutions": {
+      "title": {
+        "text": "What are we doing to help"
+      },
+      "subtitle": {
+        "text": "We came up with an interconnected project, that not only joints multiple activities, but also people of all origins with different interests.<br><br>Altogether, we will create a youth center that will serve all kinds of purposes within the city of Maputo."
+      },
+      "solutions": {
+        "solution_1": {
+          "headline": {
+            "text": "Build"
+          },
+          "content": {
+            "text": "SWB, Skate-Aid and AMS will build the first public skatepark in Mozambique along with a youth center on the property. It will be right on the coast, in the suburban area of the capital city Maputo.<br><br>It is going to be concrete, for both, skilled skaters and beginners. The park will feature a technical and playful section, implementing urban elements, but also a real bowl."
+          }
+        },
+        "solution_2": {
+          "headline": {
+            "text": "Teach"
+          },
+          "content": {
+            "text": "Once the skatepark is built educational seminars, workshops, concerts and exhibitions will take place on Costa do Sol in the first month. After the opening ceremony ASM together with Skate-Aid will facilitate regular skateboarding lessons."
+          }
+        },
+        "solution_3": {
+          "headline": {
+            "text": "Skate"
+          },
+          "content": {
+            "text": "Through skateboarding we want to offer a playful and creative way to learn and make new friendships. In skating, competitiveness is replaced by joint effort and enthusiasm for progress.<br><br>To bolster local skate culture we are also bringing skateboards, skate gear and experience with us, to give away in Maputo."
+          }
+        },
+        "solution_4": {
+          "headline": {
+            "text": "Culture"
+          },
+          "content": {
+            "text": "A massive wall surrounding the property will serve as free canvas for local artists and art enthusiasts.<br><br>Furthermore, the youth center will regularly host art exhibitions, video premieres, craft workshops, lectures, readings and much more."
+          }
+        }
+      }
+    },
+    "sec_achievements": {
+      "subtitle": {
+        "text": "By now we have already secured the most important essentials to make this happen."
+      },
+      "achievements": {
+        "achievement_1": {
+          "heading": {
+            "text": "Material Assets"
+          },
+          "content": {
+            "text": "Through our joint venture with Skate-Aid we have been able to cover the material expenses."
+          },
+          "img": {
+            "src": "path/to/img"
+          }
+        },
+        "achievement_2": {
+          "heading": {
+            "text": "The land"
+          },
+          "content": {
+            "text": "The land is 20x40 meters, located in Costa do Sol, a suburban area of Maputo right by the ocean. It is connected with the centre by public bus line."
+          },
+          "img": {
+            "src": "path/to/img"
+          }
+        },
+        "achievement_3": {
+          "heading": {
+            "text": "Our boards"
+          },
+          "content": {
+            "text": "We have created our own design with one of our sponsors, Ambassadors skate company. Some boards will be sold to skaters around the world for funding, while the rest will be brought to Maputo for local skaters."
+          },
+          "img": {
+            "src": "path/to/img"
+          }
+        }
+      },
+      "accomplishments": {
+        "subtitle": {
+          "text": "We keep our pace and we do not mean to slow down. Communication is a key element of this project."
+        },
+        "accomplishment_1": {
+          "heading": {
+            "text": "30"
+          },
+          "content": {
+            "text": "People on the team"
+          }
+        },
+        "accomplishment_2": {
+          "heading": {
+            "text": "120 000 DKK"
+          },
+          "content": {
+            "text": "Asked for in grants"
+          }
+        },
+        "accomplishment_3": {
+          "heading": {
+            "text": "45"
+          },
+          "content": {
+            "text": "Locals involved"
+          }
+        },
+        "accomplishment_4": {
+          "heading": {
+            "text": "5"
+          },
+          "content": {
+            "text": "Beneficial parties held"
+          }
+        }
+      }
+    },
+    "sec_partnerships": {
+      "title": {
+        "text": "Alone we can do so little, together we can do so much."
+      },
+      "subtitle": {
+        "text": "The idea behind this project is to unite people from all over our planet and make this project happen, together.<br><br>The value is not hidden in money, but in the social grids of enthusiasts who are happy to make others happy."
+      }
+    }
+  },
+  "project": {
+    "sec_overview": {
+      "title": {
+        "text": "What is it we aim for?"
+      },
+      "subtitle": {
+        "text": "There are multiple reasons to our shared interest in this development project. Importantly enough, being MA students of African Studies at the University of Copenhagen, we need to conduct a field work as a part of our degree.<br><br>That gave us the incentive to develop a sustainable project that aims on children and uses skateboarding as a tool. Both Africa and Skateboarding are close to our hearts so we did not go far for the inspiration."
+      },
+      "content": {
+        "item_1": {
+          "heading": {
+            "text": "Skateboarding as a tool"
+          },
+          "body": {
+            "text": "The concrete skatepark will consist of all kinds of obstacles varying from curbs, rails, banks, to a bowl and a more open space for practicing tricks on the flat ground. Within the open space a basketball court will be built for ball sports.<br><br>When finished, our partnering association of Mozambican skateboarders ASM with Maputo-Skate will facilitate regular skateboard lectures with the support of Skate-Aid.<br><br>The goal of the project is to make a small but significant impact on the lives of children in Maputo and offer them a playful and creative way to learn and make friendships."
+          },
+          "img": {
+            "src": "path/to/img"
+          }
+        },
+        "item_2": {
+          "heading": {
+            "text": "Exhibitions of all kinds"
+          },
+          "body": {
+            "text": "The very walls of the skatepark will serve as an open canvas to both artists and kids who wish to try new techniques of painting.<br><br>The contiguous youth center will provide a safe zone for hosting video premieres, concerts, workshops, photo or art exhibitions and other.<br><br>The centre will also host irregular skateboard demos of professional teams, organized by our partners ASM and Skate-Aid."
+          },
+          "img": {
+            "src": "path/to/img"
+          }
+        },
+        "item_3": {
+          "heading": {
+            "text": "Learning through play"
+          },
+          "body": {
+            "text": "Having the opportunity to connect education with games and joyful activities, we have decided to launch a partnership scheme with an NGO operating in Mozambique, that would regularly hold seminars in the youth centre together with Skate-aid and ASM that will follow with a skateboard lectures.<br><br> We have not yet made the agreement with a particular organization, but it is a hot topic in our current agenda."
+          },
+          "img": {
+            "src": "path/to/img"
+          }
+        }
+      }
+    },
+    "sec_research": {
+      "title": {
+        "text": "The research"
+      },
+      "subtitle": {
+        "text": "To link up the construction with an academic research. Three main research perspectives will be developed by the master’s students from Copenhagen University.<br><br>These projects will differ in specificity but will be centered upon the challenges faced by the youth in Maputo.<br><br>The outcome of this research will be made open source so that further research can be conducted along these lines and provide new insights into youth culture in Maputo."
+      },
+      "research_team": {
+        "memeber_1": {
+          "name": {
+            "text": "Tomas"
+          },
+          "img": {
+            "src": "path/to/img"
+          },
+          "research": {
+            "text": "My research will focus on the impact that development aid has on local communities who participate in development project. It will also elucidate the manner in which local participants perceive and development as a whole as well as specific projects.<br><br>This will be done in order to analyse development projects from the perspective of subjects in the Global South"
+          }
+        },
+        "memeber_2": {
+          "name": {
+            "text": "Martin"
+          },
+          "img": {
+            "src": "path/to/img"
+          },
+          "research": {
+            "text": "My intention is to elaborate on the question - how does skateboarding as a western phenomenon develop in an African context, with regard to the history of Euro-African interaction.<br><br>The period of realization will produce a perfect setting for surveying, interviewing and drawing conclusions based on personal experiences"
+          }
+        },
+        "memeber_3": {
+          "name": {
+            "text": "Brendan"
+          },
+          "img": {
+            "src": "path/to/img"
+          },
+          "research": {
+            "text": "Mozambique is a fascinating country that has deep connections and influence on events throughout Southern Africa. A study of the youth bulge that currently faces Maputo can potentially provide insight into other trends among youth not only in Mozambique but also throughout the region.<br><br> This project will facilitate research on trends of urbanization, and or suburbanization in Southern Africa. I will address the following questions. Do young Mozambicans still desire to move and live in the capital Maputo? Or, is there a growing trend to live outside of the city? I will research if recent infrastructure projects like roads/ highways, and railroads have had any effect on the aspirations of young people."
+          }
+        }
+      }
+    },
+    "sec_design": {
+      "subtitle": {
+        "text": "Let's see how it looks"
+      },
+      "media": [
+        {
+          "id": 1,
+          "src": "path/to/img",
+          "alt": "diagonal view",
+          "meta": {}
+        }  
+      ]
+    },
+    "sec_testimonials": {
+      "subtitle": {
+        "text": "See what people that helped us to work on this project have to say."
+      },
+      "testimonials": [
+        {
+          "id": 1,
+          "name": {
+            "text": "Francisco Vinho" 
+          },
+          "role": {
+            "text": "Maputo Skater"
+          },
+          "quote": {
+            "text": "We need a place to skate"
+          },
+          "content": {
+            "text": "For many years we have been trying to get some support from the government to help us build a public skatepark, but our voices were never listened to.<br><br>Maputo is developing fast so I really think it is the time to build a skatepark too. After all, it is a regular element in the city planning.<br><br>I am pretty excited for this to finally happen!"
+          },
+          "img": {
+            "src": "path/to/img" 
+          }
+        },
+        {
+          "id": 2,
+          "name": {
+            "text": "Jakub Novotný" 
+          },
+          "role": {
+            "text": "Skatepark builder"
+          },
+          "quote": {
+            "text": "It brings me joy"
+          },
+          "content": {
+            "text": "My first experience volunteering for a skate NGO was in 2014 when I traveled to Jordan within my studies.<br><br>At that time, now a well-established organization Make Life Skate, was planning to build a skatepark for underprivileged children in the Jordanian capital, Amman, and I got the unique opportunity to be involved in the project."
+          },
+          "img": {
+            "src": "path/to/img" 
+          }
+        },
+        {
+          "id": 3,
+          "name": {
+            "text": "Tobias Egelkamp" 
+          },
+          "role": {
+            "text": "Head of Projects,<br> Skate-aid international e.V."
+          },
+          "quote": {
+            "text": "Skate-Aid stands for a holistic, self-determined approach to the support of young people in the context of youth aid, sport, culture and international understanding."
+          },
+          "content": {
+            "text": "We empower kids! Thus, skate-aid provides sustainable socialization, prevention and peace work, where social injustices and difficult living conditions endanger young people and inhibit their development.<br><br>Skateboarding is the ideal tool to do exactly that and a skatepark provides a safe space for our work no matter where."
+          },
+          "img": {
+            "src": "path/to/img" 
+          }
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": {
+      "text": "We are a non-profit organization based in Denmark on a mission to build the first public skatepark in Mozambique"
+    },
+    "video": {
+      "url": "https://youtu.be/pWlWUySYXJs"
+    },
+    "sec_holy_trio": {
+      "mission": {
+        "text": "Our mission is to build a concrete skatepark, with elements firing for other sports and art.<br><br> The skatepark will stand around a youth center that will host multiple cultural and educative events and regular sessions.<br><br>Our deed should help local community to grow, attract more kids, more volunteers, more artists and more attention."
+      },
+      "vision": {
+        "text": "We know how skateboarding makes people happy and motivated. We have been there, we have tried that.<br><br>Our belief is that skateboarding and good access to it will do it’s magic also in Maputo."
+      },
+      "values": {
+        "text": "We believe in enthusiasm for interesting projects that bring good to our society.<br><br>We believe in the value of human willingness rather than the value of money. We believe in great times while doing great things.<br><br>Most importantly we believe in respect to one another, as this project requires a great level of joint-action."
+      }
+    },
+    "sec_partnership_triangle": {
+      "title": {
+        "text": "Partnership triangle"
+      },
+      "subtitle": {
+        "text": "We came up with an interconnected project, that not only joints multiple activities, but also people of all origins with different interests.<br><br>Altogether, we will create a youth center that will serve all kinds of purposes within the city of Maputo."
+      },
+      "partners": {
+        "partner_1": {
+          "heading": {
+            "text": "ASM"
+          },
+          "bio": {
+            "text": "Is a Maputo based association of local skaters and skateboard enthusiasts. Apart from being an important element in the very building process, ASM provides us with all kinds of information regarding life in Mozambique, necessary documentation, accommodation and so on.<br><br>ASM’s primary role is to facilitate the necessary paperwork needed for legal construction initiation and in a later stage operating majority of the programs in the youth center."
+          },
+          "link": {
+            "url": "https://www.facebook.com/MOZAMBIQUESKATEBOARDING/"
+          }
+        },
+        "partner_2": {
+          "heading": {
+            "text": "Skate-aid"
+          },
+          "bio": {
+            "text": "Is a long established skate-development organization, that has been focused on building skateparks and making an impact in third world countries for more than two decades. Their partnership is of an immense value for us due to their vast experience and consultancy.<br><br>Skate-Aid’s primary role is to provide assets for the materials and guidance through the organization. In a later stage Skate-aid will take care of sustainability of the programs running in the youth centre."
+          },
+          "link": {
+            "url": "https://www.skate-aid.org/"
+          }
+        },
+        "partner_3": {
+          "heading": {
+            "text": "Skate World Better"
+          },
+          "bio": {
+            "text": "Our role is to facilitate the organization and logistics of the whole process. We provide supplementary funding and we take care of all the participants, from volunteers to professionals.<br><br>Our role is also to communicate with local skateboarders and the architects to come up with the most feasible project for all our activities and all levels of skateboarding."
+          },
+          "link": {
+            "url": "https://www.facebook.com/skateworldbetter/"
+          }
+        }
+      }
+    },
+    "sec_team": {
+      "subtitle": {
+        "text": "Meet the team behind this project"
+      },
+      "member_1": {
+        "name": {
+          "text": "Brendan Greene-Anderson"
+        },
+        "role": {
+          "text": "Founder"
+        },
+        "quote": {
+          "text": "Africa’s future development is dependent on the opportunities offered to its youth."
+        },
+        "bio": {
+          "text": "An American from Philadelphia, PA, earned his Bachelor of Arts from the University of Toledo (Ohio) with a major in History.<br><br>Having already finished a Master’s Degree from Norwich University (Vermont) in World History, Brendan is currently pursuing a Masters Degree in African Studies from Copenhagen University.<br><br>As such, his academic background is in history, with a specific interest in Southern African history."
+        }
+      },
+      "member_2": {
+        "name": {
+          "text": "Tomas Erskog"
+        },
+        "role": {
+          "text": "Founder"
+        },
+        "quote": {
+          "text": "Maputo is flourishing with culture everyone needs to experience"
+        },
+        "bio": {
+          "text": "Tomas was born in Sweden to a Swedish father and Zimbabwean Mother but spent his youth in Mozambique and South Africa. Having achieved a BA in Arts & Culture from Maastricht University, NL Tomas decided to undertake an MA in African Studies from Copenhagen University to connect his interest in culture with his origin.<br><br>Currently he is working as a team leader in the face-to-face fundraising department for UNICEF Denmark. For this reason he is well informed about many of the challenges that youth face internationally as well as the solutions which may aid them."
+        }
+      },
+      "member_3": {
+        "name": {
+          "text": "Martin Louzecký"
+        },
+        "role": {
+          "text": "Founder"
+        },
+        "quote": {
+          "text": "Skateboarding will bring me anywhere"
+        },
+        "bio": {
+          "text": "After finishing his BA in International territorial studies from Charles University in Prague CZE, continuing with regional studies was a natural choice for Martin.<br><br>His profound interest in African realities and the history of Euro-African interaction brought him to the African Studies at Copenhagen University. Being a skateboarder himself and a keen student of the Portuguese language his goal is to connect all his passions together. Most importantly, the personal experiences and the network community created within the project will serve his ambition to further work with NGO’s in Africa."
+        }
+      }
+    },
+    "sec_people_behind": {
+        "subtitle": {
+          "text": "Those we would not be able to make it without"
+        },
+        "people": [
+          {
+            "id": 1,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 2,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 3,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 4,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 5,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 6,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 7,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          },
+          {
+            "id": 8,
+            "name": {
+              "text": "Matous Bem"
+            },
+            "role": {
+              "text": "Legal consultant"
+              
+            },
+            "img": {
+              "url": "path/to/img"
+            }
+          }
+        ]
+      }
+  },
+  "sponsor": {
+    "sec_initiative": {
+      "title": {
+        "text": "We can skate World better with your help"
+      },
+      "column_1": {
+        "text": "We have gone a long way to be where we are right now, but it is still just the beginning. We managed to obtain a land to build and we managed to get assets for materials, but it is still just the beginning.<br><br>We managed to get interesting people on our side and we managed to slowly start spreading the word about our deed, but it is still just a beginning."
+      },
+      "column_2": {
+        "text": "The important part starts now, when people who want to volunteer in Maputo, share our achievements on social media or help with the preparation and organization have a chance to do so.<br><br>Just as important as the very people behind the project are the sponsors who believe in us, who believe in the benefits of this project and who are willing to play their role. Please get in contact with us for more detailed proceeding and more information. Help us skate world better!"
+      }
+    },
+    "sec_you": {
+      "title": {
+        "text": "Where we could use your help"
+      },
+      "content": [
+        {
+          "text": "We would highly appreciate any kind of financial contribution, that will go into expenditures during the project (for example purchase of a van, particular tools, etc.)."
+        },
+        {
+          "text": "We would highly appreciate any kind of material contribution that would help us successfully complete our mission (for example any kind of building material fitting for the skatepark or the youth center, tools needed for the construction, etc.)."
+        },
+        {
+          "text": "We would highly appreciate any kind of material contribution that we could give out to the kids (for example skateboard gear, clothing, educative materials, etc.)"
+        },
+        {
+          "text": "We would highly appreciate any kind of financial or material contribution that would help us with the preparation and organization prior to the project (for example help with organizing beneficial events, sharing and promoting our deed, etc.)."
+        },
+        {
+          "text": "We would highly appreciate any other kind of help with organization and logistics or any kind of contribution to the project."
+        }
+      ]
+    },
+    "sec_us": {
+      "title": {
+        "text": "What can we offer"
+      },
+      "content": [
+        {
+          "text": "We will be happy to list you everywhere we can as an official sponsor of the project."
+        },
+        {
+          "text": "We will be happy to provide you with materials (photos, videos) from the construction for your future activities."
+        },
+        {
+          "text": "We will be happy to promote you as our sponsors on our social media."
+        },
+        {
+          "text": "We will be happy to collaborate on a particular event."
+        },
+        {
+          "text": "We will be happy to arrange an individual scenario of cooperation."
+        }
+      ]
+    }
+  },
+  "volunteers": {
+    "sec_overview": {
+      "title": {
+        "text": "What are we doing to help"
+      },
+      "subtitle": {
+        "text": "This project has great goals that are hard to achieve without the help of the most dedicated and enthusiast people. There is simply no way Skate World Better could make all of this happen without its peers and supporters.<br><br>There is a whole specter of volunteering positions that we will need to cover and even higher number of favors that we have to ask for. Take this opportunity and set off on this journey with us. Do it from your home, On the meetings or under the Mozambican sun!"
+      }
+    },
+    "sec_help": {
+      "title": {
+        "text": "How can you help?"
+      },
+      "subtitle": {
+        "text": "Before you decide what role you can take, feel free to contact us, to ask any questions and do not forget to read the attached guidelines.<br><br>Guidelines for participants<br><br>Country profile and project goals"
+      },
+      "helps": {
+        "help_1": {
+          "heading": {
+            "text": "Building"
+          },
+          "content": {
+            "text": "The building process should take up to about a month of work. It will be the SWB team, with local skaters and helpers, but we also need skilled construction workers and people with experience.<br><br>At every time we will need at least ten people with experience working on the site. SWB will provide accommodation, lunch and refreshments for the help."
+          }
+        },
+        "help_2": {
+          "heading": {
+            "text": "Teaching"
+          },
+          "content": {
+            "text": "If you want to run a workshop or any kind of classes within or after the fall of 2019 in the youth center, SWB will be more than happy to arrange this to happen.<br><br>This could vary from regular lectures to one time events from a broad scale of themes such language, drug prevention, painting, hand craft, skateboarding demo and so on. Contact us for more info!"
+          }
+        },
+        "help_3": {
+          "heading": {
+            "text": "Skateboarding"
+          },
+          "content": {
+            "text": "Our team will stay in Maputo for about four months. Within that time we are more than happy to take in anybody who wants to come down, shred the park and give some experience, motivation and conceit to the kids!<br><br>Contact us on our social media or our email for a detailed arrangement."
+          }
+        },
+        "help_4": {
+          "heading": {
+            "text": "Networking"
+          },
+          "content": {
+            "text": "In a bar, or from behind your computer. On instagram, facebook or in real life. We appreciate if you will share our progress, spread the word or become part of our regular team behind the project.<br><br>Take a look at the PDF where we have came up with particular positions and forms of cooperation. Contact us for more info!"
+          }
+        }
+      }
+    }
+  }
+}

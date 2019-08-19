@@ -1,0 +1,79 @@
+{
+"achievements": {
+    "subtitle": {
+      "text": "By now we have already secured the most important essentials to make this happen."
+    },
+    "achievements": {
+      "achievement_1": {
+        "heading": {
+          "text": "Material Assets"
+        },
+        "content": {
+          "text": "Through our joint venture with Skate-Aid we have been able to cover the material expenses."
+        },
+        "img": {
+          "src": "path/to/img"
+        }
+      },
+      "achievement_2": {
+        "heading": {
+          "text": "The land"
+        },
+        "content": {
+          "text": "The land is 20x40 meters, located in Costa do Sol, a suburban area of Maputo right by the ocean. It is connected with the centre by public bus line."
+        },
+        "img": {
+          "src": "path/to/img"
+        }
+      },
+      "achievement_3": {
+        "heading": {
+          "text": "Our boards"
+        },
+        "content": {
+          "text": "We have created our own design with one of our sponsors, Ambassadors skate company. Some boards will be sold to skaters around the world for funding, while the rest will be brought to Maputo for local skaters."
+        },
+        "img": {
+          "src": "path/to/img"
+        }
+      }
+    },
+    "accomplishments": {
+      "subtitle": {
+        "text": "We keep our pace and we do not mean to slow down. Communication is a key element of this project."
+      },
+      "accomplishment_1": {
+        "heading": {
+          "text": "30"
+        },
+        "content": {
+          "text": "People on the team"
+        }
+      },
+      "accomplishment_2": {
+        "heading": {
+          "text": "120 000 DKK"
+        },
+        "content": {
+          "text": "Asked for in grants"
+        }
+      },
+      "accomplishment_3": {
+        "heading": {
+          "text": "45"
+        },
+        "content": {
+          "text": "Locals involved"
+        }
+      },
+      "accomplishment_4": {
+        "heading": {
+          "text": "5"
+        },
+        "content": {
+          "text": "Beneficial parties held"
+        }
+      }
+    }
+  }
+}

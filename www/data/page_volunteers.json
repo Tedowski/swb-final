@@ -1,0 +1,54 @@
+{
+  "volunteers": {
+    "sec_overview": {
+      "title": {
+        "text": "What are we doing to help"
+      },
+      "subtitle": {
+        "text": "This project has great goals that are hard to achieve without the help of the most dedicated and enthusiast people. There is simply no way Skate World Better could make all of this happen without its peers and supporters.<br><br>There is a whole specter of volunteering positions that we will need to cover and even higher number of favors that we have to ask for. Take this opportunity and set off on this journey with us. Do it from your home, On the meetings or under the Mozambican sun!"
+      }
+    },
+    "sec_help": {
+      "title": {
+        "text": "How can you help?"
+      },
+      "subtitle": {
+        "text": "Before you decide what role you can take, feel free to contact us, to ask any questions and do not forget to read the attached guidelines.<br><br>Guidelines for participants<br><br>Country profile and project goals"
+      },
+      "helps": {
+        "help_1": {
+          "heading": {
+            "text": "Building"
+          },
+          "content": {
+            "text": "The building process should take up to about a month of work. It will be the SWB team, with local skaters and helpers, but we also need skilled construction workers and people with experience.<br><br>At every time we will need at least ten people with experience working on the site. SWB will provide accommodation, lunch and refreshments for the help."
+          }
+        },
+        "help_2": {
+          "heading": {
+            "text": "Teaching"
+          },
+          "content": {
+            "text": "If you want to run a workshop or any kind of classes within or after the fall of 2019 in the youth center, SWB will be more than happy to arrange this to happen.<br><br>This could vary from regular lectures to one time events from a broad scale of themes such language, drug prevention, painting, hand craft, skateboarding demo and so on. Contact us for more info!"
+          }
+        },
+        "help_3": {
+          "heading": {
+            "text": "Skateboarding"
+          },
+          "content": {
+            "text": "Our team will stay in Maputo for about four months. Within that time we are more than happy to take in anybody who wants to come down, shred the park and give some experience, motivation and conceit to the kids!<br><br>Contact us on our social media or our email for a detailed arrangement."
+          }
+        },
+        "help_4": {
+          "heading": {
+            "text": "Networking"
+          },
+          "content": {
+            "text": "In a bar, or from behind your computer. On instagram, facebook or in real life. We appreciate if you will share our progress, spread the word or become part of our regular team behind the project.<br><br>Take a look at the PDF where we have came up with particular positions and forms of cooperation. Contact us for more info!"
+          }
+        }
+      }
+    }
+  }
+}
