@@ -28,8 +28,29 @@ require_once __DIR__.'/../modules/popup.php';
 <div class="wrapper">
     <section class="section gutter-top-xl gutter-top-xl">
         <div class="container grid-body">
-            <div class="span__full">
-                <h2>Dashboard index</h2>
+            <div class="span__4">
+                <a href="content.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-file-alt icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit content</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="mails.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="fas fa-envelope-open-text icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Manage newsletter</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="blog.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="fas fa-blog icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Manage blog</h3>
+                </a>
             </div>
         </div>
     </section>
