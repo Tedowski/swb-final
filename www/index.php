@@ -1,14 +1,10 @@
 <?php
 
 
-$sDataIndex = file_get_contents('data/page_index.json');
-$jDataIndex = json_decode($sDataIndex);
+$sData = file_get_contents('data/page_index.json');
+$jData = json_decode($sData);
 
-$sDataAchievements = file_get_contents('data/achievements.json');
-$jDataAchievements = json_decode($sDataAchievements);
-
-$jContent = $jDataIndex->index;
-$jAchievements = $jDataAchievements->achievements;
+$jContent = $jData->index;
 
 require_once __DIR__.'/modules/top.php';
 require_once __DIR__.'/modules/header.php';
@@ -156,49 +152,7 @@ require_once __DIR__.'/modules/popup.php';
         </section>
         <section class="section gutter-top-xl gutter-bot-l">
             <div class="container">
-                <div class="card-main">
-                    <div class="grid-body">
-                        <div class="span__full">
-                            <div class="text-centered">
-                                <h2 class="title">Achievements</h2>
-                                <p class="subtitle"><?= $jAchievements->subtitle->text ?></p>
-                                <div class="underline-full undrln__prim"></div>
-                            </div>
-                        </div>
-                        <div class="span__4">
-                            <div>
-                                <div class="img"></div>
-                                <h4 class="item-headline"><?= $jAchievements->achievements->achievement_1->heading->text ?></h4>
-                                <p><?= $jAchievements->achievements->achievement_1->content->text ?></p>
-                            </div>
-                        </div>
-                        <div class="span__4">
-                            <div>
-                                <div class="img"></div>
-                                <h4 class="item-headline"><?= $jAchievements->achievements->achievement_2->heading->text ?></h4>
-                                <p><?= $jAchievements->achievements->achievement_2->content->text ?></p>
-                            </div>
-                        </div>
-                        <div class="span__4 span__8_m span__4_l">
-                            <div>
-                                <div class="img"></div>
-                                <h4 class="item-headline"><?= $jAchievements->achievements->achievement_3->heading->text ?></h4>
-                                <p><?= $jAchievements->achievements->achievement_3->content->text ?></p>
-                            </div>
-                        </div>
-                        <div class="span__full">
-                            <div class="text-centered">
-                                <h2 class="title">Other accomplishments</h2>
-                                <p class="subtitle"><?= $jAchievements->accomplishments->subtitle->text ?></p>
-                            </div>
-                        </div>
-                        <div class="span__full justify-center-s-up">
-                            <div>
-                                TO BE DECIDED
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php require __DIR__.'/modules/achievements.php'; ?>
             </div>
         </section>
         <section class="section gutter-top-xl gutter-bot-xl">
