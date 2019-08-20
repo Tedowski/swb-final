@@ -7,7 +7,7 @@ if( !isset($_SESSION['sUser']) ) {
     header('Location: index');
 }
 
-require_once __DIR__.'/../modules/header.php';
+require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
 ?>
 
