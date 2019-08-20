@@ -26,9 +26,11 @@ require_once __DIR__.'/../modules/popup.php';
 
 
 <div class="wrapper">
-    <section class="section">
+    <section class="section gutter-top-xl gutter-top-xl">
         <div class="container grid-body">
-
+            <div class="span__full">
+                <h2>Dashboard index</h2>
+            </div>
         </div>
     </section>
 </div>
