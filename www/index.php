@@ -43,7 +43,7 @@ require_once __DIR__.'/modules/popup.php';
             </div>
             <div class="container grid-body justify-items-center align-items-stretch margin-top-xl gutter-top-s">
                 <div class="span__4">
-                    <div>
+                    <div class="text-centered gutter-bot-l">
                         <h3><?= $jContent->sec_challenges->challenges_facts->fact_1->headline->text ?></h3>
                         <h4><?= $jContent->sec_challenges->challenges_facts->fact_1->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_1->body->text ?></p>
@@ -51,7 +51,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div>
+                    <div class="text-centered gutter-bot-l">
                         <h3><?= $jContent->sec_challenges->challenges_facts->fact_2->headline->text ?></h3>
                         <h4><?= $jContent->sec_challenges->challenges_facts->fact_2->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_2->body->text ?></p>
@@ -59,7 +59,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div>
+                    <div class="text-centered gutter-bot-l">
                         <h3><?= $jContent->sec_challenges->challenges_facts->fact_3->headline->text ?></h3>
                         <h4><?= $jContent->sec_challenges->challenges_facts->fact_3->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_3->body->text ?></p>
@@ -67,7 +67,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div>
+                    <div class="text-centered gutter-bot-m">
                         <h3><?= $jContent->sec_challenges->challenges_facts->fact_4->headline->text ?></h3>
                         <h4><?= $jContent->sec_challenges->challenges_facts->fact_4->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_4->body->text ?></p>
@@ -75,7 +75,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div>
+                    <div class="text-centered gutter-bot-m">
                         <h3><?= $jContent->sec_challenges->challenges_facts->fact_5->headline->text ?></h3>
                         <h4><?= $jContent->sec_challenges->challenges_facts->fact_5->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_5->body->text ?></p>
@@ -83,7 +83,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div>
+                    <div class="text-centered gutter-bot-m">
                         <h3><?= $jContent->sec_challenges->challenges_facts->fact_6->headline->text; ?></h3>
                         <h4><?= $jContent->sec_challenges->challenges_facts->fact_6->subheadline->text; ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_6->body->text; ?></p>
