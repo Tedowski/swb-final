@@ -5,3 +5,5 @@
 // @codekit-append functionBlocks/handleIndex.js
 // @codekit-append functionBlocks/modalControl.js
 // @codekit-append functionBlocks/textareaResize.js
+// @codekit-append functionBlocks/editBlogPost.js
+// @codekit-append functionBlocks/addBlogPost.js

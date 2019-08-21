@@ -14,6 +14,11 @@ $jPosts = $jData->posts;
 
 require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
+
+$sBlogPostId = $_GET['id'];
+
+$jPost = $jPosts->$sBlogPostId;
+
 ?>
 
 <!DOCTYPE html>
@@ -33,14 +38,14 @@ require_once __DIR__.'/../modules/popup.php';
 <div class="wrapper">
     <section class="section gutter-top-xl gutter-top-xl">
         <div class="container">
-            <button id="add-blog-post" class="btn btn-prim btn-block">Add new blog post</button>
-            <div class="hide-l-up form-container">
-                <form id="frm-add-blog" class="form form_main form_card">
+            <div class="form-container">
+                <form id="frm-edit-blog" class="form form_main form_card">
                     <div class="span__2">
                         <div class="form__input-group">
                             <label class="label">Blog post title:</label>
                             <div class="input-wrapper">
-                                <input class="input" type="text" name="blog-title" placeholder="e.g. This is title for blog post">
+                                <input class="input" type="text" name="blog-title" placeholder="e.g. This is title for blog post" value="<?= $jPost->title->text ?>">
+
                             </div>
                         </div>
                     </div>
@@ -48,7 +53,9 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group">
                             <label class="label">Blog post subtitle:</label>
                             <div class="input-wrapper">
-                                <textarea placeholder="e.g. This is subtitle for blog post" class="input" name="blog-subtitle"></textarea>
+                                <textarea placeholder="e.g. This is subtitle for blog post" class="input" name="blog-subtitle">
+                                    <?= $jPost->subtitle->text ?>
+                                </textarea>
                             </div>
                         </div>
                     </div>
@@ -56,37 +63,18 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group">
                             <label class="label">Blog post content:</label>
                             <div class="input-wrapper">
-                                <textarea placeholder="e.g. This is content for blog post" class="input" name="blog-content"></textarea>
+                                <textarea placeholder="e.g. This is content for blog post" class="input" name="blog-content">
+                                    <?= $jPost->content->text ?>
+                                </textarea>
                             </div>
                         </div>
                     </div>
                     <div class="span__1 margin-top-m">
-                        <button class="btn btn-prim btn-block">Create new blog post</button>
+                        <button class="btn btn-prim btn-block">Edit blog post</button>
                     </div>
                 </form>
             </div>
 
-
-                <?php
-                foreach ($jPosts as $jPostId => $jPost){
-                    $jPostDate = date('d/m/Y',$jPost->timestamp );
-                    $jPostTitle = $jPost->title->text;
-                    echo "<div id=$jPostId class=\"grid-body align-items-center  margin-top-xs btn btn-prim\">
-                              <div class=\"span__2 justify-center-s-up\">
-                                <p>$jPostDate</p>
-                              </div>
-                              <div class=\"span__8_l\">
-                                <p>$jPostTitle</p>
-                              </div>
-                              <div class=\"span__2 justify-items-center\">
-                                <a id=$jPostId class=\"edit-blog-post\">Edit</a>
-                                <a id=$jPostId class=\"remove-blog-post\">Remove</a>
-                              </div>
-                              
-                          </div>
-                         ";
-                }
-                ?>
 
         </div>
     </section>
