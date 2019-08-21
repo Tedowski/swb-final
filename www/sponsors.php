@@ -54,7 +54,9 @@ require_once __DIR__.'/modules/popup.php';
 
                     foreach ($aYou as $jExpectation) {
                         echo '<div class="span__4">
-                                   <p>'.$jExpectation->text.'</p>
+                                   <div>
+                                       <p>'.$jExpectation->text.'</p>
+                                   </div>
                               </div>';
                     }
 
@@ -78,7 +80,9 @@ require_once __DIR__.'/modules/popup.php';
 
                 foreach ($aUs as $jOffer) {
                     echo '<div class="span__4">
-                               <p>'.$jOffer->text.'</p>
+                               <div>
+                                    <p>'.$jOffer->text.'</p>                         
+                               </div>
                           </div>';
                 }
 

@@ -4,7 +4,7 @@
       "text": "We are a non-profit organization based in Denmark on a mission to build the first public skatepark in Mozambique"
     },
     "video": {
-      "url": "https://youtu.be/pWlWUySYXJs"
+      "url": "https://www.youtube.com/embed/pWlWUySYXJs"
     },
     "sec_holy_trio": {
       "mission": {
@@ -128,10 +128,10 @@
           {
             "id": 2,
             "name": {
-              "text": "Matous Bem"
+              "text": "Unicorn/Unicorn"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Architects"
               
             },
             "img": {
@@ -141,10 +141,10 @@
           {
             "id": 3,
             "name": {
-              "text": "Matous Bem"
+              "text": "Martin Masaryk"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Logo creator"
               
             },
             "img": {
@@ -154,11 +154,11 @@
           {
             "id": 4,
             "name": {
-              "text": "Matous Bem"
+              "text": "Jakub Karlik"
             },
             "role": {
-              "text": "Legal consultant"
-              
+              "text": "Graphic design"
+
             },
             "img": {
               "url": "path/to/img"
@@ -167,10 +167,10 @@
           {
             "id": 5,
             "name": {
-              "text": "Matous Bem"
+              "text": "Hacker bois"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Web Development"
               
             },
             "img": {
@@ -180,10 +180,10 @@
           {
             "id": 6,
             "name": {
-              "text": "Matous Bem"
+              "text": "Jakub Novotny"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Fashion Guru"
               
             },
             "img": {
@@ -193,10 +193,10 @@
           {
             "id": 7,
             "name": {
-              "text": "Matous Bem"
+              "text": "Jan Balas"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Promoter / Translator"
               
             },
             "img": {
@@ -206,10 +206,10 @@
           {
             "id": 8,
             "name": {
-              "text": "Matous Bem"
+              "text": "Jonas Camps"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Photographer"
               
             },
             "img": {
