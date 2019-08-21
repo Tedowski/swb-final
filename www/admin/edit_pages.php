@@ -6,9 +6,6 @@ $jAdmin = $_SESSION['sUser'];
 if( !isset($_SESSION['sUser']) ) {
     header('Location: index');
 }
-
-require_once __DIR__.'/../modules/header-admin.php';
-require_once __DIR__.'/../modules/popup.php';
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +21,11 @@ require_once __DIR__.'/../modules/popup.php';
 </head>
 <body class="body">
 
+<?php
+
+require_once __DIR__.'/../modules/header.php';
+require_once __DIR__.'/../modules/popup.php';
+?>
 
 <div class="wrapper">
     <section class="section gutter-top-l gutter-bot-l">
@@ -33,12 +35,12 @@ require_once __DIR__.'/../modules/popup.php';
             </div>
         </div>
         <div class="container grid-body">
-            <button class="btn btn-block btn-prim span__4">
+            <a href="form_index.php" class="btn btn-block btn-prim span__4 text-centered">
                 <div class="margin-top-xs">
                     <i class="far fa-file-alt icon-xxl"></i>
                 </div>
                 <h3 class="margin-top-s">Landing page</h3>
-            </button>
+            </a>
             <button class="btn btn-block btn-prim span__4">
                 <div class="margin-top-xs">
                     <i class="far fa-file-alt icon-xxl"></i>
@@ -72,6 +74,8 @@ require_once __DIR__.'/../modules/popup.php';
         </div>
     </section>
 </div>
+
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

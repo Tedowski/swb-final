@@ -1,9 +1,3 @@
-<?php
-
-require_once __DIR__.'/../modules/header.php';
-require_once __DIR__.'/../modules/popup.php';
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,6 +10,12 @@ require_once __DIR__.'/../modules/popup.php';
     <title>Document</title>
 </head>
 <body class="body">
+
+<?php
+
+require_once __DIR__.'/../modules/header.php';
+require_once __DIR__.'/../modules/popup.php';
+?>
 
 <div class="wrapper">
     <section class="section gutter-top-l gutter-bot-l">

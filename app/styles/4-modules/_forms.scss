@@ -40,7 +40,8 @@
     border-radius: 0;
   }
 
-  .input {
+  .input,
+  .textarea {
     flex: 1;
 
     &:first-child {
@@ -90,10 +91,24 @@
 }
 
 .input {
-  border: 2px solid lighten($c-prim, 20%);
-  background-color: lighten($c-prim, 68%);
   font-size: 14px;
   line-height: 24px;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+
+  &.bodytext {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.input,
+.textarea {
+  border: 2px solid lighten($c-prim, 20%);
+  background-color: lighten($c-prim, 68%);
   padding: 6px 10px;
   transition: all .3s ease;
 

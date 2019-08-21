@@ -6,9 +6,6 @@ $jAdmin = $_SESSION['sUser'];
 if( !isset($_SESSION['sUser']) ) {
     header('Location: index');
 }
-
-require_once __DIR__.'/../modules/header-admin.php';
-require_once __DIR__.'/../modules/popup.php';
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +21,11 @@ require_once __DIR__.'/../modules/popup.php';
 </head>
 <body class="body">
 
+<?php
+
+require_once __DIR__.'/../modules/header.php';
+require_once __DIR__.'/../modules/popup.php';
+?>
 
 <div class="wrapper">
     <section class="section gutter-top-xl gutter-bot-xl">

@@ -1,0 +1,246 @@
+<?php
+
+session_start();
+$jAdmin = $_SESSION['sUser'];
+
+if( !isset($_SESSION['sUser']) ) {
+    header('Location: index');
+}
+
+$sData = file_get_contents('../data/page_index.json');
+$jData = json_decode($sData);
+
+$jContent = $jData->index;
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/1c4f9624b2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="./../styles/index.css">
+    <title>Document</title>
+</head>
+<body class="body">
+
+<?php
+
+require_once __DIR__.'/../modules/header.php';
+require_once __DIR__.'/../modules/popup.php';
+?>
+
+<div class="wrapper">
+    <form class="form" id="formIndex">
+        <section class="section gutter-top-xl gutter-bot-l">
+            <div class="container grid-body">
+                <div class="span__4 span__6_l justify-start-s">
+                    <div class="">
+                        <div>
+                            <h5 class="subtitle">Challenges</h5>
+                            <div class="form__input-group gutter-bot-m">
+                                <div class="input-wrapper">
+                                    <textarea class="textarea title" name="challengesTitle" id="challengesTitle"><?= $jContent->sec_challenges->title->text ?></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-m">
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="challengesSubtitle" id="challengesSubtitle"><?= $jContent->sec_challenges->subtitle->text ?></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span__4 span__6_l s-first justify-center-s justify-end-m-up">
+                    <div class="img">
+                        <img src="./images/<?= $jContent->sec_challenges->img->src ?>" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container grid-body margin-top-xl gutter-top-s">
+                <div class="span__4">
+                    <div class="gutter-bot-l">
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Headline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact1Headline" id="fact1Headline" value="<?= $jContent->sec_challenges->challenges_facts->fact_1->headline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Subheadline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact1SubHeadline" id="fact1SubHeadline" value="<?= $jContent->sec_challenges->challenges_facts->fact_1->subheadline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Body</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact1Body" id="fact1Body"><?= $jContent->sec_challenges->challenges_facts->fact_1->body->text ?></textarea>
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Link</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact1Link" id="fact1Link"><?= $jContent->sec_challenges->challenges_facts->fact_1->link->src ?></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span__4">
+                    <div class="gutter-bot-l">
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Headline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact2Headline" id="fact2Headline" value="<?= $jContent->sec_challenges->challenges_facts->fact_2->headline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Subheadline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact2SubHeadline" id="fact2SubHeadline" value="<?= $jContent->sec_challenges->challenges_facts->fact_2->subheadline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Body</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact2Body" id="fact2Body"><?= $jContent->sec_challenges->challenges_facts->fact_2->body->text ?></textarea>
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Link</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact2Link" id="fact2Link"><?= $jContent->sec_challenges->challenges_facts->fact_2->link->src ?></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span__4">
+                    <div class="gutter-bot-l">
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Headline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact3Headline" id="fact3Headline" value="<?= $jContent->sec_challenges->challenges_facts->fact_3->headline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Subheadline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact3SubHeadline" id="fact3SubHeadline" value="<?= $jContent->sec_challenges->challenges_facts->fact_3->subheadline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Body</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact3Body" id="fact3Body"><?= $jContent->sec_challenges->challenges_facts->fact_3->body->text ?></textarea>
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Link</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact3Link" id="fact3Link"><?= $jContent->sec_challenges->challenges_facts->fact_3->link->src ?></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span__4">
+                    <div class="gutter-bot-m">
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Headline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact4Headline" id="fact4Headline" value="<?= $jContent->sec_challenges->challenges_facts->fact_4->headline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Subheadline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact4SubHeadline" id="fact4SubHeadline" value="<?= $jContent->sec_challenges->challenges_facts->fact_4->subheadline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Body</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact4Body" id="fact4Body"><?= $jContent->sec_challenges->challenges_facts->fact_4->body->text ?></textarea>
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Link</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact4Link" id="fact4Link"><?= $jContent->sec_challenges->challenges_facts->fact_4->link->src ?></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span__4">
+                    <div class="gutter-bot-m">
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Headline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact5Headline" id="fact5Headline" value="<?= $jContent->sec_challenges->challenges_facts->fact_5->headline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Subheadline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact5SubHeadline" id="fact5SubHeadline" value="<?= $jContent->sec_challenges->challenges_facts->fact_5->subheadline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Body</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact5Body" id="fact5Body"><?= $jContent->sec_challenges->challenges_facts->fact_5->body->text ?></textarea>
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Link</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact5Link" id="fact5Link"><?= $jContent->sec_challenges->challenges_facts->fact_5->link->src ?></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span__4">
+                    <div class="gutter-bot-m">
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Headline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact6Headline" id="fact6Headline" value="<?= $jContent->sec_challenges->challenges_facts->fact_6->headline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Subheadline</label>
+                            <div class="input-wrapper">
+                                <input class="input" name="fact6SubHeadline" id="fact6SubHeadline" value="<?= $jContent->sec_challenges->challenges_facts->fact_6->subheadline->text ?>">
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Body</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact6Body" id="fact6Body"><?= $jContent->sec_challenges->challenges_facts->fact_6->body->text ?></textarea>
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-xs">
+                            <label class="label" for="">Link</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="fact6Link" id="fact6Link"><?= $jContent->sec_challenges->challenges_facts->fact_6->link->src ?></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section gutter-bot-xl gutter-top-l">
+            <div class="container grid-body">
+                <button class="btn btn-block btn-sec span__4 span__6_l">Cancel</button>
+                <button class="btn btn-block btn-prim span__4 span__6_l">Save</button>
+            </div>
+        </section>
+    </form>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./../scripts/app.min.js"></script>
+</body>
+</html>
