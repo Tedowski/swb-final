@@ -27,9 +27,51 @@ require_once __DIR__.'/../modules/popup.php';
 
 <div class="wrapper">
     <section class="section gutter-top-l gutter-top-l">
-        <div class="container grid-body">
+        <div class="container grid-body gutter-bot-m">
             <div class="span__full">
                 <h1 class="title">Content management</h1>
+            </div>
+        </div>
+        <div class="container grid-body">
+            <div class="span__2 offset__1_l">
+                <a href="edit_pages.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-file-alt icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit content</h3>
+                </a>
+            </div>
+            <div class="span__2">
+                <a href="edit_achievements.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="fas fa-trophy icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit achievements</h3>
+                </a>
+            </div>
+            <div class="span__2">
+                <a href="edit_sponsors.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="fas fa-users icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit sponsors</h3>
+                </a>
+            </div>
+            <div class="span__2">
+                <a href="edit_testimon.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-address-card icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit testimonials</h3>
+                </a>
+            </div>
+            <div class="span__2">
+                <a href="edit_team.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="fas fa-users-cog icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit team bio</h3>
+                </a>
             </div>
         </div>
     </section>
