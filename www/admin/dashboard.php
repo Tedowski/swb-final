@@ -26,7 +26,7 @@ require_once __DIR__.'/../modules/popup.php';
 
 
 <div class="wrapper">
-    <section class="section gutter-top-l gutter-top-l">
+    <section class="section gutter-top-l gutter-bot-l">
         <div class="container grid-body gutter-bot-m">
             <div class="span__full">
                 <h1 class="title">SWB Dashboard</h1>

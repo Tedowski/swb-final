@@ -26,9 +26,49 @@ require_once __DIR__.'/../modules/popup.php';
 
 
 <div class="wrapper">
-    <section class="section gutter-top-xl gutter-top-xl">
+    <section class="section gutter-top-l gutter-bot-l">
+        <div class="container grid-body gutter-bot-m">
+            <div class="span__full">
+                <h1 class="title">Pages content management</h1>
+            </div>
+        </div>
         <div class="container grid-body">
-
+            <button class="btn btn-block btn-prim span__4">
+                <div class="margin-top-xs">
+                    <i class="far fa-file-alt icon-xxl"></i>
+                </div>
+                <h3 class="margin-top-s">Landing page</h3>
+            </button>
+            <button class="btn btn-block btn-prim span__4">
+                <div class="margin-top-xs">
+                    <i class="far fa-file-alt icon-xxl"></i>
+                </div>
+                <h3 class="margin-top-s">Project page</h3>
+            </button>
+            <button class="btn btn-block btn-prim span__4">
+                <div class="margin-top-xs">
+                    <i class="far fa-file-alt icon-xxl"></i>
+                </div>
+                <h3 class="margin-top-s">About page</h3>
+            </button>
+            <button class="btn btn-block btn-prim span__4">
+                <div class="margin-top-xs">
+                    <i class="far fa-file-alt icon-xxl"></i>
+                </div>
+                <h3 class="margin-top-s">Sponsors page</h3>
+            </button>
+            <button class="btn btn-block btn-prim span__4">
+                <div class="margin-top-xs">
+                    <i class="far fa-file-alt icon-xxl"></i>
+                </div>
+                <h3 class="margin-top-s">Volunteers page</h3>
+            </button>
+            <button class="btn btn-block btn-prim span__4">
+                <div class="margin-top-xs">
+                    <i class="far fa-file-alt icon-xxl"></i>
+                </div>
+                <h3 class="margin-top-s">Contant page</h3>
+            </button>
         </div>
     </section>
 </div>
