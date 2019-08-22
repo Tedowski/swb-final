@@ -101,8 +101,6 @@ require_once __DIR__.'/modules/popup.php';
                             <h2 class="title"><?= $jContent->sec_solutions->title->text ?></h2>
                         </div>
                         <p><?= $jContent->sec_solutions->subtitle->text ?></p>
-<!--                        <p>We came up with an interconnected project, that not only joints multiple activities, but also people of all origins with different interests.</p>-->
-<!--                        <p>Altogether, we will create a youth center that will serve all kinds of purposes within the city of Maputo.</p>-->
                     </div>
                 </div>
                 <div class="span__4 span__8_m">
@@ -113,8 +111,6 @@ require_once __DIR__.'/modules/popup.php';
                                     <h4 class="item-headline"><?= $jContent->sec_solutions->solutions->solution_1->headline->text ?></h4>
                                 </div>
                                 <p><?= $jContent->sec_solutions->solutions->solution_1->content->text ?></p>
-<!--                                <p>SWB, Skate-Aid and AMS will build the first public skatepark in Mozambique along with a youth center on the property. It will be right on the coast, in the suburban area of the capital city Maputo.</p>-->
-<!--                                <p>It is going to be concrete, for both, skilled skaters and beginners. The park will feature a technical and playful section, implementing urban elements, but also a real bowl.</p>-->
                             </div>
                         </div>
                         <div class="span__4">
@@ -123,7 +119,6 @@ require_once __DIR__.'/modules/popup.php';
                                     <h4 class="item-headline"><?= $jContent->sec_solutions->solutions->solution_2->headline->text ?></h4>
                                 </div>
                                 <p><?= $jContent->sec_solutions->solutions->solution_2->content->text ?></p>
-<!--                                <p>Once the skatepark is built educational seminars, workshops, concerts and exhibitions will take place on Costa do Sol in the first month. After the opening ceremony ASM together with Skate-Aid will facilitate regular skateboarding lessons.</p>-->
                             </div>
                         </div>
                         <div class="span__4">
@@ -132,8 +127,6 @@ require_once __DIR__.'/modules/popup.php';
                                     <h4 class="item-headline"><?= $jContent->sec_solutions->solutions->solution_3->headline->text ?></h4>
                                 </div>
                                 <p><?= $jContent->sec_solutions->solutions->solution_3->content->text ?></p>
-<!--                                <p>Through skateboarding we want to offer a playful and creative way to learn and make new friendships. In skating, competitiveness is replaced by joint effort and enthusiasm for progress.</p>-->
-<!--                                <p>To bolster local skate culture we are also bringing skateboards, skate gear and experience with us, to give away in Maputo.</p>-->
                             </div>
                         </div>
                         <div class="span__4">
@@ -142,8 +135,6 @@ require_once __DIR__.'/modules/popup.php';
                                     <h4 class="item-headline"><?= $jContent->sec_solutions->solutions->solution_4->headline->text ?></h4>
                                 </div>
                                 <p><?= $jContent->sec_solutions->solutions->solution_4->content->text ?></p>
-<!--                                <p>A massive wall surrounding the property will serve as free canvas for local artists and art enthusiasts.</p>-->
-<!--                                <p>Furthermore, the youth center will regularly host art exhibitions, video premieres, craft workshops, lectures, readings and much more.</p>-->
                             </div>
                         </div>
                     </div>
