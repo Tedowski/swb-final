@@ -25,9 +25,9 @@
                         <a href="./project.php#testimonials" class="subnav-link">Testimonials</a>
                     </div>
                     <div class="subnav">
-                        <a href="./project.php#overview" class="subnav-link">Overview</a>
-                        <a href="./project.php#research" class="subnav-link">Our Team</a>
-                        <a href="./project.php#design" class="subnav-link">Achievements</a>
+                        <a href="./about.php#overview" class="subnav-link">Overview</a>
+                        <a href="./about.php#team" class="subnav-link">Our Team</a>
+                        <a href="./about.php#achievements" class="subnav-link">Achievements</a>
                     </div>
                 </div>
             </div>

@@ -20,7 +20,7 @@ require_once __DIR__.'/modules/popup.php';
         </div>
     </section>
     <main class="main">
-        <section class="section gutter-top-xl gutter-bot-xl">
+        <section id="overview" class="section gutter-top-xl gutter-bot-xl">
             <div class="container grid-body gutter-bot-s">
                 <div class="span__full text-centered gutter-bot-m">
                     <h1 class="title"><?= $jContent->title->text ?></h1>
@@ -106,7 +106,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section id="team" class="section gutter-top-xl gutter-bot-l">
             <div class="container grid-body">
                 <div class="span__full">
                     <div class="text-centered">
@@ -152,6 +152,11 @@ require_once __DIR__.'/modules/popup.php';
                 }
 
                 ?>
+            </div>
+        </section>
+        <section id="achievements" class="section gutter-top-xl gutter-bot-l">
+            <div class="container">
+                <?php require __DIR__.'/modules/achievements.php'; ?>
             </div>
         </section>
     </main>
