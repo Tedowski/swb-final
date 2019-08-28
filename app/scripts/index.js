@@ -7,3 +7,4 @@
 // @codekit-append functionBlocks/textareaResize.js
 // @codekit-append functionBlocks/editBlogPost.js
 // @codekit-append functionBlocks/addBlogPost.js
+// @codekit-append functionBlocks/headerControl.js

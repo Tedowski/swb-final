@@ -20,12 +20,12 @@ require_once __DIR__.'/modules/popup.php';
         </div>
     </section>
     <main class="main">
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section id="overview" class="section gutter-top-xl gutter-bot-l">
             <div class="container grid-body">
                 <div class="span__4 span__6_l justify-start-s">
                     <div class="">
                         <div>
-                            <h5 class="subtitle">Challanges</h5>
+                            <h5 class="subtitle">Overview</h5>
                             <h2 class="title"><?= $jContent->sec_overview->title->text ?></h2>
                         </div>
                         <p><?= $jContent->sec_overview->subtitle->text ?></p>
@@ -62,7 +62,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section id="research" class="section gutter-top-xl gutter-bot-l">
             <div class="container grid-body gutter-bot-m">
                 <div class="span__4 span__6_l">
                     <div>
@@ -99,7 +99,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section id="design" class="section gutter-top-xl gutter-bot-l">
             <div class="container grid-body gutter-bot-m">
                 <div class="span__full">
                     <div class="text-centered">
@@ -115,7 +115,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section id="testimonials" class="section gutter-top-xl gutter-bot-l">
             <div class="container grid-body">
                 <div class="span__full">
                     <div class="text-centered">

@@ -6,6 +6,30 @@
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  width: 100vw;
   z-index: 99;
+  transition: top .5s;
+  -webkit-transition: top .5s;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  height: 0;
+  overflow: hidden;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 16px;
+}
+
+.nav-link,
+.subnav-link {
+  display: block;
 }
