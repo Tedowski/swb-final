@@ -3,6 +3,23 @@
   color: $c-sec;
 }
 
+.nav-link,
+.subnav-link {
+  transition: all .3s ease;
+  display: block;
+}
+
+.nav-link {
+  font-family: $font-heading-sec;
+}
+
+.subnav-link {
+  &:hover {
+    color: $c-sec;
+    transform: translateX(8px);
+  }
+}
+
 
 .icon-circ {
   display: inline-block;

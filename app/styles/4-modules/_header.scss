@@ -2,6 +2,7 @@
   padding: 24px 16px;
   line-height: 40px;
   background-color: $c-prim;
+  font-size: $font-size + 2px;
   color: $c-white;
   position: fixed;
   top: 0;
@@ -26,10 +27,5 @@
 .nav {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 16px;
-}
-
-.nav-link,
-.subnav-link {
-  display: block;
+  grid-column-gap: 16px;
 }

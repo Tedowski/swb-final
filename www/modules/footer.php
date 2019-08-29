@@ -36,9 +36,11 @@
                 <div class="underline-container undrln__left">
                     <div class="undrln__sec underline-inline undrln__s"></div>
                 </div>
-                <div class="contact-item margin-top-s">Copenhagen, Denmark</div>
-                <div class="contact-item">+45 91 61 92 31</div>
-                <div class="contact-item">info@swb.dk</div>
+                <div class="footer__contact margin-top-s">
+                    <div class="contact-item">Copenhagen, Denmark</div>
+                    <div class="contact-item">+45 91 61 92 31</div>
+                    <div class="contact-item">info@swb.dk</div>
+                </div>
             </div>
         </div>
         <div class="span__4 span__3_l">
