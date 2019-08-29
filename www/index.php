@@ -44,58 +44,88 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
             </div>
-            <div class="container grid-body justify-items-center align-items-stretch margin-top-xl gutter-top-s">
+            <div class="container grid-body align-items-stretch margin-top-xl gutter-top-s">
                 <div class="span__4">
-                    <div class="item__challenge text-centered gutter-bot-l">
+                    <div class="item__challenge gutter-bot-l">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_1->headline->text ?></h3>
-                        <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_1->subheadline->text ?></h4>
-                        <p><?= $jContent->sec_challenges->challenges_facts->fact_1->body->text ?></p>
-                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_1->link->src ?>" target="_blank">Read more</a>
+<!--                        <h4 class="item-subheadline">--><?//= $jContent->sec_challenges->challenges_facts->fact_1->subheadline->text ?><!--</h4>-->
+                        <div class="underline-container undrln__left">
+                            <div class="undrln__prim underline-inline undrln__m"></div>
+                        </div>
+                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_1->body->text ?></p>
+                        <div class="underline-container undrln__right">
+                            <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_1->link->src ?>" target="_blank">Read more</a>
+                        </div>
                     </div>
                 </div>
                 <div class="span__4">
-                    <div class="item__challenge text-centered gutter-bot-l">
+                    <div class="item__challenge gutter-bot-l">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_2->headline->text ?></h3>
-                        <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_2->subheadline->text ?></h4>
-                        <p><?= $jContent->sec_challenges->challenges_facts->fact_2->body->text ?></p>
-                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_2->link->src ?>" target="_blank">Read more</a>
+<!--                        <h4 class="item-subheadline">--><?//= $jContent->sec_challenges->challenges_facts->fact_2->subheadline->text ?><!--</h4>-->
+                        <div class="underline-container undrln__left">
+                            <div class="undrln__prim underline-inline undrln__m"></div>
+                        </div>
+                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_2->body->text ?></p>
+                        <div class="underline-container undrln__right">
+                            <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_2->link->src ?>" target="_blank">Read more</a>
+                        </div>
                     </div>
                 </div>
                 <div class="span__4">
-                    <div class="item__challenge text-centered gutter-bot-l">
+                    <div class="item__challenge gutter-bot-l">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_3->headline->text ?></h3>
-                        <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_3->subheadline->text ?></h4>
-                        <p><?= $jContent->sec_challenges->challenges_facts->fact_3->body->text ?></p>
-                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_3->link->src ?>" target="_blank">Read more</a>
+<!--                        <h4 class="item-subheadline">--><?//= $jContent->sec_challenges->challenges_facts->fact_3->subheadline->text ?><!--</h4>-->
+                        <div class="underline-container undrln__left">
+                            <div class="undrln__prim underline-inline undrln__m"></div>
+                        </div>
+                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_3->body->text ?></p>
+                        <div class="underline-container undrln__right">
+                            <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_3->link->src ?>" target="_blank">Read more</a>
+                        </div>
                     </div>
                 </div>
                 <div class="span__4">
-                    <div class="item__challenge text-centered gutter-bot-m">
+                    <div class="item__challenge gutter-bot-m">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_4->headline->text ?></h3>
-                        <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_4->subheadline->text ?></h4>
-                        <p><?= $jContent->sec_challenges->challenges_facts->fact_4->body->text ?></p>
-                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_4->link->src ?>" target="_blank">Read more</a>
+<!--                        <h4 class="item-subheadline">--><?//= $jContent->sec_challenges->challenges_facts->fact_4->subheadline->text ?><!--</h4>-->
+                        <div class="underline-container undrln__left">
+                            <div class="undrln__prim underline-inline undrln__m"></div>
+                        </div>
+                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_4->body->text ?></p>
+                        <div class="underline-container undrln__right">
+                            <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_4->link->src ?>" target="_blank">Read more</a>
+                        </div>
                     </div>
                 </div>
                 <div class="span__4">
-                    <div class="item__challenge text-centered gutter-bot-m">
+                    <div class="item__challenge gutter-bot-m">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_5->headline->text ?></h3>
-                        <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_5->subheadline->text ?></h4>
-                        <p><?= $jContent->sec_challenges->challenges_facts->fact_5->body->text ?></p>
-                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_5->link->src ?>" target="_blank">Read more</a>
+<!--                        <h4 class="item-subheadline">--><?//= $jContent->sec_challenges->challenges_facts->fact_5->subheadline->text ?><!--</h4>-->
+                        <div class="underline-container undrln__left">
+                            <div class="undrln__prim underline-inline undrln__m"></div>
+                        </div>
+                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_5->body->text ?></p>
+                        <div class="underline-container undrln__right">
+                            <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_5->link->src ?>" target="_blank">Read more</a>
+                        </div>
                     </div>
                 </div>
                 <div class="span__4">
-                    <div class="item__challenge text-centered gutter-bot-m">
+                    <div class="item__challenge gutter-bot-m">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_6->headline->text; ?></h3>
-                        <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_6->subheadline->text; ?></h4>
-                        <p><?= $jContent->sec_challenges->challenges_facts->fact_6->body->text; ?></p>
-                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_6->link->src; ?>" target="_blank">Read more</a>
+<!--                        <h4 class="item-subheadline">--><?//= $jContent->sec_challenges->challenges_facts->fact_6->subheadline->text; ?><!--</h4>-->
+                        <div class="underline-container undrln__left">
+                            <div class="undrln__prim underline-inline undrln__m"></div>
+                        </div>
+                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_6->body->text; ?></p>
+                        <div class="underline-container undrln__right">
+                            <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_6->link->src; ?>" target="_blank">Read more</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section class="section gutter-top-xl gutter-bot-l section-dark">
             <div class="container grid-body">
                 <div class="span__4 span__8_m span__4_l">
                     <div>
@@ -165,7 +195,7 @@ require_once __DIR__.'/modules/popup.php';
                 <?php require __DIR__.'/modules/achievements.php'; ?>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-xl">
+        <section class="section gutter-top-xl gutter-bot-xl section-dark">
             <div class="container grid-body">
                 <div class="span__4 span__6_l">
                     <div>
@@ -182,32 +212,50 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
             <div class="container grid-body justify-items-center margin-top-xl gutter-top-s">
-                <div class="span__4">
-                    <div>SPONSOR LOGO</div>
+                <div class="span__4 gutter-bot-m">
+                    <a href="#" class="sponsor img">
+                        Sponsor
+                    </a>
                 </div>
-                <div class="span__4">
-                    <div>SPONSOR LOGO</div>
+                <div class="span__4 gutter-bot-m">
+                    <a href="#" class="sponsor img">
+                        Sponsor
+                    </a>
                 </div>
-                <div class="span__4">
-                    <div>SPONSOR LOGO</div>
+                <div class="span__4 gutter-bot-m">
+                    <a href="#" class="sponsor img">
+                        Sponsor
+                    </a>
                 </div>
-                <div class="span__4">
-                    <div>SPONSOR LOGO</div>
+                <div class="span__4 gutter-bot-m">
+                    <a href="#" class="sponsor img">
+                        Sponsor
+                    </a>
                 </div>
-                <div class="span__4">
-                    <div>SPONSOR LOGO</div>
+                <div class="span__4 gutter-bot-m">
+                    <a href="#" class="sponsor img">
+                        Sponsor
+                    </a>
                 </div>
-                <div class="span__4">
-                    <div>SPONSOR LOGO</div>
+                <div class="span__4 gutter-bot-m">
+                    <a href="#" class="sponsor img">
+                        Sponsor
+                    </a>
                 </div>
-                <div class="span__4">
-                    <div>SPONSOR LOGO</div>
+                <div class="span__4 gutter-bot-m">
+                    <a href="#" class="sponsor img">
+                        Sponsor
+                    </a>
                 </div>
-                <div class="span__4">
-                    <div>SPONSOR LOGO</div>
+                <div class="span__4 gutter-bot-m">
+                    <a href="#" class="sponsor img">
+                        Sponsor
+                    </a>
                 </div>
-                <div class="span__4">
-                    <div>SPONSOR LOGO</div>
+                <div class="span__4 gutter-bot-m">
+                    <a href="#" class="sponsor img">
+                        Sponsor
+                    </a>
                 </div>
             </div>
         </section>
