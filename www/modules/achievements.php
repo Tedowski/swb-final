@@ -13,7 +13,12 @@ $jAchievements = $jDataAchievements->achievements;
             <div class="text-centered">
                 <h2 class="title">Achievements</h2>
                 <p class="subtitle"><?= $jAchievements->subtitle->text ?></p>
-                <div class="underline-full undrln__prim"></div>
+                <div class="underline-container undrln__center">
+                    <div class="undrln__prim underline-inline undrln__xl undrln__center"></div>
+                </div>
+                <div class="underline-container margin-top-s undrln__center">
+                    <div class="undrln__prim underline-inline undrln__m"></div>
+                </div>
             </div>
         </div>
         <div class="span__4">

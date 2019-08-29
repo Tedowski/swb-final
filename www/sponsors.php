@@ -26,6 +26,9 @@ require_once __DIR__.'/modules/popup.php';
                     <div>
                         <h5 class="subtitle">Initiative</h5>
                         <h2 class="title"><?= $jContent->sec_initiative->title->text ?></h2>
+                        <div class="underline-container undrln__left">
+                            <div class="undrln__prim underline-inline undrln__l"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -42,8 +45,11 @@ require_once __DIR__.'/modules/popup.php';
             <div class="container grid-body gutter-bot-m">
                 <div class="span__4 span__6_l">
                     <div>
-                        <h5 class="subtitle">You</h5>
+                        <h5 class="subtitle">Your part</h5>
                         <h2 class="title"><?= $jContent->sec_you->title->text ?></h2>
+                        <div class="underline-container undrln__left">
+                            <div class="undrln__prim underline-inline undrln__l"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -64,12 +70,15 @@ require_once __DIR__.'/modules/popup.php';
 
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section class="section gutter-top-xl gutter-bot-xl">
             <div class="container grid-body gutter-bot-m">
                 <div class="span__4 span__6_l">
                     <div>
-                        <h5 class="subtitle">Us</h5>
+                        <h5 class="subtitle">Our part</h5>
                         <h2 class="title"><?= $jContent->sec_us->title->text ?></h2>
+                        <div class="underline-container undrln__left">
+                            <div class="undrln__prim underline-inline undrln__l"></div>
+                        </div>
                     </div>
                 </div>
             </div>
