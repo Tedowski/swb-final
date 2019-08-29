@@ -110,8 +110,26 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
             <div class="container grid-body margin-top-xl">
-                <div class="span__full justify-center-s-up">
-                    Images
+                <div class="span__full">
+                    <div class="carousel-container">
+                        <div class="carousel-slider">
+                            <div class="carousel-slide">
+                                <div class="slide__image">
+                                    <h2>Image 1</h2>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="slide__image">
+                                    <h2>Image 2</h2>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="slide__image">
+                                    <h2>Image 3</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -122,6 +140,35 @@ require_once __DIR__.'/modules/popup.php';
                         <h3 class="title">Testimonials</h3>
                         <div class="underline-full undrln__prim"></div>
                         <h5 class="subtitle margin-top-s"><?= $jContent->sec_testimonials->subtitle->text ?></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container grid-body">
+                <div class="span__full">
+                    <div class="carousel-container">
+                        <div class="carousel-slider">
+                            <?php
+
+                            $aTestimonials = $jContent->sec_testimonials->testimonials;
+
+                            foreach ($aTestimonials as $jTestimonial) {
+                                echo '<div class="carousel-slide">
+                                        <div class="slide__profile">
+                                            <div class="text-centered">
+                                                <h4>'.$jTestimonial->role->text.'</h4>
+                                                <h3>'.$jTestimonial->name->text.'</h3>
+                                                <p>'.$jTestimonial->quote->text.'</p>
+                                            </div>
+                                            <div>
+                                                <h5>Bio</h5>
+                                                <p>'.$jTestimonial->content->text.'</p>
+                                            </div>
+                                        </div>
+                                      </div>';
+                            }
+
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -115,10 +115,50 @@ require_once __DIR__.'/modules/popup.php';
                         <h5 class="subtitle margin-top-s"><?= $jContent->sec_team->subtitle->text ?></h5>
                     </div>
                 </div>
-                <div class="container grid-body">
-                    <div class="span__full">
-                        <div class="carousel text-centered">
-                            The carousel
+            </div>
+            <div class="container grid-body margin-top-m">
+                <div class="span__full">
+                    <div class="carousel-container">
+                        <div class="carousel-slider">
+                            <div class="carousel-slide">
+                                <div class="slide__profile">
+                                    <div class="text-centered">
+                                        <h4><?= $jContent->sec_team->member_1->role->text ?></h4>
+                                        <h3><?= $jContent->sec_team->member_1->name->text ?></h3>
+                                        <p><?= $jContent->sec_team->member_1->quote->text ?></p>
+                                    </div>
+                                    <div>
+                                        <h5>Bio</h5>
+                                        <p><?= $jContent->sec_team->member_1->bio->text ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="slide__profile">
+                                    <div class="text-centered">
+                                        <h4><?= $jContent->sec_team->member_2->role->text ?></h4>
+                                        <h3><?= $jContent->sec_team->member_2->name->text ?></h3>
+                                        <p><?= $jContent->sec_team->member_2->quote->text ?></p>
+                                    </div>
+                                    <div>
+                                        <h5>Bio</h5>
+                                        <p><?= $jContent->sec_team->member_2->bio->text ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="slide__profile">
+                                    <div class="text-centered">
+                                        <h4><?= $jContent->sec_team->member_3->role->text ?></h4>
+                                        <h3><?= $jContent->sec_team->member_3->name->text ?></h3>
+                                        <p><?= $jContent->sec_team->member_3->quote->text ?></p>
+                                    </div>
+                                    <div>
+                                        <h5>Bio</h5>
+                                        <p><?= $jContent->sec_team->member_3->bio->text ?></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
