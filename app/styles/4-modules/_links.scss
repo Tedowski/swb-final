@@ -1,6 +1,12 @@
 
 .link {
+  font-family: $font-heading-sec;
   color: $c-sec;
+  transition: all .3s ease;
+
+  &:hover {
+    color: darken($c-sec, 15%);
+  }
 }
 
 .nav-link,

@@ -43,23 +43,24 @@ button {
   &.btn-text {
     display: inline-block;
     text-transform: uppercase;
+    font-family: $font-heading-sec;
     padding: 4px 12px;
     color: $c-sec;
     border-radius: $border-radius;
 
     &:hover {
       color: darken($c-sec, 15%);
-      background-color: lighten($c-prim, 40%);
+      background-color: lighten($c-sec, 40%);
     }
 
     &:focus {
       color: darken($c-sec, 15%);
-      background-color: lighten($c-prim, 40%);
+      background-color: lighten($c-sec, 40%);
     }
 
     &:active {
       color: darken($c-sec, 20%);
-      background-color: lighten($c-prim, 30%);
+      background-color: lighten($c-sec, 30%);
     }
 
     &:disabled {

@@ -50,7 +50,7 @@ require_once __DIR__.'/modules/popup.php';
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_1->headline->text ?></h3>
                         <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_1->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_1->body->text ?></p>
-                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_1->link->src ?>" target="_blank">Read more</a>
+                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_1->link->src ?>" target="_blank">Read more</a>
                     </div>
                 </div>
                 <div class="span__4">
@@ -58,7 +58,7 @@ require_once __DIR__.'/modules/popup.php';
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_2->headline->text ?></h3>
                         <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_2->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_2->body->text ?></p>
-                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_2->link->src ?>" target="_blank">Read more</a>
+                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_2->link->src ?>" target="_blank">Read more</a>
                     </div>
                 </div>
                 <div class="span__4">
@@ -66,7 +66,7 @@ require_once __DIR__.'/modules/popup.php';
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_3->headline->text ?></h3>
                         <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_3->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_3->body->text ?></p>
-                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_3->link->src ?>" target="_blank">Read more</a>
+                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_3->link->src ?>" target="_blank">Read more</a>
                     </div>
                 </div>
                 <div class="span__4">
@@ -74,7 +74,7 @@ require_once __DIR__.'/modules/popup.php';
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_4->headline->text ?></h3>
                         <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_4->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_4->body->text ?></p>
-                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_4->link->src ?>" target="_blank">Read more</a>
+                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_4->link->src ?>" target="_blank">Read more</a>
                     </div>
                 </div>
                 <div class="span__4">
@@ -82,7 +82,7 @@ require_once __DIR__.'/modules/popup.php';
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_5->headline->text ?></h3>
                         <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_5->subheadline->text ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_5->body->text ?></p>
-                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_5->link->src ?>" target="_blank">Read more</a>
+                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_5->link->src ?>" target="_blank">Read more</a>
                     </div>
                 </div>
                 <div class="span__4">
@@ -90,7 +90,7 @@ require_once __DIR__.'/modules/popup.php';
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_6->headline->text; ?></h3>
                         <h4 class="item-subheadline"><?= $jContent->sec_challenges->challenges_facts->fact_6->subheadline->text; ?></h4>
                         <p><?= $jContent->sec_challenges->challenges_facts->fact_6->body->text; ?></p>
-                        <a href="<?= $jContent->sec_challenges->challenges_facts->fact_6->link->src; ?>" target="_blank">Read more</a>
+                        <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_6->link->src; ?>" target="_blank">Read more</a>
                     </div>
                 </div>
             </div>
@@ -107,6 +107,7 @@ require_once __DIR__.'/modules/popup.php';
                             </div>
                         </div>
                         <p class="margin-top-m"><?= $jContent->sec_solutions->subtitle->text ?></p>
+                        <a class="btn btn-text" href="project.php#overview">Read more</a>
                     </div>
                 </div>
                 <div class="span__4 span__8_m">
