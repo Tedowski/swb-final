@@ -3,20 +3,25 @@
 
 $c-background: #fff;
 
-$c-prim: #274E55;
-$c-sec: #C76345; // main cta color
-$c-terc: #F5DA9C;
+$c-prim: #3E9CBB;
+$c-sec: #F59414; // main cta color
+$c-terc: #222222;
 $c-quat: #F6F4EA;
 $c-quin: #765D84; // secondary accent cta color
 
 $c-black: #221716; // body font color
-$c-white: #F6F4EA; // contrast white color
+$c-grey: #F0F0F0;
+$c-white: #fff; // contrast white color
 
 $c-disabled: #7e7e7e;
 
-$c-error: #d81b60;
-$c-success: #43a047;
-$c-warning: #fdd835;
+$c-error: #D55442;
+$c-success: #57C392;
+$c-warning: #EFC84C;
+
+$c-font-grey: #808080;
+$c-font-grey-dark: #555555;
+$c-font-grey-darkest: #4E4E4E;
 
 
 $box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);

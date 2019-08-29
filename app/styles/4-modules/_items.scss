@@ -25,11 +25,33 @@
   }
 }
 
+.item-icon {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+}
+
+#icon-build {
+  fill: $c-error;
+}
+
+#icon-skate {
+  fill: $c-error;
+}
+
+#icon-teach {
+  fill: $c-error;
+}
+
+#icon-culture {
+  fill: $c-error;
+}
+
 //achievements
 // **********************************************
 
 .card-main {
-  padding: 72px;
+  padding: 112px;
   border-radius: $border-radius * 2;
   background-color: lighten($c-white, 8%);
   box-shadow: $box-shadow-l;
@@ -43,6 +65,14 @@
     color: $c-black;
     font-size: 18px;
   }
+}
+
+.slide__profile {
+  margin: 24px;
+  padding: 44px;
+  border-radius: $border-radius;
+  background-color: lighten($c-white, 8%);
+  box-shadow: $box-shadow;
 }
 
 .accomp-wrapper {
@@ -72,8 +102,12 @@
   text-align: center;
   padding: 24px;
   border: 2px solid lighten($c-white, 8%);
-  background-color: lighten($c-prim, 50%);
-  color: $c-prim;
+  background-color: lighten($c-prim, 40%);
+
+  .item-subheadline,
+  p {
+    color: $c-font-grey;
+  }
 
   p {
     font-family: $font-heading-sec;

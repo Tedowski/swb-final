@@ -1,9 +1,14 @@
 .footer {
-  background-color: $c-prim;
+  background-color: $c-terc;
   color: $c-white;
 
   .input-append.btn-block {
     padding: 8px 12px;
+  }
+
+  h5,
+  p {
+    color: $c-white;
   }
 }
 
