@@ -32,6 +32,13 @@ require_once __DIR__.'/../modules/header.php';
 require_once __DIR__.'/../modules/popup.php';
 ?>
 
+<!--<div class="form__input-group">-->
+<!--    <label class="label">label</label>-->
+<!--    <div class="input-wrapper">-->
+<!--        <input class="input" type="number" placeholder="Telephone">-->
+<!--    </div>-->
+<!--</div>-->
+
 <div class="wrapper">
     <form class="form" id="formIndex">
         <section class="section gutter-top-xl gutter-bot-l">
@@ -62,6 +69,7 @@ require_once __DIR__.'/../modules/popup.php';
             <div class="container grid-body margin-top-xl gutter-top-s">
                 <div class="span__4">
                     <div class="gutter-bot-l">
+                        <h4>Challenge 1</h4>
                         <div class="form__input-group gutter-bot-xs">
                             <label class="label" for="">Headline</label>
                             <div class="input-wrapper">
@@ -90,6 +98,7 @@ require_once __DIR__.'/../modules/popup.php';
                 </div>
                 <div class="span__4">
                     <div class="gutter-bot-l">
+                        <h4>Challenge 2</h4>
                         <div class="form__input-group gutter-bot-xs">
                             <label class="label" for="">Headline</label>
                             <div class="input-wrapper">
@@ -118,6 +127,7 @@ require_once __DIR__.'/../modules/popup.php';
                 </div>
                 <div class="span__4">
                     <div class="gutter-bot-l">
+                        <h4>Challenge 3</h4>
                         <div class="form__input-group gutter-bot-xs">
                             <label class="label" for="">Headline</label>
                             <div class="input-wrapper">
@@ -146,6 +156,7 @@ require_once __DIR__.'/../modules/popup.php';
                 </div>
                 <div class="span__4">
                     <div class="gutter-bot-m">
+                        <h4>Challenge 4</h4>
                         <div class="form__input-group gutter-bot-xs">
                             <label class="label" for="">Headline</label>
                             <div class="input-wrapper">
@@ -174,6 +185,7 @@ require_once __DIR__.'/../modules/popup.php';
                 </div>
                 <div class="span__4">
                     <div class="gutter-bot-m">
+                        <h4>Challenge 5</h4>
                         <div class="form__input-group gutter-bot-xs">
                             <label class="label" for="">Headline</label>
                             <div class="input-wrapper">
@@ -202,6 +214,7 @@ require_once __DIR__.'/../modules/popup.php';
                 </div>
                 <div class="span__4">
                     <div class="gutter-bot-m">
+                        <h4>Challenge 6</h4>
                         <div class="form__input-group gutter-bot-xs">
                             <label class="label" for="">Headline</label>
                             <div class="input-wrapper">
@@ -227,6 +240,121 @@ require_once __DIR__.'/../modules/popup.php';
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="section gutter-top-xl gutter-bot-l">
+            <div class="container grid-body">
+                <div class="span__4 span__8_m span__4_l">
+                    <div>
+                        <div>
+                            <h5 class="subtitle">Solutions</h5>
+                            <div class="form__input-group gutter-bot-m">
+                                <div class="input-wrapper">
+                                    <textarea class="textarea title" name="solutionsTitle" id="solutionsTitle"><?= $jContent->sec_solutions->title->text ?></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__input-group gutter-bot-m">
+                            <div class="input-wrapper">
+                                <textarea class="textarea bodytext" name="solutionsSubtitle" id="solutionsSubtitle"><?= $jContent->sec_solutions->subtitle->text ?></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span__4 span__8_m">
+                    <div class="subgrid-2-col">
+                        <div class="span__4">
+                            <div>
+                                <div class="margin-top-s">
+                                    <h4>Solution 1</h4>
+                                    <div class="form__input-group gutter-bot-m">
+                                        <div class="input-wrapper">
+                                            <input class="textarea item-headline" name="solution1Title" id="solution1Title" value="<?= $jContent->sec_solutions->solutions->solution_1->headline->text ?>">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__input-group gutter-bot-m">
+                                    <div class="input-wrapper">
+                                        <textarea class="textarea bodytext" name="solution1Content" id="solution1Content"><?= $jContent->sec_solutions->solutions->solution_1->content->text ?></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span__4">
+                            <div>
+                                <div class="margin-top-s">
+                                    <h4>Solution 2</h4>
+                                    <div class="form__input-group gutter-bot-m">
+                                        <div class="input-wrapper">
+                                            <input class="textarea item-headline" name="solution2Title" id="solution2Title" value="<?= $jContent->sec_solutions->solutions->solution_2->headline->text ?>">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__input-group gutter-bot-m">
+                                    <div class="input-wrapper">
+                                        <textarea class="textarea bodytext" name="solution2Content" id="solution2Content"><?= $jContent->sec_solutions->solutions->solution_2->content->text ?></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span__4">
+                            <div>
+                                <div class="margin-top-s">
+                                    <h4>Solution 3</h4>
+                                    <div class="form__input-group gutter-bot-m">
+                                        <div class="input-wrapper">
+                                            <input class="textarea item-headline" name="solution3Title" id="solution3Title" value="<?= $jContent->sec_solutions->solutions->solution_3->headline->text ?>">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__input-group gutter-bot-m">
+                                    <div class="input-wrapper">
+                                        <textarea class="textarea bodytext" name="solution3Content" id="solution3Content"><?= $jContent->sec_solutions->solutions->solution_3->content->text ?></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span__4">
+                            <div>
+                                <div class="margin-top-s">
+                                    <h4>Solution 4</h4>
+                                    <div class="form__input-group gutter-bot-m">
+                                        <div class="input-wrapper">
+                                            <input class="textarea item-headline" name="solution4Title" id="solution4Title" value="<?= $jContent->sec_solutions->solutions->solution_4->headline->text ?>">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__input-group gutter-bot-m">
+                                    <div class="input-wrapper">
+                                        <textarea class="textarea bodytext" name="solution4Content" id="solution4Content"><?= $jContent->sec_solutions->solutions->solution_4->content->text ?></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section gutter-top-xl gutter-bot-xl">
+            <div class="container grid-body">
+                <div class="span__4 span__6_l">
+                    <div>
+                        <h5 class="subtitle">Partnerships</h5>
+                        <div class="form__input-group gutter-bot-m">
+                            <div class="input-wrapper">
+                                <textarea class="textarea title" name="partnershipsTitle" id="partnershipsTitle"><?= $jContent->sec_partnerships->title->text ?></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__input-group gutter-bot-m">
+                        <div class="input-wrapper">
+                            <textarea class="textarea bodytext" name="partnershipsSubtitle" id="partnershipsSubtitle"><?= $jContent->sec_partnerships->subtitle->text ?></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="span__4 span__6_l justify-end-m-up">
+                    <div class="img">IMG</div>
                 </div>
             </div>
         </section>

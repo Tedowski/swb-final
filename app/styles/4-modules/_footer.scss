@@ -1,0 +1,35 @@
+.footer {
+  background-color: $c-terc;
+  color: $c-white;
+
+  .input-append.btn-block {
+    padding: 8px 12px;
+  }
+
+  h5,
+  p {
+    color: $c-white;
+  }
+}
+
+.footer__item {
+  line-height: calc(1em + 4px);
+
+  h5 {
+    font-size: 25px;
+  }
+
+  .subnav-link:not(:first-of-type) {
+    padding: 4px 0;
+  }
+  .subnav-link:first-of-type {
+    padding-bottom: 4px;
+  }
+
+  .contact-item:not(:first-of-type) {
+    padding: 4px 0;
+  }
+  .contact-item:first-of-type {
+    padding-bottom: 4px;
+  }
+}

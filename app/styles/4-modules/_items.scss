@@ -1,0 +1,129 @@
+//challeneges
+// **********************************************
+
+.item__challenge {
+  padding: 24px;
+  border-radius: $border-radius;
+  background-color: lighten($c-white, 8%);
+  box-shadow: $box-shadow;
+  height: 100%;
+  transition: all .3s ease;
+
+  display: flex;
+  flex-direction: column;
+
+  .item-headline {
+    color: $c-prim;
+  }
+
+  p {
+    flex-grow: 2;
+  }
+
+  &:hover {
+    box-shadow: $box-shadow-l;
+  }
+}
+
+.item-icon {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+}
+
+#icon-build {
+  fill: $c-error;
+}
+
+#icon-skate {
+  fill: $c-error;
+}
+
+#icon-teach {
+  fill: $c-error;
+}
+
+#icon-culture {
+  fill: $c-error;
+}
+
+//achievements
+// **********************************************
+
+.card-main {
+  padding: 112px;
+  border-radius: $border-radius * 2;
+  background-color: lighten($c-white, 8%);
+  box-shadow: $box-shadow-l;
+
+  .title,
+  .item-headline {
+    color: $c-prim;
+  }
+
+  .subtitle {
+    color: $c-black;
+    font-size: 18px;
+  }
+}
+
+.slide__profile {
+  margin: 24px;
+  padding: 44px;
+  border-radius: $border-radius;
+  background-color: lighten($c-white, 8%);
+  box-shadow: $box-shadow;
+}
+
+.accomp-wrapper {
+  position: relative;
+  border-radius: $border-radius;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
+  .accomp-item {
+    flex: 1;
+
+    &:first-child {
+      border-bottom-left-radius: $border-radius;
+      border-top-left-radius: $border-radius;
+    }
+
+    &:last-child {
+      border-bottom-right-radius: $border-radius;
+      border-top-right-radius: $border-radius;
+    }
+  }
+}
+
+.accomp-item {
+  text-align: center;
+  padding: 24px;
+  border: 2px solid lighten($c-white, 8%);
+  background-color: lighten($c-prim, 40%);
+
+  .item-subheadline,
+  p {
+    color: $c-font-grey;
+  }
+
+  p {
+    font-family: $font-heading-sec;
+  }
+}
+
+//sponsors
+// **********************************************
+
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 174px;
+  height: 174px;
+  border-radius: 50%;
+  background-color: lighten($c-white, 8%);
+}

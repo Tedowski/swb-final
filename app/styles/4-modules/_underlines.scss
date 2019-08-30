@@ -1,6 +1,23 @@
 $underline-stroke-width: 2px;
 $underline-border-radius: 2px;
 
+.underline-container {
+  position: relative;
+  display: flex;
+
+  &.undrln__left {
+    justify-content: start;
+  }
+
+  &.undrln__center {
+    justify-content: center;
+  }
+
+  &.undrln__right {
+    justify-content: flex-end;
+  }
+}
+
 .underline-full {
   display: block;
   width: 100%;
@@ -10,10 +27,37 @@ $underline-border-radius: 2px;
 
 .underline-inline {
   display: inline-block;
+  position: absolute;
   height: $underline-stroke-width;
   border-radius: $underline-border-radius;
+
+  // width modifiers
+  &.undrln__xs {
+    width: 24px;
+  }
+
+  &.undrln__s {
+    width: 40px;
+  }
+
+  &.undrln__m {
+    width: 72px;
+  }
+
+  &.undrln__l {
+    width: 112px;
+  }
+
+  &.undrln__xl {
+    width: 174px;
+  }
+
 }
 
 .undrln__prim {
   background-color: $c-prim;
+}
+
+.undrln__sec {
+  background-color: $c-sec;
 }

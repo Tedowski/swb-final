@@ -8,3 +8,5 @@
 // @codekit-append functionBlocks/editBlogPost.js
 // @codekit-append functionBlocks/addBlogPost.js
 // @codekit-append functionBlocks/blog.js
+// @codekit-append functionBlocks/headerControl.js
+// @codekit-append functionBlocks/carousel.jss

@@ -12,11 +12,12 @@
 }
 
 .hero {
-  background-color: $c-terc;
+  padding-top: 174px;
+  background-color: lighten($c-sec, 24%);
 }
 
 .hero__landing {
-  @include hero-height(calc(100vh - 144px), calc(100vh - 144px), calc(100vh - 144px));
+  @include hero-height(calc(100vh - 44px), calc(100vh - 72px), calc(100vh - 72px));
 
   max-height: 850px;
 }

@@ -1,37 +1,117 @@
+body {
+  font-family: $font-body;
+  font-size: $font-size;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 600;
-  line-height: 1em;
+  font-family: $font-heading-main;
+  color: $c-font-grey-darkest;
+  line-height: calc(1em + 4px);
   margin-bottom: calc(1em - 8px);
 }
 
+.heading__italic {
+  font-family: $font-heading-terc;
+}
+
+// top level heading
 .heading {
   margin-top: 1em;
   font-size: 73px;
+
+  @media (min-width: $bkp-small) {
+    font-size: 73px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    font-size: 73px;
+  }
+
+  @media (min-width: $bkp-large) {
+    font-size: 73px;
+  }
 }
 
+// second level title
 .title {
   font-size: 44px;
+  margin-bottom: calc(1em - 16px);
+
+  @media (min-width: $bkp-small) {
+    font-size: 44px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    font-size: 44px;
+  }
+
+  @media (min-width: $bkp-large) {
+    font-size: 44px;
+  }
 }
 
+// second level subtitle
 .subtitle {
   font-size: 25px;
-  color: $c-quin;
+  font-family: $font-heading-sec;
+  color: $c-prim;
+
+  @media (min-width: $bkp-small) {
+    font-size: 25px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    font-size: 25px;
+  }
+
+  @media (min-width: $bkp-large) {
+    font-size: 25px;
+  }
 }
 
+
+// item headings
 .item-headline {
+  color: $c-font-grey-dark;
   font-size: 33px;
+
+  @media (min-width: $bkp-small) {
+    font-size: 33px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    font-size: 33px;
+  }
+
+  @media (min-width: $bkp-large) {
+    font-size: 33px;
+  }
 }
 
 .item-subheadline {
+  color: $c-font-grey-dark;
   font-size: 25px;
+
+  @media (min-width: $bkp-small) {
+    font-size: 25px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    font-size: 25px;
+  }
+
+  @media (min-width: $bkp-large) {
+    font-size: 25px;
+  }
 }
 
 p {
+  color: $c-font-grey;
   line-height: calc(1em + 4px);
   margin-bottom: 1em;
 

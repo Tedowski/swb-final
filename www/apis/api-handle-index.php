@@ -3,6 +3,8 @@
 // handle input
 // ****************************************************************************************************
 
+// challenges
+
 $challengesTitle = $_POST['challengesTitle'];
 $challengesSubtitle = $_POST['challengesSubtitle'];
 
@@ -37,6 +39,36 @@ $fact6SubHeadline = $_POST['fact6SubHeadline'];
 $fact6Body = $_POST['fact6Body'];
 $fact6Link = $_POST['fact6Link'];
 
+
+// solutions
+
+$solutionsTitle = $_POST['solutionsTitle'];
+
+$solutionsSubtitle = $_POST['solutionsSubtitle'];
+
+
+$solution1Title = $_POST['solution1Title'];
+$solution1Content = $_POST['solution1Content'];
+
+
+$solution2Title = $_POST['solution2Title'];
+$solution2Content = $_POST['solution2Content'];
+
+
+$solution3Title = $_POST['solution3Title'];
+$solution3Content = $_POST['solution3Content'];
+
+
+$solution4Title = $_POST['solution4Title'];
+$solution4Content = $_POST['solution4Content'];
+
+
+// partnerships
+
+$partnershipsTitle = $_POST['partnershipsTitle'];
+
+$partnershipsSubtitle = $_POST['partnershipsSubtitle'];
+
 // get database
 // ****************************************************************************************************
 
@@ -50,12 +82,13 @@ $jContent = $jData->index;
 // insert new data
 // ****************************************************************************************************
 
-// insert title and subtitle
+// insert challenges title and subtitle
+
 $jContent->sec_challenges->title->text = $challengesTitle;
 
 $jContent->sec_challenges->subtitle->text;
 
-// insert facts
+// insert challenges facts
 
 // fact 1
 
@@ -98,6 +131,39 @@ $jContent->sec_challenges->challenges_facts->fact_6->headline->text = $fact6Head
 $jContent->sec_challenges->challenges_facts->fact_6->subheadline->text = $fact6SubHeadline;
 $jContent->sec_challenges->challenges_facts->fact_6->body->text = $fact6Body;
 $jContent->sec_challenges->challenges_facts->fact_6->link->src = $fact6Link;
+
+// insert solutions
+
+$jContent->sec_solutions->title->text = $solutionsTitle;
+
+$jContent->sec_solutions->subtitle->text = $solutionsSubtitle;
+
+
+// solution 1
+
+$jContent->sec_solutions->solutions->solution_1->headline->text = $solution1Title;
+$jContent->sec_solutions->solutions->solution_1->content->text = $solution1Content;
+
+// solution 2
+
+$jContent->sec_solutions->solutions->solution_2->headline->text = $solution2Title;
+$jContent->sec_solutions->solutions->solution_2->content->text = $solution2Content;
+
+// solution 3
+
+$jContent->sec_solutions->solutions->solution_3->headline->text = $solution3Title;
+$jContent->sec_solutions->solutions->solution_3->content->text = $solution3Content;
+
+// solution 4
+
+$jContent->sec_solutions->solutions->solution_4->headline->text = $solution4Title;
+$jContent->sec_solutions->solutions->solution_4->content->text = $solution4Content;
+
+// insert partnerships
+
+$jContent->sec_partnerships->title->text = $partnershipsTitle;
+
+$jContent->sec_partnerships->subtitle->text = $solutionsSubtitle;
 
 
 // write back to the database
