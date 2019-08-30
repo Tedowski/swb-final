@@ -1,69 +1,80 @@
 {
-  "posts": {
-    "5d5d061f9e6f3": {
-      "timestamp": "1550218298",
-      "title": {
-        "text": "We are making skateboard decks with our own design"
-      },
-      "subtitle": {
-        "text": "It was about the beginning of February when I walked into the office of Ambassadors and met the manager to present our project and see if we can come up with any kind of cooperation. Many of my friends are either sponsored by AMB, work for them as photographers or simply know the owners, so it was rather easy for me to arrange this meeting. Prague is very small after all, so the skate scene just knows each other quite well."
-      },
-      "content": {
-        "text": "We sat down in the office and talked about Mozambique, about our academic interest behind the project and about the role of skateboarding. Ambassadors is a long established board company operating in Czech Republic, so they very much understood what is skateboarding capable of. We had this really nice chat and I forgot for a minute that we actually met to make a deal, because it simply seemed as if we just chatted as old friends. Maybe an hour has passed and we went through the reasons of this project, the design of the board, the sizes, shapes and quantity. Jan, who is the manager, asked me to send him a document explaining what is at stake for AMB? I did that, they liked and we shook hands later on. They became official sponsors of our project and will sponsor us with some boards and clothes that we will be able to bring to Mozambique for the kids.<br><br>Thank you Ambassadors, we are looking forward to painting your logo in the skatepark.<br><br>Martin<br><br> Skate World Better"
-      },
-      "media": {
-        "type": "img",
-        "src": "path/to/media"
-      }
-    },
-    "5d5d0630ad1cb": {
-      "timestamp": "1551082298",
-      "title": {
-        "text": "We went to Hamburg to meet our partners"
-      },
-      "subtitle": {
-        "text": "It was about the beginning of February when I walked into the office of Ambassadors and met the manager to present our project and see if we can come up with any kind of cooperation. Many of my friends are either sponsored by AMB, work for them as photographers or simply know the owners, so it was rather easy for me to arrange this meeting. Prague is very small after all, so the skate scene just knows each other quite well."
-      },
-      "content": {
-        "text": "We sat down in the office and talked about Mozambique, about our academic interest behind the project and about the role of skateboarding. Ambassadors is a long established board company operating in Czech Republic, so they very much understood what is skateboarding capable of. We had this really nice chat and I forgot for a minute that we actually met to make a deal, because it simply seemed as if we just chatted as old friends. Maybe an hour has passed and we went through the reasons of this project, the design of the board, the sizes, shapes and quantity. Jan, who is the manager, asked me to send him a document explaining what is at stake for AMB? I did that, they liked and we shook hands later on. They became official sponsors of our project and will sponsor us with some boards and clothes that we will be able to bring to Mozambique for the kids.<br><br>Thank you Ambassadors, we are looking forward to painting your logo in the skatepark.<br><br>Martin<br><br> Skate World Better"
-      },
-      "media": {
-        "type": "img",
-        "src": "path/to/media"
-      }
-    },
-    "5d5d063880475": {
-      "timestamp": "1552637498",
-      "title": {
-        "text": "How we met people who build our website"
-      },
-      "subtitle": {
-        "text": "It was about the beginning of February when I walked into the office of Ambassadors and met the manager to present our project and see if we can come up with any kind of cooperation. Many of my friends are either sponsored by AMB, work for them as photographers or simply know the owners, so it was rather easy for me to arrange this meeting. Prague is very small after all, so the skate scene just knows each other quite well."
-      },
-      "content": {
-        "text": "We sat down in the office and talked about Mozambique, about our academic interest behind the project and about the role of skateboarding. Ambassadors is a long established board company operating in Czech Republic, so they very much understood what is skateboarding capable of. We had this really nice chat and I forgot for a minute that we actually met to make a deal, because it simply seemed as if we just chatted as old friends. Maybe an hour has passed and we went through the reasons of this project, the design of the board, the sizes, shapes and quantity. Jan, who is the manager, asked me to send him a document explaining what is at stake for AMB? I did that, they liked and we shook hands later on. They became official sponsors of our project and will sponsor us with some boards and clothes that we will be able to bring to Mozambique for the kids.<br><br>Thank you Ambassadors, we are looking forward to painting your logo in the skatepark.<br><br>Martin<br><br> Skate World Better"
-      },
-      "media": {
-        "type": "img",
-        "src": "path/to/media"
-      }
-    },
-    "5d5d06424b778": {
-      "timestamp": "1555143098",
-      "title": {
-        "text": "How Martin went to Prague"
-      },
-      "subtitle": {
-        "text": "It was about the beginning of February when I walked into the office of Ambassadors and met the manager to present our project and see if we can come up with any kind of cooperation. Many of my friends are either sponsored by AMB, work for them as photographers or simply know the owners, so it was rather easy for me to arrange this meeting. Prague is very small after all, so the skate scene just knows each other quite well."
-      },
-      "content": {
-        "text": "We sat down in the office and talked about Mozambique, about our academic interest behind the project and about the role of skateboarding. Ambassadors is a long established board company operating in Czech Republic, so they very much understood what is skateboarding capable of. We had this really nice chat and I forgot for a minute that we actually met to make a deal, because it simply seemed as if we just chatted as old friends. Maybe an hour has passed and we went through the reasons of this project, the design of the board, the sizes, shapes and quantity. Jan, who is the manager, asked me to send him a document explaining what is at stake for AMB? I did that, they liked and we shook hands later on. They became official sponsors of our project and will sponsor us with some boards and clothes that we will be able to bring to Mozambique for the kids.<br><br>Thank you Ambassadors, we are looking forward to painting your logo in the skatepark.<br><br>Martin<br><br> Skate World Better"
-      },
-      "media": {
-        "type": "img",
-        "src": "path/to/media"
-      }
+    "posts": {
+        "5d5d061f9e6f3": {
+            "timestamp": "1550218298",
+            "title": {
+                "text": "We are making skateboard decks with our own design "
+            },
+            "subtitle": {
+                "text": "It was about the beginning of February when I walked into the office of Ambassadors and met the manager to present our project and see if we can come up with any kind of cooperation. Many of my friends are either sponsored by AMB, work for them as photographers or simply know the owners, so it was rather easy for me to arrange this meeting. Prague is very small after all, so the skate scene just knows each other quite well.                                                                "
+            },
+            "content": {
+                "text": "We sat down in the office and talked about Mozambique, about our academic interest behind the project and about the role of skateboarding. Ambassadors is a long established board company operating in Czech Republic, so they very much understood what is skateboarding capable of. We had this really nice chat and I forgot for a minute that we actually met to make a deal, because it simply seemed as if we just chatted as old friends. Maybe an hour has passed and we went through the reasons of this project, the design of the board, the sizes, shapes and quantity. Jan, who is the manager, asked me to send him a document explaining what is at stake for AMB? I did that, they liked and we shook hands later on. They became official sponsors of our project and will sponsor us with some boards and clothes that we will be able to bring to Mozambique for the kids.<br><br>Thank you Ambassadors, we are looking forward to painting your logo in the skatepark.<br><br>Martin<br><br> Skate World Better                                                                "
+            },
+            "media": {
+                "type": "img",
+                "src": "path\/to\/media"
+            }
+        },
+        "5d5d0630ad1cb": {
+            "timestamp": "1551082298",
+            "title": {
+                "text": "We went to Hamburg to meet our partners "
+            },
+            "subtitle": {
+                "text": "It was about the beginning of February when I walked into the office of Ambassadors and met the manager to present our project and see if we can come up with any kind of cooperation. Many of my friends are either sponsored by AMB, work for them as photographers or simply know the owners, so it was rather easy for me to arrange this meeting. Prague is very small after all, so the skate scene just knows each other quite well.                                                                "
+            },
+            "content": {
+                "text": "We sat down in the office and talked about Mozambique, about our academic interest behind the project and about the role of skateboarding. Ambassadors is a long established board company operating in Czech Republic, so they very much understood what is skateboarding capable of. We had this really nice chat and I forgot for a minute that we actually met to make a deal, because it simply seemed as if we just chatted as old friends. Maybe an hour has passed and we went through the reasons of this project, the design of the board, the sizes, shapes and quantity. Jan, who is the manager, asked me to send him a document explaining what is at stake for AMB? I did that, they liked and we shook hands later on. They became official sponsors of our project and will sponsor us with some boards and clothes that we will be able to bring to Mozambique for the kids.<br><br>Thank you Ambassadors, we are looking forward to painting your logo in the skatepark.<br><br>Martin<br><br> Skate World Better                                                                "
+            },
+            "media": {
+                "type": "img",
+                "src": "path\/to\/media"
+            }
+        },
+        "5d5d063880475": {
+            "timestamp": "1552637498",
+            "title": {
+                "text": "How we met people who build our website"
+            },
+            "subtitle": {
+                "text": "One day in a bar I was talking with a guy I just met and I told him about a project we were planning. He told me many times that it is pretty nice and than he wishes us luck, but that was pretty much it.    "
+            },
+            "content": {
+                "text": "Later that week he calls me and opens the conversation with a line 'I have a brilliant idea, let's do something together, you guys need to have a web page and we need to do one with my friends to get our degree'. You can guess what my answer was.<br><br>Few days later I met Tadea\u0301s\u030c, Vi\u0301tek and Adam, two Czech guys and one Slovakian studying in Copenhagen, for the first time in their school and from that moment on would be meeting on regular basis. It was a whole lot of work, but also a great fun just meeting at my place, drinking beer and trying out our options. They stand behind these pages and I really think they did a pretty good job. Thanks so much guys and see you in Mozambique!<br><br>Martin<br><br> Skate World Better                                "
+            },
+            "media": {
+                "type": "img",
+                "src": "path\/to\/media"
+            }
+        },
+        "5d5d06424b778": {
+            "timestamp": "1555143098",
+            "title": {
+                "text": "How Martin went to Prague"
+            },
+            "subtitle": {
+                "text": "It was about the beginning of February when I walked into the office of Ambassadors and met the manager to present our project and see if we can come up with any kind of cooperation. Many of my friends are either sponsored by AMB, work for them as photographers or simply know the owners, so it was rather easy for me to arrange this meeting. Prague is very small after all, so the skate scene just knows each other quite well."
+            },
+            "content": {
+                "text": "We sat down in the office and talked about Mozambique, about our academic interest behind the project and about the role of skateboarding. Ambassadors is a long established board company operating in Czech Republic, so they very much understood what is skateboarding capable of. We had this really nice chat and I forgot for a minute that we actually met to make a deal, because it simply seemed as if we just chatted as old friends. Maybe an hour has passed and we went through the reasons of this project, the design of the board, the sizes, shapes and quantity. Jan, who is the manager, asked me to send him a document explaining what is at stake for AMB? I did that, they liked and we shook hands later on. They became official sponsors of our project and will sponsor us with some boards and clothes that we will be able to bring to Mozambique for the kids.<br><br>Thank you Ambassadors, we are looking forward to painting your logo in the skatepark.<br><br>Martin<br><br> Skate World Better"
+            },
+            "media": {
+                "type": "img",
+                "src": "path\/to\/media"
+            }
+        },
+        "5d690f4f81722": {
+            "timestamp": 1567166287,
+            "title": {
+                "text": "test"
+            },
+            "subtitle": {
+                "text": "test"
+            },
+            "content": {
+                "text": "test"
+            }
+        }
     }
-
-  }
 }

@@ -12,8 +12,6 @@ $jData = json_decode($sData);
 $jPosts = $jData->posts;
 
 
-require_once __DIR__.'/../modules/header-admin.php';
-require_once __DIR__.'/../modules/popup.php';
 ?>
 
 <!DOCTYPE html>
@@ -28,6 +26,12 @@ require_once __DIR__.'/../modules/popup.php';
     <title>Document</title>
 </head>
 <body class="body">
+
+<?php
+
+require_once __DIR__.'/../modules/header-admin.php';
+require_once __DIR__.'/../modules/popup.php';
+?>
 
 
 <div class="wrapper">
@@ -48,7 +52,7 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group">
                             <label class="label">Blog post subtitle:</label>
                             <div class="input-wrapper">
-                                <textarea placeholder="e.g. This is subtitle for blog post" class="input" name="blog-subtitle"></textarea>
+                                <textarea placeholder="e.g. This is subtitle for blog post" class="textarea input" name="blog-subtitle"></textarea>
                             </div>
                         </div>
                     </div>
@@ -56,12 +60,25 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group">
                             <label class="label">Blog post content:</label>
                             <div class="input-wrapper">
-                                <textarea placeholder="e.g. This is content for blog post" class="input" name="blog-content"></textarea>
+                                <textarea placeholder="e.g. This is content for blog post" class="textarea input" name="blog-content"></textarea>
                             </div>
                         </div>
                     </div>
+                    <div class="span__2">
+                        <div class="form__input-group">
+                            <label class="label">Blog image:</label>
+                            <div class="input-wrapper">
+                                <input class="input" type="file" name="fileToUpload" id="fileToUpload">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span__2">
+                        <div class="form__input-group">
+                            <img id="preview" src="#" alt="Your image to upload" />
+                        </div>
+                    </div>
                     <div class="span__1 margin-top-m">
-                        <button class="btn btn-prim btn-block">Create new blog post</button>
+                        <input class="btn btn-prim btn-block" type="submit" name="submit" value="Create new blog post">
                     </div>
                 </form>
             </div>

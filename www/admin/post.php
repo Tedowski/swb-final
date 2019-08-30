@@ -12,9 +12,6 @@ $jData = json_decode($sData);
 $jPosts = $jData->posts;
 
 
-require_once __DIR__.'/../modules/header-admin.php';
-require_once __DIR__.'/../modules/popup.php';
-
 $sBlogPostId = $_GET['id'];
 
 $jPost = $jPosts->$sBlogPostId;
@@ -35,11 +32,32 @@ $jPost = $jPosts->$sBlogPostId;
 <body class="body">
 
 
+<?php
+
+require_once __DIR__.'/../modules/header-admin.php';
+require_once __DIR__.'/../modules/popup.php';
+?>
+
 <div class="wrapper">
     <section class="section gutter-top-xl gutter-top-xl">
         <div class="container">
-            <div class="form-container">
+            <div class="grid-body">
+                <div class="span__2_l">
+                    <a href="blog.php" class="btn btn-prim btn-block">Go back to posts</a>
+                </div>
+            </div>
+
+            <div class="form-container margin-top-s">
                 <form id="frm-edit-blog" class="form form_main form_card">
+                    <div class="span__2">
+                        <div class="form__input-group">
+                            <label class="label">Blog post id:</label>
+                            <div class="input-wrapper">
+                                <input class="input" type="text" name="blog-id" placeholder="e.g. Blog post id" value="<?= $sBlogPostId ?>" >
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="span__2">
                         <div class="form__input-group">
                             <label class="label">Blog post title:</label>
