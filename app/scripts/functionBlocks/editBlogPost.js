@@ -1,7 +1,7 @@
 $( ".remove-blog-post" ).each(function(  ) {
     $(this).click(function () {
         let sBlogId = this.id;
-        //console.log(this.id);
+        console.log(this.id);
         $.ajax({
             method: "GET",
             url: "../apis/api-remove-blog-post.php",

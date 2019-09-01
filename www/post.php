@@ -26,6 +26,7 @@ require_once __DIR__.'/modules/popup.php';
                         <p><?= date('d/m/Y',$jPost->timestamp ) ?></p>
                         <p><?= $jPost->subtitle->text ?></p>
                         <p><?= $jPost->content->text ?></p>
+                        <a href="blog"> « Go back to blog posts</a>
                     </div>
                 </div>
             </div>

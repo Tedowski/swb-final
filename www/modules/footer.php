@@ -46,9 +46,9 @@
         <div class="span__4 span__3_l">
             <div class="footer__item">
                 <h5>Get updates about the cause</h5>
-                <form class="form">
+                <form id="frm-newsletter" class="form">
                     <div class="input-wrapper">
-                        <input class="input" type="text" placeholder="Your E-mail">
+                        <input class="input" type="text" name="subscriber-email" placeholder="Your E-mail">
                         <button class="btn btn-prim btn-block input-append">Sign up</button>
                     </div>
                 </form>

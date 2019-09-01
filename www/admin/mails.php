@@ -9,6 +9,8 @@ if( !isset($_SESSION['sUser']) ) {
 
 require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
+
+
 ?>
 
 <!DOCTYPE html>
@@ -27,7 +29,31 @@ require_once __DIR__.'/../modules/popup.php';
 
 <div class="wrapper">
     <section class="section gutter-top-xl gutter-bot-xl">
-        <div class="container grid-body">
+        <div class="container">
+            <div class="form-container">
+                <form id="frm-send-newsletter" class="form form_main form_card">
+                    <div class="span__2">
+                        <div class="form__input-group">
+                            <label class="label">Newsletter subject:</label>
+                            <div class="input-wrapper">
+                                <input class="input" type="text" name="newsletter-subject" placeholder="e.g. This is subject of newsletter e-mail">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span__2">
+                        <div class="form__input-group">
+                            <label class="label">Newsletter content:</label>
+                            <div class="input-wrapper">
+                                <textarea class="textarea input" name="newsletter-content" placeholder="e.g. This is content for newsletter e-mail"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span__1 margin-top-m">
+                        <button class="btn btn-prim btn-block" > Send newsletter</button>
+                    </div>
+                </form>
+            </div>
+
 
         </div>
     </section>

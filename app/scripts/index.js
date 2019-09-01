@@ -9,4 +9,6 @@
 // @codekit-append functionBlocks/addBlogPost.js
 // @codekit-append functionBlocks/blog.js
 // @codekit-append functionBlocks/headerControl.js
-// @codekit-append functionBlocks/carousel.jss
+// @codekit-append functionBlocks/carousel.js
+// @codekit-append functionBlocks/handleSubscribers.js
+// @codekit-append functionBlocks/sendNewsletter.js
