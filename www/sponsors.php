@@ -12,7 +12,7 @@ require_once __DIR__.'/modules/popup.php';
 ?>
 
 <div class="wrapper">
-    <section class="hero hero__subpage section">
+    <section class="hero hero__subpage section sponsors">
         <div class="container grid-body">
             <div class="span__full text-centered">
                 <h1 class="heading">Sponsors</h1>

@@ -12,3 +12,16 @@
   height: 100%;
   border: 0;
 }
+
+.img-circ {
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.circ-l {
+    width: 112px;
+    height: 112px;
+  }
+}

@@ -40,7 +40,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
                 <div class="span__4 span__6_l s-first justify-center-s justify-end-m-up">
                     <div class="img">
-                        <img src="./images/<?= $jContent->sec_challenges->img->src ?>" alt="">
+                        <img src="./images/Mozambique_map.png" alt="mozambique">
                     </div>
                 </div>
             </div>
@@ -320,54 +320,56 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                     <p class="margin-top-m"><?= $jContent->sec_partnerships->subtitle->text ?></p>
                 </div>
-                <div class="span__4 span__6_l justify-end-m-up">
-                    <div class="img">IMG</div>
+                <div class="span__4 span__6_l justify-center-s justify-end-m-up">
+                    <div class="img">
+                        <img src="./images/partnerships-cover.JPG" alt="partnerships">
+                    </div>
                 </div>
             </div>
             <div class="container grid-body justify-items-center margin-top-xl gutter-top-s">
                 <div class="span__4 gutter-bot-m">
-                    <a href="#" class="sponsor img">
-                        Sponsor
+                    <a href="https://www.instagram.com/yakokarlik/" class="sponsor img" target="_blank">
+                        <img src="./images/logo_switch.png" alt="switch">
                     </a>
                 </div>
                 <div class="span__4 gutter-bot-m">
-                    <a href="#" class="sponsor img">
-                        Sponsor
+                    <a href="https://www.skate-aid.org/" class="sponsor img" target="_blank">
+                        <img src="./images/logo_skate_aid.png" alt="skate-aid">
                     </a>
                 </div>
                 <div class="span__4 gutter-bot-m">
-                    <a href="#" class="sponsor img">
-                        Sponsor
+                    <a href="https://www.facebook.com/MOZAMBIQUESKATEBOARDING/" class="sponsor img" target="_blank">
+                        <img src="./images/logo_asm.jpg" alt="asm">
                     </a>
                 </div>
                 <div class="span__4 gutter-bot-m">
-                    <a href="#" class="sponsor img">
-                        Sponsor
+                    <a href="https://www.instagram.com/jazz_skateco/" class="sponsor img" target="_blank">
+                        <img src="./images/logo_jazz.png" alt="jazz">
                     </a>
                 </div>
                 <div class="span__4 gutter-bot-m">
-                    <a href="#" class="sponsor img">
-                        Sponsor
+                    <a href="https://www.facebook.com/UnicornUnicron4/" class="sponsor img" target="_blank">
+                        <img src="./images/logo_uu.png" alt="unicornUnicorn">
                     </a>
                 </div>
                 <div class="span__4 gutter-bot-m">
-                    <a href="#" class="sponsor img">
-                        Sponsor
+                    <a href="https://www.ambassadors.eu/" class="sponsor img" target="_blank">
+                        <img src="./images/logo_amb.png" alt="ambassadors">
                     </a>
                 </div>
                 <div class="span__4 gutter-bot-m">
-                    <a href="#" class="sponsor img">
-                        Sponsor
+                    <a href="https://www.facebook.com/maputoskateboarding/?ref=br_rs" class="sponsor img" target="_blank">
+                        <img src="./images/logo_mask.png" alt="maputo_skate">
                     </a>
                 </div>
                 <div class="span__4 gutter-bot-m">
-                    <a href="#" class="sponsor img">
-                        Sponsor
+                    <a href="http://www.oneloveskatemag.com/" class="sponsor img" target="_blank">
+                        <img src="./images/logo_one_love.png" alt="one_love">
                     </a>
                 </div>
                 <div class="span__4 gutter-bot-m">
-                    <a href="#" class="sponsor img">
-                        Sponsor
+                    <a href="https://www.instagram.com/wondersaroundtheworldorg/" class="sponsor img" target="_blank">
+                        <img src="./images/logo_wonders.png" alt="wonders">
                     </a>
                 </div>
             </div>

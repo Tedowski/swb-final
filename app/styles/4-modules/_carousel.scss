@@ -55,3 +55,17 @@
 }
 
 // slider styles
+
+.slide__profile {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+
+  @media (min-width: $bkp-small) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  & .item-subheadline {
+    color: $c-prim;
+  }
+}

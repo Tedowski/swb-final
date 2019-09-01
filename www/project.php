@@ -12,7 +12,7 @@ require_once __DIR__.'/modules/popup.php';
 ?>
 
 <div class="wrapper">
-    <section class="hero hero__subpage section">
+    <section class="hero hero__subpage section project">
         <div class="container grid-body">
             <div class="span__full text-centered">
                 <h1 class="heading">Project</h1>
@@ -34,9 +34,14 @@ require_once __DIR__.'/modules/popup.php';
                         <p class="margin-top-m"><?= $jContent->sec_overview->subtitle->text ?></p>
                     </div>
                 </div>
+                <div class="span__4 span__6_l s-first justify-center-s justify-end-m-up">
+                    <div class="img">
+                        <img src="./images/Mozambique_map.png" alt="mozambique">
+                    </div>
+                </div>
             </div>
             <div class="container grid-body margin-top-xl gutter-top-m">
-                <div class="span__full">
+                <div class="span__full gutter-bot-m">
                     <div class="text-centered">
                         <h3 class="title">Skateboarding, events and education</h3>
                         <div class="underline-container undrln__center">
@@ -46,22 +51,28 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
                 <div class="span__4">
                     <div>
-                        <div class="img"></div>
-                        <h4 class="item-headline"><?= $jContent->sec_overview->content->item_1->heading->text ?></h4>
+                        <div class="img">
+                            <img src="./images/project_skateboarding.jpg" alt="skateboarding_tool">
+                        </div>
+                        <h4 class="item-headline margin-top-s"><?= $jContent->sec_overview->content->item_1->heading->text ?></h4>
                         <p><?= $jContent->sec_overview->content->item_1->body->text ?></p>
                     </div>
                 </div>
                 <div class="span__4">
                     <div>
-                        <div class="img"></div>
-                        <h4 class="item-headline"><?= $jContent->sec_overview->content->item_2->heading->text ?></h4>
+                        <div class="img">
+                            <img src="./images/project_events.jpg" alt="events">
+                        </div>
+                        <h4 class="item-headline margin-top-s"><?= $jContent->sec_overview->content->item_2->heading->text ?></h4>
                         <p><?= $jContent->sec_overview->content->item_2->body->text ?></p>
                     </div>
                 </div>
                 <div class="span__4 span__8_m span__4_l">
                     <div>
-                        <div class="img"></div>
-                        <h4 class="item-headline"><?= $jContent->sec_overview->content->item_3->heading->text ?></h4>
+                        <div class="img">
+                            <img src="./images/learning_through_play.png" alt="learning_play">
+                        </div>
+                        <h4 class="item-headline margin-top-s"><?= $jContent->sec_overview->content->item_3->heading->text ?></h4>
                         <p><?= $jContent->sec_overview->content->item_3->body->text ?></p>
                     </div>
                 </div>
@@ -80,14 +91,18 @@ require_once __DIR__.'/modules/popup.php';
                     <p class="margin-top-m"><?= $jContent->sec_research->subtitle->text ?></p>
                 </div>
                 <div class="span__4 span__6_l justify-end-m-up">
-                    <div class="img">IMG</div>
+                    <div class="img">
+                        <img src="./images/index_sponsors.JPG" alt="research">
+                    </div>
                 </div>
             </div>
             <div class="container grid-body margin-top-xl">
                 <div class="span__4">
                     <div>
-                        <div class="img">MEMBER IMG</div>
-                        <h4 class="item-headline margin-top-m"><?= $jContent->sec_research->research_team->memeber_1->name->text ?></h4>
+                        <div class="img img-circ circ-l">
+                            <img src="./images/our_team_tomas.jpg" alt="tomas">
+                        </div>
+                        <h4 class="item-headline margin-top-s"><?= $jContent->sec_research->research_team->memeber_1->name->text ?></h4>
                         <div class="underline-container undrln__left">
                             <div class="undrln__prim underline-inline undrln__s"></div>
                         </div>
@@ -96,8 +111,10 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
                 <div class="span__4">
                     <div>
-                        <div class="img">MEMBER IMG</div>
-                        <h4 class="item-headline margin-top-m"><?= $jContent->sec_research->research_team->memeber_2->name->text ?></h4>
+                        <div class="img img-circ circ-l">
+                            <img src="./images/martin-project.jpg" alt="martin">
+                        </div>
+                        <h4 class="item-headline margin-top-s"><?= $jContent->sec_research->research_team->memeber_2->name->text ?></h4>
                         <div class="underline-container undrln__left">
                             <div class="undrln__prim underline-inline undrln__s"></div>
                         </div>
@@ -106,8 +123,10 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
                 <div class="span__4 span__8_m span__4_l">
                     <div>
-                        <div class="img">MEMBER IMG</div>
-                        <h4 class="item-headline margin-top-m"><?= $jContent->sec_research->research_team->memeber_3->name->text ?></h4>
+                        <div class="img img-circ circ-l">
+                            <img src="./images/our_team_brendan_test.png" alt="brendan">
+                        </div>
+                        <h4 class="item-headline margin-top-s"><?= $jContent->sec_research->research_team->memeber_3->name->text ?></h4>
                         <div class="underline-container undrln__left">
                             <div class="undrln__prim underline-inline undrln__s"></div>
                         </div>
@@ -133,18 +152,18 @@ require_once __DIR__.'/modules/popup.php';
                     <div class="carousel-container">
                         <div class="carousel-slider">
                             <div class="carousel-slide">
-                                <div class="slide__image">
-                                    <h2>Image 1</h2>
+                                <div class="slide__image img">
+                                    <img src="./images/project_design.png" alt="design">
                                 </div>
                             </div>
                             <div class="carousel-slide">
-                                <div class="slide__image">
-                                    <h2>Image 2</h2>
+                                <div class="slide__image img">
+                                    <img src="./images/project_design.png" alt="design">
                                 </div>
                             </div>
                             <div class="carousel-slide">
-                                <div class="slide__image">
-                                    <h2>Image 3</h2>
+                                <div class="slide__image img">
+                                    <img src="./images/project_design.png" alt="design">
                                 </div>
                             </div>
                         </div>

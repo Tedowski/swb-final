@@ -14,14 +14,37 @@
 .hero {
   padding-top: 174px;
   background-color: lighten($c-sec, 24%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero__landing {
   @include hero-height(calc(100vh - 44px), calc(100vh - 72px), calc(100vh - 72px));
 
   max-height: 850px;
+  background-image: url("./../images/hero.png");
 }
 
 .hero__subpage {
-  @include hero-height(50vh, 50vh, 50vh);
+  padding-bottom: 72px;
+  h1 {
+    color: $c-white;
+    font-family: $font-heading-terc;
+  }
+
+  &.project {
+    background-image: url("./../images/project_header_bg.jpeg");
+  }
+
+  &.about {
+    background-position: top;
+    background-image: url("./../images/about-hero.JPG");
+  }
+
+  &.sponsors {
+    background-image: url("./../images/about_header_bg.png");
+  }
+
+
 }

@@ -23,22 +23,28 @@ $jAchievements = $jDataAchievements->achievements;
         </div>
         <div class="span__4">
             <div>
-                <div class="img"></div>
-                <h4 class="item-subheadline"><?= $jAchievements->achievements->achievement_1->heading->text ?></h4>
+                <div class="img">
+                    <img src="./images/achievements_material_assets.jpeg" alt="material_assets">
+                </div>
+                <h4 class="item-subheadline margin-top-s"><?= $jAchievements->achievements->achievement_1->heading->text ?></h4>
                 <p><?= $jAchievements->achievements->achievement_1->content->text ?></p>
             </div>
         </div>
         <div class="span__4">
             <div>
-                <div class="img"></div>
-                <h4 class="item-subheadline"><?= $jAchievements->achievements->achievement_2->heading->text ?></h4>
+                <div class="img">
+                    <img src="./images/achievements_land.JPG" alt="land">
+                </div>
+                <h4 class="item-subheadline margin-top-s"><?= $jAchievements->achievements->achievement_2->heading->text ?></h4>
                 <p><?= $jAchievements->achievements->achievement_2->content->text ?></p>
             </div>
         </div>
         <div class="span__4 span__8_m span__4_l">
             <div>
-                <div class="img"></div>
-                <h4 class="item-subheadline"><?= $jAchievements->achievements->achievement_3->heading->text ?></h4>
+                <div class="img">
+                    <img src="./images/achivements_boards.JPG" alt="boards">
+                </div>
+                <h4 class="item-subheadline margin-top-s"><?= $jAchievements->achievements->achievement_3->heading->text ?></h4>
                 <p><?= $jAchievements->achievements->achievement_3->content->text ?></p>
             </div>
         </div>

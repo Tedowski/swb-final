@@ -31,6 +31,11 @@
   height: 52px;
 }
 
+.item-icon-l {
+  overflow: hidden;
+  width: 65px;
+}
+
 #icon-build {
   fill: $c-error;
 }
@@ -122,8 +127,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   width: 174px;
   height: 174px;
+  padding: 32px;
   border-radius: 50%;
   background-color: lighten($c-white, 8%);
+  transition: transform .3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
