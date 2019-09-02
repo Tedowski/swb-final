@@ -24,7 +24,14 @@ foreach (array_reverse($jPosts) as $iPostId => $jPost){
 }
 
     <div class="wrapper">
-        <section class="section gutter-top-xl gutter-top-xl">
+        <section class="hero hero__subpage section blog">
+            <div class="container grid-body">
+                <div class="span__full text-centered">
+                    <h1 class="heading">Blog</h1>
+                </div>
+            </div>
+        </section>
+        <section class="section gutter-top-xl gutter-bot-l">
             <div class="container">
                 <?php
                 foreach (array_reverse($jPosts) as $iPostId => $jPost){
@@ -34,7 +41,7 @@ foreach (array_reverse($jPosts) as $iPostId => $jPost){
                         $sPostDate = date('d/m/Y',$jPost['timestamp'] );
                         $sImgPath = $jPost['media']['src'];
 
-                        echo "<div id=$iPostId class=\"grid-body  margin-top-s\">
+                        echo "<div id=$iPostId class=\"grid-body gutter-bot-m\">
                               <div class=\"span__6_l  margin-top-s\">
                                 <div>
                                    <img src=$sImgPath alt=''>
@@ -42,10 +49,10 @@ foreach (array_reverse($jPosts) as $iPostId => $jPost){
                               </div>
                               <div class=\"span__6_l margin-top-s\">
                                 <div>
-                                    <h4>$sPostDate</h4>
-                                    <h3>$sPostTitle</h3>
+                                    <h4 class='item-subheadline'>$sPostDate</h4>
+                                    <h3 class='item-headline'>$sPostTitle</h3>
                                     <p>$sPostSubtitle</p>
-                                    <a id=$iPostId class=\"read-more-blog-post btn btn-prim btn-block\">Read more</a>
+                                    <a id=$iPostId class=\"read-more-blog-post btn btn-prim btn-inline btn-inline__medium\">Read more</a>
                                 </div>
                               </div>
                               

@@ -17,16 +17,16 @@ require_once __DIR__.'/modules/header.php';
 require_once __DIR__.'/modules/popup.php';
 ?>
     <div class="wrapper">
-        <section class="section gutter-top-xl gutter-top-xl">
+        <section class="section gutter-top-xl gutter-bot-xl">
             <div class="container">
                 <div class="grid-body">
                     <div class="span__12_l">
-                        <h2><?= $jPost->title->text ?></h2>
+                        <a href="blog" class="btn btn-text"> « Go back to blog posts</a>
+                        <h2 class="title margin-top-m"><?= $jPost->title->text ?></h2>
                         <p>img</p>
                         <p><?= date('d/m/Y',$jPost->timestamp ) ?></p>
                         <p><?= $jPost->subtitle->text ?></p>
                         <p><?= $jPost->content->text ?></p>
-                        <a href="blog"> « Go back to blog posts</a>
                     </div>
                 </div>
             </div>

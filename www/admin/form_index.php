@@ -28,7 +28,7 @@ $jContent = $jData->index;
 
 <?php
 
-require_once __DIR__.'/../modules/header.php';
+require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
 ?>
 
@@ -39,7 +39,7 @@ require_once __DIR__.'/../modules/popup.php';
 <!--    </div>-->
 <!--</div>-->
 
-<div class="wrapper">
+<div class="wrapper admin-wrapper">
     <form class="form" id="formIndex">
         <section class="section gutter-top-xl gutter-bot-l">
             <div class="container grid-body">

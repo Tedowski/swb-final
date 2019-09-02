@@ -153,17 +153,22 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="carousel-slider">
                             <div class="carousel-slide">
                                 <div class="slide__image img">
-                                    <img src="./images/project_design.png" alt="design">
+                                    <img src="./images/axo.png" alt="axo">
                                 </div>
                             </div>
                             <div class="carousel-slide">
                                 <div class="slide__image img">
-                                    <img src="./images/project_design.png" alt="design">
+                                    <img src="./images/east.png" alt="east">
                                 </div>
                             </div>
                             <div class="carousel-slide">
                                 <div class="slide__image img">
-                                    <img src="./images/project_design.png" alt="design">
+                                    <img src="./images/orto.png" alt="orto">
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="slide__image img">
+                                    <img src="./images/south.png" alt="south">
                                 </div>
                             </div>
                         </div>

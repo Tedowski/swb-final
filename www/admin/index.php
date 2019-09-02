@@ -13,11 +13,11 @@
 
 <?php
 
-require_once __DIR__.'/../modules/header.php';
+require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
 ?>
 
-<div class="wrapper">
+<div class="wrapper admin-wrapper">
     <section class="section gutter-top-l gutter-bot-l">
         <div class="container grid-body">
             <div class="span__4 span__6_m offset__1_m span__6_l offset__3_l">

@@ -23,11 +23,11 @@ if( !isset($_SESSION['sUser']) ) {
 
 <?php
 
-require_once __DIR__.'/../modules/header.php';
+require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
 ?>
 
-<div class="wrapper">
+<div class="wrapper admin-wrapper">
     <section class="section gutter-top-l gutter-bot-l">
         <div class="container grid-body gutter-bot-m">
             <div class="span__full">

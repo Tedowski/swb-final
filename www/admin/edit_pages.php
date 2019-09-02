@@ -23,11 +23,11 @@ if( !isset($_SESSION['sUser']) ) {
 
 <?php
 
-require_once __DIR__.'/../modules/header.php';
+require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
 ?>
 
-<div class="wrapper">
+<div class="wrapper admin-wrapper">
     <section class="section gutter-top-l gutter-bot-l">
         <div class="container grid-body gutter-bot-m">
             <div class="span__full">
@@ -64,12 +64,6 @@ require_once __DIR__.'/../modules/popup.php';
                     <i class="far fa-file-alt icon-xxl"></i>
                 </div>
                 <h3 class="margin-top-s">Volunteers page</h3>
-            </button>
-            <button class="btn btn-block btn-prim span__4">
-                <div class="margin-top-xs">
-                    <i class="far fa-file-alt icon-xxl"></i>
-                </div>
-                <h3 class="margin-top-s">Contant page</h3>
             </button>
         </div>
     </section>

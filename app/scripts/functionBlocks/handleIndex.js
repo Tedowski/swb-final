@@ -22,7 +22,8 @@ $('#formIndex').submit(function () {
                 });
             }
         })
-        .fail(function () {
+        .fail(function (e) {
+            console.log(e);
             showPopup({
                 content: 'Cannot process your request (AJAX error)',
                 state: 'error',

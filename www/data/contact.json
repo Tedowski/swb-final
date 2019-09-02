@@ -1,0 +1,14 @@
+{
+  "phone": {
+    "code": "45",
+    "number": "91619231"
+  },
+  "mail": "info@swb.dk",
+  "address": {
+    "country": "Denmark",
+    "city": "Copenhagen",
+    "street": "Vesterbrogade",
+    "number": "44",
+    "code": "2300"
+  }
+}

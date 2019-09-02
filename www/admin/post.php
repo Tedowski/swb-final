@@ -38,8 +38,8 @@ require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
 ?>
 
-<div class="wrapper">
-    <section class="section gutter-top-xl gutter-top-xl">
+<div class="wrapper admin-wrapper">
+    <section class="section gutter-top-xl gutter-bot-xl">
         <div class="container">
             <div class="grid-body">
                 <div class="span__2_l">
