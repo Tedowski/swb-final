@@ -126,6 +126,13 @@ require_once __DIR__.'/modules/popup.php';
         </div>
     </div>
 </section>
+<section class="section gutter-top-xl gutter-bot-l">
+    <div class="container grid-body">
+        <div class="span__4 offset__4_l">
+            <span class="tooltip-test tooltip" data-tooltip="Tooltip text goes here" data-tootlip-position="bottom">?</span>
+        </div>
+    </div>
+</section>
 
 <?php
 require_once __DIR__.'/modules/footer.php';
