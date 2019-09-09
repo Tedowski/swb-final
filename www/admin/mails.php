@@ -6,6 +6,12 @@ $jAdmin = $_SESSION['sUser'];
 if( !isset($_SESSION['sUser']) ) {
     header('Location: index');
 }
+
+$sData = file_get_contents('../data/subscribers.json');
+$jData = json_decode($sData);
+
+$jSubscribers = $jData-> subscribers;
+
 ?>
 
 <!DOCTYPE html>
@@ -33,6 +39,7 @@ require_once __DIR__.'/../modules/popup.php';
     <section class="section gutter-top-xl gutter-bot-xl">
         <div class="container">
             <div class="form-container">
+                <h3>Send newsletter to subscribers: </h3>
                 <form id="frm-send-newsletter" class="form form_main form_card">
                     <div class="span__2">
                         <div class="form__input-group">
@@ -54,6 +61,44 @@ require_once __DIR__.'/../modules/popup.php';
                         <button class="btn btn-prim btn-block" > Send newsletter</button>
                     </div>
                 </form>
+                <div>
+
+                    <div class="form-container">
+                        <h3>Add new subscriber to newsletter: </h3>
+                        <form id="frm-add-subscriber" class="form form_main form_card">
+                            <div class="span__2">
+                                <div class="form__input-group">
+                                    <label class="label">Subscriber email:</label>
+                                    <div class="input-wrapper">
+                                        <input class="input" type="text" name="subscriber-email" placeholder="e.g. This is e-mail of news subscriber.">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="span__1 margin-top-m">
+                                <button class="btn btn-prim btn-block" > Add new subscriber</button>
+                            </div>
+                        </form>
+                        <div>
+                      <dov>
+                          <h3>List of subscribers: </h3>
+
+                    <?php
+                    foreach ($jSubscribers as  $sSubscriberId => $jSubscriber){
+                        $sMail = $jSubscriber->email;
+                        echo "<div class=\"grid-body align-items-center  margin-top-xs btn btn-prim\">
+                              <div class=\"span__2  offset__1_l justify-center-s-up\">
+                                <p class=''>$sMail</p>
+                              </div>
+                              <div class=\"span__2 offset__10_l justify-items-center\">
+                                <a id='$sSubscriberId' class=\"remove-subscriber\">Remove</a>
+                              </div>
+                              
+                          </div>
+                          </dov>
+                         ";
+                    }
+                    ?>
+                </div>
             </div>
 
 

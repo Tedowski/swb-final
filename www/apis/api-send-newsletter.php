@@ -20,7 +20,7 @@ $sContent = $_POST['newsletter-content'];
 if(empty($sContent)){sendResponse(0,__LINE__,'Newsletter content is missing');}
 
 
-foreach ($jData->subscribers as $jSubscriber){
+foreach ($jData->subscribers as $sSubscriberId => $jSubscriber){
 
     $to = $jSubscriber->email;
     $headers = "From: newsletter@swb.dk";

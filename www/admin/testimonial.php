@@ -9,6 +9,11 @@ if( !isset($_SESSION['sUser']) ) {
 $sData = file_get_contents('../data/page_project.json');
 $jData = json_decode($sData);
 $jTestimonials = $jData->project->sec_testimonials->testimonials;
+
+$iTestimonId = $_GET['id'];
+
+$jTestimonial = $jTestimonials->$iTestimonId;
+
 ?>
 
 <!DOCTYPE html>
@@ -24,6 +29,7 @@ $jTestimonials = $jData->project->sec_testimonials->testimonials;
 </head>
 <body class="body">
 
+
 <?php
 
 require_once __DIR__.'/../modules/header-admin.php';
@@ -33,14 +39,28 @@ require_once __DIR__.'/../modules/popup.php';
 <div class="wrapper admin-wrapper">
     <section class="section gutter-top-xl gutter-bot-xl">
         <div class="container">
-            <div class="form-container">
-                <h3>Add new testimonial: </h3>
-                <form id="frm-add-testimon" class="form form_main form_card">
+            <div class="grid-body">
+                <div class="span__3_l">
+                    <a href="edit_testimon.php" class="btn btn-prim btn-block">Go back to testimonials</a>
+                </div>
+            </div>
+
+            <div class="form-container margin-top-s">
+                <form id="frm-edit-testimon" class="form form_main form_card">
+                    <div class="span__2">
+                        <div class="form__input-group">
+                            <label class="label">Testimonial id:</label>
+                            <div class="input-wrapper">
+                                <input class="input" type="text" name="testimon-id" placeholder="e.g. Testimonial id" value="<?= $iTestimonId ?>" >
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="span__2">
                         <div class="form__input-group">
                             <label class="label">Name:</label>
                             <div class="input-wrapper">
-                                <input class="input" type="text" name="testimon-name" placeholder="e.g. This is name of person's testimonial">
+                                <input class="input" type="text" name="testimon-name" placeholder="e.g. This is name of person's testimonial" value="<?= $jTestimonial->name->text ?>">
                             </div>
                         </div>
                     </div>
@@ -48,7 +68,7 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group">
                             <label class="label">Role:</label>
                             <div class="input-wrapper">
-                                <input class="input" type="text" name="testimon-role" placeholder="e.g. This is role of person's testimonial">
+                                <input class="input" type="text" name="testimon-role" placeholder="e.g. This is role of person's testimonial" value="<?= $jTestimonial->role->text ?>" >
                             </div>
                         </div>
                     </div>
@@ -56,7 +76,7 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group">
                             <label class="label">Quote:</label>
                             <div class="input-wrapper">
-                                <input class="input" type="text" name="testimon-quote" placeholder="e.g. This is quote of person's testimonial">
+                                <input class="input" type="text" name="testimon-quote" placeholder="e.g. This is quote of person's testimonial" value="<?= $jTestimonial->quote->text ?>">
                             </div>
                         </div>
                     </div>
@@ -64,35 +84,19 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group">
                             <label class="label">Bio:</label>
                             <div class="input-wrapper">
-                                <textarea class="textarea input" name="testimon-bio" placeholder="e.g. This is bio of person's testimonial"></textarea>
+                                <textarea class="textarea input" name="testimon-bio" placeholder="e.g. This is bio of person's testimonial">
+                                    <?= $jTestimonial->content->text ?>
+                                </textarea>
                             </div>
                         </div>
                     </div>
                     <div class="span__1 margin-top-m">
-                        <button class="btn btn-prim btn-block" > Add new testimonial</button>
+                        <button class="btn btn-prim btn-block">Edit Testimonial</button>
                     </div>
                 </form>
-                <div>
-                <div>
-                    <h3>List of actual testimonials:</h3>
-                    <?php
-                    foreach ($jTestimonials as $jTestimonId => $jTestimonial){
-                        $sTestimonName = $jTestimonial->name->text;
-                        echo "<div id=$jTestimonId class=\"grid-body align-items-center  margin-top-xs btn btn-prim\">
-                              <div class=\"span__2 offset__1_l justify-center-s-up\">
-                                <p>$sTestimonName</p>
-                              </div>
-                              <div class=\"span__2 offset__9_l justify-items-center\">
-                                <a id=$jTestimonId class=\"edit-testimon\">Edit</a>
-                                <a id=$jTestimonId class=\"remove-testimon offset__1_l\">Remove</a>
-                              </div>
-                              
-                          </div>
-                         ";
-                    }
-                    ?>
+            </div>
 
-                </div>
+
         </div>
     </section>
 </div>
@@ -102,3 +106,4 @@ require_once __DIR__.'/../modules/popup.php';
 <script src="./../scripts/app.min.js"></script>
 </body>
 </html>
+

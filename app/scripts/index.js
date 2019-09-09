@@ -12,3 +12,6 @@
 // @codekit-append functionBlocks/carousel.js
 // @codekit-append functionBlocks/handleSubscribers.js
 // @codekit-append functionBlocks/sendNewsletter.js
+// @codekit-append functionBlocks/deleteSubscriber.js
+// @codekit-append functionBlocks/createSubscriber.js
+// @codekit-append functionBlocks/editTestimon.js

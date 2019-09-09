@@ -1,164 +1,161 @@
 {
-  "project": {
-    "sec_overview": {
-      "title": {
-        "text": "What is it we aim for?"
-      },
-      "subtitle": {
-        "text": "There are multiple reasons to our shared interest in this development project. Importantly enough, being MA students of African Studies at the University of Copenhagen, we need to conduct a field work as a part of our degree.<br><br>That gave us the incentive to develop a sustainable project that aims on children and uses skateboarding as a tool. Both Africa and Skateboarding are close to our hearts so we did not go far for the inspiration."
-      },
-      "content": {
-        "item_1": {
-          "heading": {
-            "text": "Skateboarding as a tool"
-          },
-          "body": {
-            "text": "The concrete skatepark will consist of all kinds of obstacles varying from curbs, rails, banks, to a bowl and a more open space for practicing tricks on the flat ground. Within the open space a basketball court will be built for ball sports.<br><br>When finished, our partnering association of Mozambican skateboarders ASM with Maputo-Skate will facilitate regular skateboard lectures with the support of Skate-Aid.<br><br>The goal of the project is to make a small but significant impact on the lives of children in Maputo and offer them a playful and creative way to learn and make friendships."
-          },
-          "img": {
-            "src": "path/to/img"
-          }
+    "project": {
+        "sec_overview": {
+            "title": {
+                "text": "What is it we aim for?"
+            },
+            "subtitle": {
+                "text": "There are multiple reasons to our shared interest in this development project. Importantly enough, being MA students of African Studies at the University of Copenhagen, we need to conduct a field work as a part of our degree.<br><br>That gave us the incentive to develop a sustainable project that aims on children and uses skateboarding as a tool. Both Africa and Skateboarding are close to our hearts so we did not go far for the inspiration."
+            },
+            "content": {
+                "item_1": {
+                    "heading": {
+                        "text": "Skateboarding as a tool"
+                    },
+                    "body": {
+                        "text": "The concrete skatepark will consist of all kinds of obstacles varying from curbs, rails, banks, to a bowl and a more open space for practicing tricks on the flat ground. Within the open space a basketball court will be built for ball sports.<br><br>When finished, our partnering association of Mozambican skateboarders ASM with Maputo-Skate will facilitate regular skateboard lectures with the support of Skate-Aid.<br><br>The goal of the project is to make a small but significant impact on the lives of children in Maputo and offer them a playful and creative way to learn and make friendships."
+                    },
+                    "img": {
+                        "src": "path\/to\/img"
+                    }
+                },
+                "item_2": {
+                    "heading": {
+                        "text": "Exhibitions of all kinds"
+                    },
+                    "body": {
+                        "text": "The very walls of the skatepark will serve as an open canvas to both artists and kids who wish to try new techniques of painting.<br><br>The contiguous youth center will provide a safe zone for hosting video premieres, concerts, workshops, photo or art exhibitions and other.<br><br>The centre will also host irregular skateboard demos of professional teams, organized by our partners ASM and Skate-Aid."
+                    },
+                    "img": {
+                        "src": "path\/to\/img"
+                    }
+                },
+                "item_3": {
+                    "heading": {
+                        "text": "Learning through play"
+                    },
+                    "body": {
+                        "text": "Having the opportunity to connect education with games and joyful activities, we have decided to launch a partnership scheme with an NGO operating in Mozambique, that would regularly hold seminars in the youth centre together with Skate-aid and ASM that will follow with a skateboard lectures.<br><br> We have not yet made the agreement with a particular organization, but it is a hot topic in our current agenda."
+                    },
+                    "img": {
+                        "src": "path\/to\/img"
+                    }
+                }
+            }
         },
-        "item_2": {
-          "heading": {
-            "text": "Exhibitions of all kinds"
-          },
-          "body": {
-            "text": "The very walls of the skatepark will serve as an open canvas to both artists and kids who wish to try new techniques of painting.<br><br>The contiguous youth center will provide a safe zone for hosting video premieres, concerts, workshops, photo or art exhibitions and other.<br><br>The centre will also host irregular skateboard demos of professional teams, organized by our partners ASM and Skate-Aid."
-          },
-          "img": {
-            "src": "path/to/img"
-          }
+        "sec_research": {
+            "title": {
+                "text": "The research"
+            },
+            "subtitle": {
+                "text": "To link up the construction with an academic research. Three main research perspectives will be developed by the master\u2019s students from Copenhagen University.<br><br>These projects will differ in specificity but will be centered upon the challenges faced by the youth in Maputo.<br><br>The outcome of this research will be made open source so that further research can be conducted along these lines and provide new insights into youth culture in Maputo."
+            },
+            "research_team": {
+                "memeber_1": {
+                    "name": {
+                        "text": "Tomas"
+                    },
+                    "img": {
+                        "src": "path\/to\/img"
+                    },
+                    "research": {
+                        "text": "My research will focus on the impact that development aid has on local communities who participate in development project. It will also elucidate the manner in which local participants perceive and development as a whole as well as specific projects.<br><br>This will be done in order to analyse development projects from the perspective of subjects in the Global South"
+                    }
+                },
+                "memeber_2": {
+                    "name": {
+                        "text": "Martin"
+                    },
+                    "img": {
+                        "src": "path\/to\/img"
+                    },
+                    "research": {
+                        "text": "My intention is to elaborate on the question - how does skateboarding as a western phenomenon develop in an African context, with regard to the history of Euro-African interaction.<br><br>The period of realization will produce a perfect setting for surveying, interviewing and drawing conclusions based on personal experiences"
+                    }
+                },
+                "memeber_3": {
+                    "name": {
+                        "text": "Brendan"
+                    },
+                    "img": {
+                        "src": "path\/to\/img"
+                    },
+                    "research": {
+                        "text": "Mozambique is a fascinating country that has deep connections and influence on events throughout Southern Africa. A study of the youth bulge that currently faces Maputo can potentially provide insight into other trends among youth not only in Mozambique but also throughout the region.<br><br> This project will facilitate research on trends of urbanization, and or suburbanization in Southern Africa. I will address the following questions. Do young Mozambicans still desire to move and live in the capital Maputo? Or, is there a growing trend to live outside of the city? I will research if recent infrastructure projects like roads\/ highways, and railroads have had any effect on the aspirations of young people."
+                    }
+                }
+            }
         },
-        "item_3": {
-          "heading": {
-            "text": "Learning through play"
-          },
-          "body": {
-            "text": "Having the opportunity to connect education with games and joyful activities, we have decided to launch a partnership scheme with an NGO operating in Mozambique, that would regularly hold seminars in the youth centre together with Skate-aid and ASM that will follow with a skateboard lectures.<br><br> We have not yet made the agreement with a particular organization, but it is a hot topic in our current agenda."
-          },
-          "img": {
-            "src": "path/to/img"
-          }
+        "sec_design": {
+            "subtitle": {
+                "text": "Let's see how it looks"
+            },
+            "media": [
+                {
+                    "id": 1,
+                    "src": "path\/to\/img",
+                    "alt": "diagonal view",
+                    "meta": {}
+                }
+            ]
+        },
+        "sec_testimonials": {
+            "subtitle": {
+                "text": "See what people that helped us to work on this project have to say."
+            },
+            "testimonials": {
+                "5d7235b04a414": {
+                    "name": {
+                        "text": "Francisco Vinho"
+                    },
+                    "role": {
+                        "text": "Maputo Skater"
+                    },
+                    "quote": {
+                        "text": "We need a place to skate"
+                    },
+                    "content": {
+                        "text": "                                                                        For many years we have been trying to get some support from the government to help us build a public skatepark, but our voices were never listened to.<br><br>Maputo is developing fast so I really think it is the time to build a skatepark too. After all, it is a regular element in the city planning.<br><br>I am pretty excited for this to finally happen!                                                                "
+                    },
+                    "img": {
+                        "src": "path\/to\/img"
+                    }
+                },
+                "5d7235b04a412": {
+                    "name": {
+                        "text": "Jakub Novotn\u00fd"
+                    },
+                    "role": {
+                        "text": "Skatepark builder"
+                    },
+                    "quote": {
+                        "text": "It brings me joy"
+                    },
+                    "content": {
+                        "text": "My first experience volunteering for a skate NGO was in 2014 when I traveled to Jordan within my studies.<br><br>At that time, now a well-established organization Make Life Skate, was planning to build a skatepark for underprivileged children in the Jordanian capital, Amman, and I got the unique opportunity to be involved in the project."
+                    },
+                    "img": {
+                        "src": "path\/to\/img"
+                    }
+                },
+                "5d7235b04a40d": {
+                    "name": {
+                        "text": "Tobias Egelkamp"
+                    },
+                    "role": {
+                        "text": "Head of Projects,<br> Skate-aid international e.V."
+                    },
+                    "quote": {
+                        "text": "Skate-Aid stands for a holistic, self-determined approach to the support of young people in the context of youth aid, sport, culture and international understanding."
+                    },
+                    "content": {
+                        "text": "We empower kids! Thus, skate-aid provides sustainable socialization, prevention and peace work, where social injustices and difficult living conditions endanger young people and inhibit their development.<br><br>Skateboarding is the ideal tool to do exactly that and a skatepark provides a safe space for our work no matter where."
+                    },
+                    "img": {
+                        "src": "path\/to\/img"
+                    }
+                }
+            }
         }
-      }
-    },
-    "sec_research": {
-      "title": {
-        "text": "The research"
-      },
-      "subtitle": {
-        "text": "To link up the construction with an academic research. Three main research perspectives will be developed by the master’s students from Copenhagen University.<br><br>These projects will differ in specificity but will be centered upon the challenges faced by the youth in Maputo.<br><br>The outcome of this research will be made open source so that further research can be conducted along these lines and provide new insights into youth culture in Maputo."
-      },
-      "research_team": {
-        "memeber_1": {
-          "name": {
-            "text": "Tomas"
-          },
-          "img": {
-            "src": "path/to/img"
-          },
-          "research": {
-            "text": "My research will focus on the impact that development aid has on local communities who participate in development project. It will also elucidate the manner in which local participants perceive and development as a whole as well as specific projects.<br><br>This will be done in order to analyse development projects from the perspective of subjects in the Global South"
-          }
-        },
-        "memeber_2": {
-          "name": {
-            "text": "Martin"
-          },
-          "img": {
-            "src": "path/to/img"
-          },
-          "research": {
-            "text": "My intention is to elaborate on the question - how does skateboarding as a western phenomenon develop in an African context, with regard to the history of Euro-African interaction.<br><br>The period of realization will produce a perfect setting for surveying, interviewing and drawing conclusions based on personal experiences"
-          }
-        },
-        "memeber_3": {
-          "name": {
-            "text": "Brendan"
-          },
-          "img": {
-            "src": "path/to/img"
-          },
-          "research": {
-            "text": "Mozambique is a fascinating country that has deep connections and influence on events throughout Southern Africa. A study of the youth bulge that currently faces Maputo can potentially provide insight into other trends among youth not only in Mozambique but also throughout the region.<br><br> This project will facilitate research on trends of urbanization, and or suburbanization in Southern Africa. I will address the following questions. Do young Mozambicans still desire to move and live in the capital Maputo? Or, is there a growing trend to live outside of the city? I will research if recent infrastructure projects like roads/ highways, and railroads have had any effect on the aspirations of young people."
-          }
-        }
-      }
-    },
-    "sec_design": {
-      "subtitle": {
-        "text": "Let's see how it looks"
-      },
-      "media": [
-        {
-          "id": 1,
-          "src": "path/to/img",
-          "alt": "diagonal view",
-          "meta": {}
-        }  
-      ]
-    },
-    "sec_testimonials": {
-      "subtitle": {
-        "text": "See what people that helped us to work on this project have to say."
-      },
-      "testimonials": [
-        {
-          "id": 1,
-          "name": {
-            "text": "Francisco Vinho" 
-          },
-          "role": {
-            "text": "Maputo Skater"
-          },
-          "quote": {
-            "text": "We need a place to skate"
-          },
-          "content": {
-            "text": "For many years we have been trying to get some support from the government to help us build a public skatepark, but our voices were never listened to.<br><br>Maputo is developing fast so I really think it is the time to build a skatepark too. After all, it is a regular element in the city planning.<br><br>I am pretty excited for this to finally happen!"
-          },
-          "img": {
-            "src": "path/to/img" 
-          }
-        },
-        {
-          "id": 2,
-          "name": {
-            "text": "Jakub Novotný" 
-          },
-          "role": {
-            "text": "Skatepark builder"
-          },
-          "quote": {
-            "text": "It brings me joy"
-          },
-          "content": {
-            "text": "My first experience volunteering for a skate NGO was in 2014 when I traveled to Jordan within my studies.<br><br>At that time, now a well-established organization Make Life Skate, was planning to build a skatepark for underprivileged children in the Jordanian capital, Amman, and I got the unique opportunity to be involved in the project."
-          },
-          "img": {
-            "src": "path/to/img" 
-          }
-        },
-        {
-          "id": 3,
-          "name": {
-            "text": "Tobias Egelkamp" 
-          },
-          "role": {
-            "text": "Head of Projects,<br> Skate-aid international e.V."
-          },
-          "quote": {
-            "text": "Skate-Aid stands for a holistic, self-determined approach to the support of young people in the context of youth aid, sport, culture and international understanding."
-          },
-          "content": {
-            "text": "We empower kids! Thus, skate-aid provides sustainable socialization, prevention and peace work, where social injustices and difficult living conditions endanger young people and inhibit their development.<br><br>Skateboarding is the ideal tool to do exactly that and a skatepark provides a safe space for our work no matter where."
-          },
-          "img": {
-            "src": "path/to/img" 
-          }
-        }
-      ]
     }
-  }
 }

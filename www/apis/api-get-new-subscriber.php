@@ -1,21 +1,30 @@
 <?php
+//hide errors
 
+ini_set('display_errors',0);
 //get database
 
 $sData = file_get_contents('../data/subscribers.json');
 $jData = json_decode($sData);
-
+$jSubscribers = $jData->subscribers;
 
 //handle input
 
 $sSubscriberMail = $_POST['subscriber-email'];
+
+//validate input
+
 if(empty($sSubscriberMail)){sendResponse(0,__LINE__,'Email is missing');}
 if(!filter_var($sSubscriberMail,FILTER_VALIDATE_EMAIL)){sendResponse(0,__LINE__,'Not valid email');}
+foreach ($jSubscribers as $sId => $jSubscriber){
+    if($jSubscriber->email ==$sSubscriberMail ){
+        sendResponse(0,__LINE__,'Email is already subscribed to newsletter');
+    }
+}
 
-$jSubscriber = new stdClass();
+$sSubcriberId = uniqid();
 $jSubscriber->email = $sSubscriberMail;
-
-array_push($jData->subscribers,$jSubscriber);
+$jData->subscribers->$sSubcriberId = $jSubscriber;
 
 
 //write back to database

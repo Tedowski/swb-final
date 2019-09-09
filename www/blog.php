@@ -12,16 +12,6 @@ require_once __DIR__.'/modules/header.php';
 require_once __DIR__.'/modules/popup.php';
 ?>
 
-foreach (array_reverse($jPosts) as $iPostId => $jPost){
-    if(isset($jPost['title']['text']) && $jPost['title']['text'] != ''){
-       $sPostTitle = $jPost['title']['text'];
-       $sPostSubtitle = $jPost['subtitle']['text'];
-       $sPostDate = date('d/m/Y',$jPost['timestamp'] );
-
-       echo ($iPostId);
-
-    }
-}
 
     <div class="wrapper">
         <section class="hero hero__subpage section blog">
