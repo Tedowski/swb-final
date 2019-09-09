@@ -33,3 +33,31 @@
     padding-bottom: 4px;
   }
 }
+
+.contact-item {
+  i,
+  span {
+    line-height: 24px;
+  }
+
+  span {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  i {
+    font-size: 18px;
+  }
+
+  .fa-globe-europe {
+    color: $c-error;
+  }
+
+  .fa-phone-square {
+    color: $c-success;
+  }
+
+  .fa-envelope-square {
+    color: $c-sec;
+  }
+}

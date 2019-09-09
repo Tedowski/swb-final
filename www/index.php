@@ -309,6 +309,13 @@ require_once __DIR__.'/modules/popup.php';
                 <?php require __DIR__.'/modules/achievements.php'; ?>
             </div>
         </section>
+        <section id="get-involved" class="section gutter-top-l gutter-bot-l">
+            <div class="container grid-body">
+                <div class="span__4 span__6_m offset__1_m span__8_l offset__2_l iframe-container">
+                    <iframe class='gfm-media-widget' image='1' coinfo='1' width='100%' height='100%' frameborder='0' id='skatepark-in-maputo-mozambique'></iframe>
+                </div>
+            </div>
+        </section>
         <section class="section gutter-top-xl gutter-bot-xl section-dark">
             <div class="container grid-body">
                 <div class="span__4 span__6_l">

@@ -1,3 +1,12 @@
+<?php
+
+$sData = file_get_contents('data/contact.json');
+$jData = json_decode($sData);
+
+$jContent = $jData->contact;
+
+?>
+
 <footer id="footer" class="footer gutter-bot-m gutter-top-l">
     <div class="container grid-body">
         <div class="span__4 span__3_l">
@@ -7,10 +16,10 @@
                     <div class="undrln__sec underline-inline undrln__s"></div>
                 </div>
                 <p class="margin-top-s">Skate world better raises money for Mozambique and it's citizens. It is a young, innovative and charitable organization</p>
-                <a href="#" class="icon-circ">
+                <a href="https://www.facebook.com/skateworldbetter/" class="icon-circ">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="#" class="icon-circ">
+                <a href="https://www.instagram.com/skateworldbetter/" class="icon-circ">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
@@ -37,9 +46,9 @@
                     <div class="undrln__sec underline-inline undrln__s"></div>
                 </div>
                 <div class="footer__contact margin-top-s">
-                    <div class="contact-item">Copenhagen, Denmark</div>
-                    <div class="contact-item">+45 91 61 92 31</div>
-                    <div class="contact-item">info@swb.dk</div>
+                    <div class="contact-item"><i class="fas fa-globe-europe"></i><span><?= $jContent->address->city.', '.$jContent->address->country ?></span></div>
+                    <div class="contact-item"><i class="fas fa-phone-square"></i><span>+<?= $jContent->phone->code.' '.$jContent->phone->number ?></span></div>
+                    <div class="contact-item"><i class="fas fa-envelope-square"></i><span><a href="mailto:<?= $jContent->mail->address.'?subject='.$jContent->mail->subject ?>"><?= $jContent->mail->address ?></a></span></div>
                 </div>
             </div>
         </div>
