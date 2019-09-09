@@ -15,3 +15,4 @@
 // @codekit-append functionBlocks/deleteSubscriber.js
 // @codekit-append functionBlocks/createSubscriber.js
 // @codekit-append functionBlocks/editTestimon.js
+// @codekit-append functionBlocks/handleLoader.js

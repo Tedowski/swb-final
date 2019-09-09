@@ -8,6 +8,7 @@ $jData = json_decode($sData,true);
 $jPosts = $jData['posts'];
 
 require_once __DIR__.'/modules/top.php';
+require_once __DIR__.'/modules/loader.php';
 require_once __DIR__.'/modules/header.php';
 require_once __DIR__.'/modules/popup.php';
 ?>

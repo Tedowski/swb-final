@@ -1,10 +1,12 @@
 <?php
 
 require_once __DIR__.'/modules/top.php';
+require_once __DIR__.'/modules/loader.php';
 require_once __DIR__.'/modules/header.php';
 require_once __DIR__.'/modules/popup.php';
 ?>
 
+<div class="wrapper">
 <section class="section gutter-top-xl gutter-bot-xl">
     <div class="container grid-body">
         <div class="span__4 span__8_l offset__2_l">
@@ -133,6 +135,7 @@ require_once __DIR__.'/modules/popup.php';
         </div>
     </div>
 </section>
+</div>
 
 <?php
 require_once __DIR__.'/modules/footer.php';
