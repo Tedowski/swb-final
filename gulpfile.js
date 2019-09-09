@@ -22,7 +22,7 @@ const {
 const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 const concat = require('gulp-concat');
-const uglifycss = require('gulp-uglifycss');
+const cssnano = require('gulp-cssnano');
 const sass = require('gulp-sass');
 const include = require('gulp-codekit');
 const sourcemaps = require('gulp-sourcemaps');
@@ -50,10 +50,8 @@ function buildcss() {
     return src('./app/styles/index.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
+        .pipe(cssnano())
         .pipe(sourcemaps.write('.'))
-        .pipe(uglifycss({
-            "uglyComments": true
-          }))
         .pipe(dest('./www/styles/'))
         .pipe(bs.stream());
 }

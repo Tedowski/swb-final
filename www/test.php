@@ -71,8 +71,66 @@ require_once __DIR__.'/modules/popup.php';
         </div>
     </div>
 </section>
+<section class="section gutter-top-xl gutter-bot-l section-dark">
+    <div class="container grid-body">
+        <div class="span__full">
+            <table class="table">
+                <tr class="table_row row-head">
+                    <th class="row_head-col col_grow-1 row_align-left">
+                        <p>#</p>
+                    </th>
+                    <th class="row_head-col col_grow-3 row_align-left">
+                        <p>Content</p>
+                    </th>
+                    <th class="row_head-col col_grow-2 row_align-center">
+                        <p>Action</p>
+                    </th>
+                </tr>
+                <tr class="table_row row-item">
+                    <td class="row_item-col col_grow-1 row_align-left">
+                        <p class="col_impact">1</p>
+                    </td>
+                    <td class="row_item-col col_grow-3 row_align-left">
+                        <p>Content</p>
+                    </td>
+                    <td class="row_item-col col_grow-2 row_align-center">
+                        <div class="btn btn-text">Edit</div>
+                        <div class="btn btn-text">Remove</div>
+                    </td>
+                </tr>
+                <tr class="table_row row-item">
+                    <td class="row_item-col col_grow-1 row_align-left col_impact">
+                        <p class="col_impact">2</p>
+                    </td>
+                    <td class="row_item-col col_grow-3 row_align-left">
+                        <p>Content</p>
+                    </td>
+                    <td class="row_item-col col_grow-2 row_align-center">
+                        <div class="btn btn-text">Edit</div>
+                        <div class="btn btn-text">Remove</div>
+                    </td>
+                </tr>
+                <tr class="table_row row-item">
+                    <td class="row_item-col col_grow-1 row_align-left col_impact">
+                        <p class="col_impact">3</p>
+                    </td>
+                    <td class="row_item-col col_grow-3 row_align-left">
+                        <p>Content</p>
+                    </td>
+                    <td class="row_item-col col_grow-2 row_align-center">
+                        <div class="btn btn-text">Edit</div>
+                        <div class="btn btn-text">Remove</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
 <section class="section gutter-top-xl gutter-bot-l">
-    <div class="container">
+    <div class="container grid-body">
+        <div class="span__4 offset__4_l">
+            <span class="tooltip-test tooltip" data-tooltip="Tooltip text goes here" data-tootlip-position="bottom">?</span>
+        </div>
     </div>
 </section>
 
