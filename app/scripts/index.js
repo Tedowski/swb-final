@@ -16,3 +16,4 @@
 // @codekit-append functionBlocks/createSubscriber.js
 // @codekit-append functionBlocks/editTestimon.js
 // @codekit-append functionBlocks/handleLoader.js
+// @codekit-append functionBlocks/smoothScroll.js

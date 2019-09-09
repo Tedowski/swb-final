@@ -1,9 +1,9 @@
 <header class="header">
     <div class="container dropdown">
         <div class="grid-body">
-            <div class="span__2 span__4_m span__2_l align-items-center">
+            <div class="span__2 span__4_m span__2_l header-logo_container">
                 <a href="./index.php" class="logo img">
-<!--                    <img src="./images/logo_swb.png" alt="skate_world_better">-->
+                    <img src="./images/logo_swb.png" alt="skate_world_better">
                 </a>
             </div>
             <div class="hide-s hide-m span__10_l">
@@ -11,7 +11,7 @@
                     <a href="./project.php" class="nav-link dropper">Project</a>
                     <a href="./about.php" class="nav-link dropper">About us</a>
                     <a href="./blog.php" class="nav-link dropper">Blog</a>
-                    <a href="./contact.php" class="nav-link dropper">Contact us</a>
+                    <a href="#footer" class="nav-link dropper">Contact us</a>
                     <button class="btn btn-block btn-prim dropper">Get involved</button>
                 </nav>
             </div>

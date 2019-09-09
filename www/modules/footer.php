@@ -1,4 +1,4 @@
-<footer class="footer gutter-bot-m gutter-top-l">
+<footer id="footer" class="footer gutter-bot-m gutter-top-l">
     <div class="container grid-body">
         <div class="span__4 span__3_l">
             <div class="footer__item">

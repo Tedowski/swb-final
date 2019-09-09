@@ -13,8 +13,20 @@
   -webkit-transition: top .5s;
 }
 
+.header-logo_container {
+  position: relative;
+}
+
 .logo {
-  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 72px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dropdown {
