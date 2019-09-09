@@ -9,5 +9,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="./styles/index.css">
     <title>Skate World Better</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 <body class="body">
