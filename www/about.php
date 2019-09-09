@@ -282,7 +282,7 @@ require_once __DIR__.'/modules/popup.php';
 
                 foreach ($aPeople as $jPerson) {
                     echo '<div class="span__4 span__3_l">
-                            <div class="flex-col-center gutter-bot-m">
+                            <div class="flex-col-center gutter-bot-m person_behind">
                                <div class="img img-circ circ-l">
                                    <img src="./images/'.$jPerson->img->url.'" alt="">
                                </div>
