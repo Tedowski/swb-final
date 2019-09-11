@@ -31,7 +31,21 @@
 }
 
 .section-error {
-  min-height: 50vh;
+  height: calc(100vh - 160px);
+
+  .error_code {
+    font-size: 112px;
+    margin-bottom: 36px;
+    color: $c-error;
+  }
+
+  .error_title {
+    font-size: 36px;
+  }
+
+  .btn {
+    font-family: $font-heading-sec;
+  }
 }
 
 .section-dark {
