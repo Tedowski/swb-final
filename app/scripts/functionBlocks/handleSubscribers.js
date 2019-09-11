@@ -12,14 +12,14 @@ $('#frm-newsletter').submit(
                         showPopup({
                             content: 'You have successfully subscribed to our newsletter',
                             state: 'success',
-                            position: 'top'
+                            position: 'bottom'
                         });
                     }
                     else if(jData.status == 0 ){
                         showPopup({
                             content: jData.message,
                             state: 'warning',
-                            position: 'top'
+                            position: 'bottom'
                         });
                     }
 
@@ -31,7 +31,7 @@ $('#frm-newsletter').submit(
                     showPopup({
                         content: 'Cannot process your request (AJAX error)',
                         state: 'error',
-                        position: 'top'
+                        position: 'bottom'
                     });
                 }
             );
