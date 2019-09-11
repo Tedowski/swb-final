@@ -13,7 +13,7 @@ require_once __DIR__.'/modules/popup.php';
 ?>
 
 <div class="wrapper">
-    <section class="hero hero__subpage section project">
+    <section class="hero hero__subpage project">
         <div class="container grid-body">
             <div class="span__full text-centered">
                 <h1 class="heading">Project</h1>
@@ -21,7 +21,7 @@ require_once __DIR__.'/modules/popup.php';
         </div>
     </section>
     <main class="main">
-        <section id="overview" class="section gutter-top-xl gutter-bot-l">
+        <section id="overview" class="section section-dark">
             <div class="container grid-body">
                 <div class="span__4 span__6_l justify-start-s">
                     <div class="">
@@ -41,7 +41,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
             </div>
-            <div class="container grid-body margin-top-xl gutter-top-m">
+            <div class="container grid-body">
                 <div class="span__full gutter-bot-m">
                     <div class="text-centered">
                         <h3 class="title">Skateboarding, events and education</h3>
@@ -79,8 +79,8 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section id="research" class="section gutter-top-xl gutter-bot-l">
-            <div class="container grid-body gutter-bot-m">
+        <section id="research" class="section">
+            <div class="container grid-body">
                 <div class="span__4 span__6_l">
                     <div>
                         <h5 class="subtitle">Research</h5>
@@ -97,7 +97,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
             </div>
-            <div class="container grid-body margin-top-xl">
+            <div class="container grid-body">
                 <div class="span__4">
                     <div class="gutter-bot-s">
                         <div class="flex-col-center">
@@ -142,8 +142,8 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section id="design" class="section gutter-top-xl gutter-bot-l">
-            <div class="container grid-body gutter-bot-m">
+        <section id="design" class="section section-dark">
+            <div class="container grid-body">
                 <div class="span__full">
                     <div class="text-centered">
                         <h2 class="title">The design</h2>
@@ -154,7 +154,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
             </div>
-            <div class="container grid-body margin-top-xl">
+            <div class="container grid-body">
                 <div class="span__full">
                     <div class="carousel-container">
                         <div class="carousel-slider">
@@ -183,7 +183,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section id="testimonials" class="section gutter-top-xl gutter-bot-l">
+        <section id="testimonials" class="section">
             <div class="container grid-body">
                 <div class="span__full">
                     <div class="text-centered">
@@ -195,7 +195,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
             </div>
-            <div class="container grid-body margin-top-l">
+            <div class="container grid-body">
                 <div class="span__full">
                     <div class="carousel-container">
                         <div class="carousel-slider">

@@ -13,7 +13,7 @@ require_once __DIR__.'/modules/popup.php';
 ?>
 
 <div class="wrapper">
-    <section class="hero hero__subpage section about">
+    <section class="hero hero__subpage about">
         <div class="container grid-body">
             <div class="span__full text-centered">
                 <h1 class="heading">About us</h1>
@@ -21,16 +21,16 @@ require_once __DIR__.'/modules/popup.php';
         </div>
     </section>
     <main class="main">
-        <section id="overview" class="section gutter-top-xl gutter-bot-xl">
+        <section id="overview" class="section section-dark">
             <div class="container grid-body gutter-bot-s">
-                <div class="span__4 span__6_m offset__1_m span__8_l offset__2_l gutter-bot-m iframe-container">
-                    <iframe class="iframe-respo" src="<?= $jContent->video->url ?>"  allow="encrypted-media" allowfullscreen></iframe>
-                </div>
                 <div class="span__full text-centered">
                     <h2 class="punchline heading__italic"><?= $jContent->title->text ?></h2>
                 </div>
+                <div class="span__4 span__6_m offset__1_m span__8_l offset__2_l gutter-bot-m iframe-container">
+                    <iframe class="iframe-respo" src="<?= $jContent->video->url ?>"  allow="encrypted-media" allowfullscreen></iframe>
+                </div>
             </div>
-            <div class="container grid-body margin-top-xl">
+            <div class="container grid-body">
                 <div class="span__4">
                     <div class="gutter-bot-s">
                         <div>
@@ -139,7 +139,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section class="section">
             <div class="container grid-body">
                 <div class="span__4 span__8_m span__4_l">
                     <div>
@@ -203,7 +203,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section id="team" class="section gutter-top-xl gutter-bot-l">
+        <section id="team" class="section section-dark">
             <div class="container grid-body">
                 <div class="span__full">
                     <div class="text-centered">
@@ -215,7 +215,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
             </div>
-            <div class="container grid-body margin-top-m">
+            <div class="container grid-body">
                 <div class="span__full">
                     <div class="carousel-container">
                         <div class="carousel-slider">
@@ -263,7 +263,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section class="section">
             <div class="container grid-body">
                 <div class="span__full">
                     <div class="text-centered">
@@ -275,7 +275,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
             </div>
-            <div class="container grid-body margin-top-m justify-items-center">
+            <div class="container grid-body justify-items-center">
                 <?php
 
                 $aPeople = $jContent->sec_people_behind->people;
@@ -296,7 +296,7 @@ require_once __DIR__.'/modules/popup.php';
                 ?>
             </div>
         </section>
-        <section id="achievements" class="section gutter-top-xl gutter-bot-l">
+        <section id="achievements" class="section section-dark">
             <div class="container">
                 <?php require __DIR__.'/modules/achievements.php'; ?>
             </div>

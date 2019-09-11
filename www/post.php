@@ -18,7 +18,7 @@ require_once __DIR__.'/modules/header.php';
 require_once __DIR__.'/modules/popup.php';
 ?>
     <div class="wrapper">
-        <section class="section gutter-top-xl gutter-bot-xl">
+        <section class="section">
             <div class="container">
                 <div class="grid-body">
                     <div class="span__12_l">

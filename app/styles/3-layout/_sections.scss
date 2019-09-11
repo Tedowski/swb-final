@@ -1,3 +1,35 @@
+// gutters
+
+.section {
+  // mobile (112px) | 56 +- 12px
+  padding-top: 68px;
+  padding-bottom: 44px;
+
+  // tablet (148px) | 74 +- 16px
+  @media (min-width: $bkp-small) {
+    padding-top: 90px;
+    padding-bottom: 58px;
+  }
+
+  // desktop (184px) | 92 +- 20px
+  @media (min-width: $bkp-medium) {
+    padding-top: 112px;
+    padding-bottom: 72px;
+  }
+}
+
+.container:not(:first-child) {
+  margin-top: 32px;
+
+  @media (min-width: $bkp-small) {
+    margin-top: 72px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    margin-top: 112px;
+  }
+}
+
 .section-error {
   min-height: 50vh;
 }

@@ -3,7 +3,7 @@
         <div class="grid-body">
             <div class="span__2 span__4_m span__2_l header-logo_container">
                 <a href="./index.php" class="logo img">
-                    <img src="./images/logo_swb.png" alt="skate_world_better">
+                    <img src="./images/logo_header_swb.png" alt="skate_world_better">
                 </a>
             </div>
             <div class="hide-s hide-m span__10_l">

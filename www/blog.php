@@ -15,14 +15,14 @@ require_once __DIR__.'/modules/popup.php';
 
 
     <div class="wrapper">
-        <section class="hero hero__subpage section blog">
+        <section class="hero hero__subpage blog">
             <div class="container grid-body">
                 <div class="span__full text-centered">
                     <h1 class="heading">Blog</h1>
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section class="section">
             <div class="container">
                 <?php
                 foreach (array_reverse($jPosts) as $iPostId => $jPost){

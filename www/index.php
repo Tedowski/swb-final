@@ -13,7 +13,7 @@ require_once __DIR__.'/modules/popup.php';
 ?>
 
 <div class="wrapper">
-    <section class="hero hero__landing section">
+    <section class="hero hero__landing">
         <div class="container grid-body">
             <div class="span__full text-centered">
                 <p class="subtitle">Help us to</p>
@@ -22,7 +22,7 @@ require_once __DIR__.'/modules/popup.php';
         </div>
     </section>
     <main class="main">
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section class="section">
             <div class="container grid-body">
                 <div class="span__4 span__6_l justify-start-s">
                     <div class="">
@@ -34,9 +34,6 @@ require_once __DIR__.'/modules/popup.php';
                             </div>
                         </div>
                         <p class="margin-top-m"><?= $jContent->sec_challenges->subtitle->text ?></p>
-<!--                        <p>Skate World Better is a non-profit based in Copenhagen, Denmark. Our goal is to build the first public skatepark in Maputo, Mozambique by fall 2019 in order to support Maputo’s skateboarding community. To reach our goal we’ve teamed up with Skate-aid and ASM</p>-->
-<!--                        <p>Mozambique is a country located in southeast Africa experiencing a ‘youth bulge’ in its population. We believe skateboarding can be used as a tool to keep kids away from the dangers of drug use and crime, which are unfortunately prevalent in Mozambique’s capital city.</p>-->
-<!--                        <p>This project will also provide the city of Maputo with a hip and resurgent place of recreation and assembly.</p>-->
                     </div>
                 </div>
                 <div class="span__4 span__6_l s-first align-center-m-up justify-end-m-up hide-s">
@@ -45,7 +42,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
             </div>
-            <div class="container grid-body align-items-stretch margin-top-xl gutter-top-s">
+            <div class="container grid-body align-items-stretch gutter-top-s">
                 <div class="span__4">
                     <div class="item__challenge gutter-bot-l">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_1->headline->text ?></h3>
@@ -86,7 +83,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div class="item__challenge gutter-bot-m">
+                    <div class="item__challenge gutter-bot-l">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_4->headline->text ?></h3>
 <!--                        <h4 class="item-subheadline">--><?//= $jContent->sec_challenges->challenges_facts->fact_4->subheadline->text ?><!--</h4>-->
                         <div class="underline-container undrln__left">
@@ -99,7 +96,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div class="item__challenge gutter-bot-m">
+                    <div class="item__challenge gutter-bot-l">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_5->headline->text ?></h3>
 <!--                        <h4 class="item-subheadline">--><?//= $jContent->sec_challenges->challenges_facts->fact_5->subheadline->text ?><!--</h4>-->
                         <div class="underline-container undrln__left">
@@ -112,7 +109,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div class="item__challenge gutter-bot-m">
+                    <div class="item__challenge gutter-bot-l">
                         <h3 class="item-headline"><?= $jContent->sec_challenges->challenges_facts->fact_6->headline->text; ?></h3>
 <!--                        <h4 class="item-subheadline">--><?//= $jContent->sec_challenges->challenges_facts->fact_6->subheadline->text; ?><!--</h4>-->
                         <div class="underline-container undrln__left">
@@ -126,7 +123,7 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l section-dark">
+        <section class="section section-dark">
             <div class="container grid-body">
                 <div class="span__4 span__8_m span__4_l">
                     <div>
@@ -304,19 +301,19 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section class="section">
             <div class="container">
                 <?php require __DIR__.'/modules/achievements.php'; ?>
             </div>
         </section>
-        <section id="get-involved" class="section gutter-top-l gutter-bot-l">
+        <section id="get-involved" class="section">
             <div class="container grid-body">
                 <div class="span__4 span__6_m offset__1_m span__8_l offset__2_l iframe-container">
                     <iframe class='gfm-media-widget' image='1' coinfo='1' width='100%' height='100%' frameborder='0' id='skatepark-in-maputo-mozambique'></iframe>
                 </div>
             </div>
         </section>
-        <section class="section gutter-top-xl gutter-bot-xl section-dark">
+        <section class="section section-dark">
             <div class="container grid-body">
                 <div class="span__4 span__6_l">
                     <div>
@@ -334,7 +331,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
             </div>
-            <div class="container grid-body justify-items-center margin-top-xl gutter-top-s">
+            <div class="container grid-body justify-items-center gutter-top-s">
                 <div class="span__4 gutter-bot-m">
                     <a href="https://www.instagram.com/yakokarlik/" class="sponsor img" target="_blank">
                         <img src="./images/logo_switch.png" alt="switch">
