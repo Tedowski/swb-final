@@ -17,3 +17,4 @@
 // @codekit-append functionBlocks/editTestimon.js
 // @codekit-append functionBlocks/handleLoader.js
 // @codekit-append functionBlocks/smoothScroll.js
+// @codekit-append functionBlocks/handleCollapsibleButton.js

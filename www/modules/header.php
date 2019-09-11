@@ -12,7 +12,13 @@
                     <a href="./about.php" class="nav-link dropper">About us</a>
                     <a href="./blog.php" class="nav-link dropper">Blog</a>
                     <a href="#footer" class="nav-link dropper">Contact us</a>
-                    <a href="#get-involved" class="btn btn-block btn-prim dropper nav-link">Get involved</a>
+                    <div class="btn btn-collapsible btn-block btn-prim dropper nav-link">
+                        <a href="#get-involved">Get Involved</a>
+                        <div class="collap__content">
+                            <a class="collap__link" href="./sponsors.php">Sponsor</a>
+                            <a class="collap__link" href="./volunteers.php">Volunteer</a>
+                        </div>
+                    </div>
                 </nav>
             </div>
             <div class="span__2 span__4_m justify-end-s-up hide-l-up">BURGER</div>

@@ -13,7 +13,7 @@ require_once __DIR__.'/modules/popup.php';
 ?>
 
 <div class="wrapper">
-    <section class="hero hero__subpage section">
+    <section class="hero hero__subpage">
         <div class="container grid-body">
             <div class="span__full text-centered">
                 <h1 class="heading">Sponsors</h1>
@@ -22,7 +22,7 @@ require_once __DIR__.'/modules/popup.php';
     </section>
     <main class="main">
         <section class="section">
-            <div class="container grid-body gutter-bot-m">
+            <div class="container grid-body">
                 <div class="span__4 span__6_l">
                     <div>
                         <h5 class="subtitle">Initiative</h5>
@@ -43,7 +43,7 @@ require_once __DIR__.'/modules/popup.php';
             </div>
         </section>
         <section class="section">
-            <div class="container grid-body gutter-bot-m">
+            <div class="container grid-body">
                 <div class="span__4 span__6_l">
                     <div>
                         <h5 class="subtitle">Your part</h5>
@@ -72,7 +72,7 @@ require_once __DIR__.'/modules/popup.php';
             </div>
         </section>
         <section class="section">
-            <div class="container grid-body gutter-bot-m">
+            <div class="container grid-body">
                 <div class="span__4 span__6_l">
                     <div>
                         <h5 class="subtitle">Our part</h5>
