@@ -9,19 +9,43 @@
   background-color: $c-quat;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .loader-img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 
   -webkit-animation: rotating 2s linear infinite;
   -moz-animation: rotating 2s linear infinite;
   -ms-animation: rotating 2s linear infinite;
   -o-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
+}
+
+.loader-toggle {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: all .3s ease;
+
+  &:last-of-type {
+    transition-delay: 1s;
+  }
+
+  &.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .btn {
+    font-family: $font-heading-sec;
+  }
+}
+
+.loader-title {
+  font-size: 25px;
 }
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {

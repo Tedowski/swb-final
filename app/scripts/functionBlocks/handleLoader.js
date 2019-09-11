@@ -2,10 +2,14 @@ $(document).ready(function() {
    $('.body').css('overflow', 'hidden');
    $('.wrapper, .header, .footer').hide();
 
+   setTimeout(function () {
+       $('.loader-toggle').addClass('active');
+   }, 5000);
+
    $(window).on('load', function() {
-       $('.body').css('overflow', 'auto');
-       $('.loader').fadeOut(500);
-       $('.wrapper, .header, .footer').fadeIn(800);
+       showPage();
+
+       // slide animation objects
 
        const slideUp = {
            distance: '100%',
@@ -25,6 +29,7 @@ $(document).ready(function() {
        };
 
        //trigger animation on reveal events here
+
        ScrollReveal().reveal('.heading', slideUp);
        ScrollReveal().reveal('.title', slideLeft);
        ScrollReveal().reveal('.subtitle', {
@@ -78,4 +83,18 @@ $(document).ready(function() {
            delayBehind++
        });
    });
+});
+
+function showPage() {
+    $('.body').css('overflow', 'auto');
+    $('.loader').fadeOut(500);
+    $('.wrapper, .header, .footer').fadeIn(800);
+}
+
+// toggle loader off and destroy scroll reveal
+
+$('#loaderToggle').on('click', function() {
+    showPage();
+
+    ScrollReveal().destroy();
 });
