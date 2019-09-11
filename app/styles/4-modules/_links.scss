@@ -1,0 +1,65 @@
+
+.link {
+  font-family: $font-heading-sec;
+  color: $c-sec;
+  transition: all .3s ease;
+
+  &:hover {
+    color: darken($c-sec, 15%);
+  }
+}
+
+.nav-link,
+.subnav-link {
+  transition: all .3s ease;
+  display: block;
+}
+
+.nav-link {
+  font-family: $font-heading-sec;
+}
+
+.subnav-link {
+  &:hover {
+    color: $c-sec;
+    transform: translateX(8px);
+  }
+}
+
+
+.icon-circ {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 2px solid $c-sec;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all .3s ease;
+
+  i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover {
+    border-color: darken($c-sec, 10%);
+    background-color: darken($c-sec, 10%);
+  }
+
+  &:focus {
+    border-color: darken($c-sec, 10%);
+    background-color: darken($c-sec, 10%);
+  }
+
+  &:active {
+    border-color: darken($c-sec, 20%);
+    background-color: darken($c-sec, 20%);
+  }
+
+  &:not(:first-of-type) {
+    margin-left: 16px;
+  }
+}

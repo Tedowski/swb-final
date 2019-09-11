@@ -4,7 +4,7 @@
       "text": "We are a non-profit organization based in Denmark on a mission to build the first public skatepark in Mozambique"
     },
     "video": {
-      "url": "https://youtu.be/pWlWUySYXJs"
+      "url": "https://www.youtube.com/embed/pWlWUySYXJs"
     },
     "sec_holy_trio": {
       "mission": {
@@ -122,98 +122,98 @@
               
             },
             "img": {
-              "url": "path/to/img"
+              "url": "people_behind_matous_bem.jpg"
             }
           },
           {
             "id": 2,
             "name": {
-              "text": "Matous Bem"
+              "text": "Unicorn/Unicorn"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Architects"
               
             },
             "img": {
-              "url": "path/to/img"
+              "url": "people_behind-U:U.jpeg"
             }
           },
           {
             "id": 3,
             "name": {
-              "text": "Matous Bem"
+              "text": "Martin Masaryk"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Logo creator"
               
             },
             "img": {
-              "url": "path/to/img"
+              "url": "people_behind_martin_masaryk.jpg"
             }
           },
           {
             "id": 4,
             "name": {
-              "text": "Matous Bem"
+              "text": "Jakub Karlik"
             },
             "role": {
-              "text": "Legal consultant"
-              
+              "text": "Graphic design"
+
             },
             "img": {
-              "url": "path/to/img"
+              "url": "people_behind_jakub_karlik.jpg"
             }
           },
           {
             "id": 5,
             "name": {
-              "text": "Matous Bem"
+              "text": "Tripleton"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Web Development"
               
             },
             "img": {
-              "url": "path/to/img"
+              "url": "people_behind_webguys-min.jpg"
             }
           },
           {
             "id": 6,
             "name": {
-              "text": "Matous Bem"
+              "text": "Jakub Novotny"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Fashion Guru"
               
             },
             "img": {
-              "url": "path/to/img"
+              "url": "people_behind_kuba_novotny.jpg"
             }
           },
           {
             "id": 7,
             "name": {
-              "text": "Matous Bem"
+              "text": "Jan Balas"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Promoter / Translator"
               
             },
             "img": {
-              "url": "path/to/img"
+              "url": "people_behind-jan_bal.jpeg"
             }
           },
           {
             "id": 8,
             "name": {
-              "text": "Matous Bem"
+              "text": "Jonas Camps"
             },
             "role": {
-              "text": "Legal consultant"
+              "text": "Photographer"
               
             },
             "img": {
-              "url": "path/to/img"
+              "url": "people_behind_jonas_camps.jpg"
             }
           }
         ]

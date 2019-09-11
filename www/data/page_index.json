@@ -5,7 +5,7 @@
                 "text": "What\u2019s happening in Mozambique"
             },
             "subtitle": {
-                "text": "Skate World Better is a non-profit based in Copenhagen, Denmark. Our goal is to build the first public skatepark in Maputo, Mozambique by fall 2019 in order to support Maputo\u2019s skateboarding community. To reach our goal we\u2019ve teamed up with <a href='https:\/\/www.seznam.cz' target='_blank'>Skate-aid<\/a> and ASM<br><br> Mozambique is a country located in southeast Africa experiencing a \u2018youth bulge\u2019 in its population. We believe skateboarding can be used as a tool to keep kids away from the dangers of drug use and crime, which are unfortunately prevalent in Mozambique\u2019s capital city.<br><br> This project will also provide the city of Maputo with a hip and resurgent place of recreation and assembly."
+                "text": "Skate World Better is a non-profit based in Copenhagen, Denmark. Our goal is to build the first public skatepark in Maputo, Mozambique by fall 2019 in order to support Maputo\u2019s skateboarding community. To reach our goal we\u2019ve teamed up with <a class='link' href='https:\/\/www.skate-aid.org\/en' target='_blank'>Skate-aid<\/a> and <a class='link' href='https:\/\/www.facebook.com\/MOZAMBIQUESKATEBOARDING\/?ref=br_rs\/' target='_blank'>ASM<\/a><br><br> Mozambique is a country located in southeast Africa experiencing a \u2018youth bulge\u2019 in its population. We believe skateboarding can be used as a tool to keep kids away from the dangers of drug use and crime, which are unfortunately prevalent in Mozambique\u2019s capital city.<br><br> This project will also provide the city of Maputo with a hip and resurgent place of recreation and assembly."
             },
             "img": {
                 "src": "file.jpg"
@@ -92,7 +92,7 @@
                         "text": "One public bus line from skatepark to city centre."
                     },
                     "link": {
-                        "src": ""
+                        "src": "https:\/\/www.google.cz\/"
                     }
                 }
             }
@@ -144,7 +144,7 @@
                 "text": "Alone we can do so little, together we can do so much."
             },
             "subtitle": {
-                "text": "The idea behind this project is to unite people from all over our planet and make this project happen, together.<br><br>The value is not hidden in money, but in the social grids of enthusiasts who are happy to make others happy."
+                "text": "We came up with an interconnected project, that not only joints multiple activities, but also people of all origins with different interests.<br><br>Altogether, we will create a youth center that will serve all kinds of purposes within the city of Maputo."
             },
             "img": {
                 "src": "path\/to\/img"

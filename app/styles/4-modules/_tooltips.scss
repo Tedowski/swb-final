@@ -1,0 +1,114 @@
+// extra styling
+.tooltip-test {
+  display: inline-block;
+  background-color: rgba(0,0,0,.3);
+  padding: 6px 12px;
+  border-radius: 100%;
+  font-size: 20px;
+}
+
+// tooltip
+
+.tooltip {
+  position: relative;
+  cursor: help;
+
+  &::before,
+  &::after {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  &::before {
+    content: "";
+  }
+
+  &::after {
+    content: attr(data-tooltip);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: $font-size;
+    font-family: $font-heading-sec;
+    background-color: $c-terc;
+    color: $c-white;
+    width: max-content;
+  }
+
+
+  /* position modifiers */
+  // top
+
+  &[data-tootlip-position="top"]::before {
+    border-width: 10px 8px 0 8px;
+    border-style: solid;
+    border-color: $c-terc transparent transparent transparent;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+
+  &[data-tootlip-position="top"]::after {
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+  }
+
+  // bottom
+
+  &[data-tootlip-position="bottom"]::before {
+    border-width: 0 8px 10px 8px;
+    border-style: solid;
+    border-color: transparent transparent $c-terc transparent;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+
+  &[data-tootlip-position="bottom"]::after {
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+
+  // left
+
+  &[data-tootlip-position="left"]::before {
+    border-width: 8px 0 8px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent $c-terc;
+    left: 0;
+    top: 50%;
+    transform: translate(-100%, -50%);
+  }
+
+  &[data-tootlip-position="left"]::after {
+    left: -10px;
+    top: 50%;
+    transform: translate(-100%, -50%);
+  }
+
+  // right
+
+  &[data-tootlip-position="right"]::before {
+    border-width: 8px 10px 8px 0;
+    border-style: solid;
+    border-color: transparent $c-terc transparent transparent;
+    right: 0;
+    top: 50%;
+    transform: translate(100%, -50%);
+  }
+
+  &[data-tootlip-position="right"]::after {
+    right: -10px;
+    top: 50%;
+    transform: translate(100%, -50%);
+  }
+
+  /* Hover hiding */
+  &:hover {
+    &::before,
+    &::after {
+      visibility: visible;
+    }
+  }
+}

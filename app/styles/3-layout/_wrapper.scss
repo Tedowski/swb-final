@@ -3,8 +3,11 @@
 
 .wrapper {
   max-width: $wrapper-width;
-  padding-top: $header-height;
   position: relative;
   margin: 0 auto;
   //border: 1px solid red;
+}
+
+.admin-wrapper {
+  padding-top: 72px;
 }

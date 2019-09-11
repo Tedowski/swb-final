@@ -1,0 +1,78 @@
+.carousel-container {
+  position: relative;
+
+  @media (min-width: $bkp-small) {
+    padding: 0 36px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    padding: 0 10%;
+  }
+}
+
+.carousel-slider {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.carousel-button {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: $c-sec;
+  color: $c-white;
+
+  &#carPrev {
+    left: 0;
+  }
+
+  &#carNext {
+    right: 0;
+  }
+
+  &:hover {
+    border-color: darken($c-sec, 10%);
+    background-color: darken($c-sec, 10%);
+  }
+
+  &:focus {
+    border-color: darken($c-sec, 10%);
+    background-color: darken($c-sec, 10%);
+  }
+
+  &:active {
+    border-color: darken($c-sec, 20%);
+    background-color: darken($c-sec, 20%);
+  }
+}
+
+// slider styles
+
+.slide__profile {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+
+  @media (min-width: $bkp-small) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  & .item-subheadline {
+    color: $c-prim;
+  }
+}

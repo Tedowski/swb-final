@@ -6,9 +6,6 @@ $jAdmin = $_SESSION['sUser'];
 if( !isset($_SESSION['sUser']) ) {
     header('Location: index');
 }
-
-require_once __DIR__.'/../modules/header.php';
-require_once __DIR__.'/../modules/popup.php';
 ?>
 
 <!DOCTYPE html>
@@ -24,11 +21,62 @@ require_once __DIR__.'/../modules/popup.php';
 </head>
 <body class="body">
 
+<?php
 
-<div class="wrapper">
-    <section class="section gutter-top-xl gutter-top-xl">
+require_once __DIR__.'/../modules/header-admin.php';
+require_once __DIR__.'/../modules/popup.php';
+
+?>
+
+
+<div class="wrapper admin-wrapper">
+    <section class="section gutter-top-l gutter-bot-l">
+        <div class="container grid-body gutter-bot-m">
+            <div class="span__full">
+                <h1 class="title">Content management</h1>
+            </div>
+        </div>
         <div class="container grid-body">
-            <h1>Content</h1>
+            <div class="span__4">
+                <a href="edit_pages.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-file-alt icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit content</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="edit_achievements.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="fas fa-trophy icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit achievements</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="edit_sponsors.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="fas fa-users icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit sponsors</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="edit_testimon.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-address-card icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit testimonials</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="edit_team.php" class="btn btn-prim btn-block text-centered">
+                    <div class="margin-top-xs">
+                        <i class="fas fa-users-cog icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Edit team bio</h3>
+                </a>
+            </div>
         </div>
     </section>
 </div>

@@ -40,7 +40,8 @@
     border-radius: 0;
   }
 
-  .input {
+  .input,
+  .textarea {
     flex: 1;
 
     &:first-child {
@@ -83,24 +84,38 @@
 
 .label {
   font-size: 12px;
-  font-weight: 500;
+  font-family: $font-heading-sec;
   line-height: 16px;
   text-transform: capitalize;
   margin-bottom: 4px;
 }
 
 .input {
-  border: 2px solid lighten($c-prim, 20%);
-  background-color: lighten($c-prim, 68%);
   font-size: 14px;
   line-height: 24px;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+
+  &.bodytext {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.input,
+.textarea {
+  font-family: $font-heading-sec;
+  border: 2px solid lighten($c-prim, 20%);
+  background-color: lighten($c-prim, 68%);
   padding: 6px 10px;
   transition: all .3s ease;
 
   &::placeholder {
     transition: all .3s ease;
     color: $c-black;
-    font-weight: 500;
     opacity: .55;
   }
 

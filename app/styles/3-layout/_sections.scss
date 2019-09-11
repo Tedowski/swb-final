@@ -1,0 +1,64 @@
+// gutters
+
+.section {
+  // mobile (112px) | 56 +- 12px
+  padding-top: 68px;
+  padding-bottom: 44px;
+
+  // tablet (148px) | 74 +- 16px
+  @media (min-width: $bkp-small) {
+    padding-top: 90px;
+    padding-bottom: 58px;
+  }
+
+  // desktop (184px) | 92 +- 20px
+  @media (min-width: $bkp-medium) {
+    padding-top: 112px;
+    padding-bottom: 72px;
+  }
+}
+
+.container:not(:first-child) {
+  margin-top: 32px;
+
+  @media (min-width: $bkp-small) {
+    margin-top: 72px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    margin-top: 112px;
+  }
+}
+
+.section-error {
+  height: calc(100vh - 160px);
+
+  .error_code {
+    font-size: 112px;
+    margin-bottom: 36px;
+    color: $c-error;
+  }
+
+  .error_title {
+    font-size: 36px;
+  }
+
+  .btn {
+    font-family: $font-heading-sec;
+  }
+}
+
+.section-dark {
+  background-color: darken($c-background, 4%);
+}
+
+.section-blog {
+  background-color: $c-quat;
+}
+
+.section#get-involved {
+  background-image: url("./../images/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

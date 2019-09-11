@@ -12,15 +12,54 @@
 }
 
 .hero {
-  background-color: $c-terc;
+  padding-top: 112px;
+  background-color: lighten($c-sec, 24%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: $bkp-small) {
+    padding-top: 174px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    padding-top: 174px;
+  }
 }
 
 .hero__landing {
-  @include hero-height(calc(100vh - 144px), calc(100vh - 144px), calc(100vh - 144px));
+  @include hero-height(calc(100vh - 44px), calc(100vh - 72px), calc(100vh - 72px));
 
   max-height: 850px;
+  background-image: url("./../images/hero.png");
+
+  .heading {
+    color: $c-terc;
+  }
 }
 
 .hero__subpage {
-  @include hero-height(50vh, 50vh, 50vh);
+  padding-bottom: 72px;
+  h1 {
+    color: $c-white;
+    font-family: $font-heading-terc;
+  }
+
+  &.project {
+    background-image: url("./../images/project_header_bg.jpeg");
+  }
+
+  &.about {
+    background-position: top;
+    background-image: url("./../images/about-hero.JPG");
+  }
+
+  &.sponsors {
+    background-image: url("./../images/about_header_bg.png");
+  }
+
+  &.blog {
+    background-image: url("./../images/blog-hero.JPG");
+  }
+
 }

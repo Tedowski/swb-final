@@ -2,12 +2,15 @@
 // ***************************************
 
 .section,
-.container {
+.container,
+.hero,
+.col {
   position: relative;
 }
 
 .section,
-.main {
+.main,
+.hero {
   width: 100%;
 }
 
@@ -45,6 +48,27 @@
 
 .margin-top-xl {
   margin-top: 112px;
+}
+
+
+.margin-bot-xs {
+  margin-bottom: 16px;
+}
+
+.margin-bot-s {
+  margin-bottom: 24px;
+}
+
+.margin-bot-m {
+  margin-bottom: 40px;
+}
+
+.margin-bot-l {
+  margin-bottom: 72px;
+}
+
+.margin-bot-xl {
+  margin-bottom: 112px;
 }
 
 
@@ -354,16 +378,16 @@
     grid-column-start: 8;
   }
   .offset__8_l {
-    grid-column-start: 8;
+    grid-column-start: 9;
   }
   .offset__9_l {
-    grid-column-start: 8;
+    grid-column-start: 10;
   }
   .offset__10_l {
-    grid-column-start: 8;
+    grid-column-start: 11;
   }
   .offset__11_l {
-    grid-column-start: 8;
+    grid-column-start: 12;
   }
 
 
