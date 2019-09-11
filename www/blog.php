@@ -22,32 +22,36 @@ require_once __DIR__.'/modules/popup.php';
                 </div>
             </div>
         </section>
-        <section class="section">
-            <div class="container">
+        <section class="section section-blog">
+            <div class="container grid-body">
                 <?php
                 foreach (array_reverse($jPosts) as $iPostId => $jPost){
                     if(isset($jPost['title']['text']) && $jPost['title']['text'] != ''){
                         $sPostTitle = $jPost['title']['text'];
                         $sPostSubtitle = $jPost['subtitle']['text'];
-                        $sPostDate = date('d/m/Y',$jPost['timestamp'] );
+                        $sPostDate = date('d M Y',$jPost['timestamp'] );
                         $sImgPath = $jPost['media']['src'];
 
-                        echo "<div id=$iPostId class=\"grid-body gutter-bot-m\">
-                              <div class=\"span__6_l  margin-top-s\">
-                                <div>
-                                   <img src=$sImgPath alt=''>
-                                </div>
+                        echo "<div class=\"span__4 span__6_l gutter-bot-m\">
+                                  <article id=$iPostId class=\"article-blog\">
+                                      <div id=$iPostId class=\"read-more-blog-post article-img img\">
+                                        <img src=\"images/$sImgPath\" alt=''>
+                                      </div>
+                                      <div class=\"article-body\">
+                                        <div class='margin-bot-m'>
+                                            <h4 class='article__date'>$sPostDate</h4>
+                                            <h3 class='article__headline'>$sPostTitle</h3>
+                                            <div class=\"underline-container undrln__left\">
+                                                <div class=\"undrln__prim underline-inline undrln__m\"></div>
+                                            </div>
+                                            <p class='article__subtitle margin-top-s'>$sPostSubtitle</p>
+                                        </div>
+                                        <div class=\"underline-container undrln__right\">
+                                            <a id=$iPostId class=\"read-more-blog-post btn btn-sec btn-inline btn-inline__medium\">Read more</a>
+                                        </div>
+                                      </div>
+                                  </article>
                               </div>
-                              <div class=\"span__6_l margin-top-s\">
-                                <div>
-                                    <h4 class='item-subheadline'>$sPostDate</h4>
-                                    <h3 class='item-headline'>$sPostTitle</h3>
-                                    <p>$sPostSubtitle</p>
-                                    <a id=$iPostId class=\"read-more-blog-post btn btn-prim btn-inline btn-inline__medium\">Read more</a>
-                                </div>
-                              </div>
-                              
-                          </div>
                          ";
 
                     }
