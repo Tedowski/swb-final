@@ -244,3 +244,27 @@
     font-family: $font-heading-sec;
   }
 }
+
+// Post Main
+// **********************************************
+
+.post {
+  position: relative;
+  overflow: hidden;
+  border-radius: $border-radius;
+
+  background-color: $c-white;
+
+  .post__body {
+    padding: 24px;
+  }
+
+  .post__date {
+    color: $c-prim;
+  }
+
+  iframe {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}

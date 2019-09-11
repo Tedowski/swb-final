@@ -18,17 +18,27 @@ require_once __DIR__.'/modules/header.php';
 require_once __DIR__.'/modules/popup.php';
 ?>
     <div class="wrapper">
-        <section class="section">
-            <div class="container">
-                <div class="grid-body">
-                    <div class="span__12_l">
-                        <a href="blog" class="btn btn-text"> « Go back to blog posts</a>
-                        <h2 class="title margin-top-m"><?= $jPost->title->text ?></h2>
-                        <p>img</p>
-                        <p><?= date('d/m/Y',$jPost->timestamp ) ?></p>
-                        <p><?= $jPost->subtitle->text ?></p>
-                        <p><?= $jPost->content->text ?></p>
-                    </div>
+        <section class="section section-blog">
+            <div class="container grid-body">
+                <div class="span__full">
+                    <a href="blog" class="btn btn-text"> « Go back to blog posts</a>
+                    <article class="post margin-top-s margin-bot-m">
+                        <div class="post__head">
+                            <div class="post__img img">
+                                <img src="images/<?= $jPost->media->src ?>" alt="post_img">
+                            </div>
+                        </div>
+                        <div class="post__body">
+                            <h4 class="post__date"><?= date('d/m/Y',$jPost->timestamp ) ?></h4>
+                            <h2 class="title margin-top-s"><?= $jPost->title->text ?></h2>
+                            <div class="underline-container undrln__left">
+                                <div class="undrln__prim underline-inline undrln__xl"></div>
+                            </div>
+                            <p class="margin-top-m"><?= $jPost->subtitle->text ?></p>
+                            <p><?= $jPost->content->text ?></p>
+                        </div>
+                    </article>
+                    <a href="blog" class="btn btn-text"> « Go back to blog posts</a>
                 </div>
             </div>
         </section>
