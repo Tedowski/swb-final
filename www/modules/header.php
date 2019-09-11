@@ -21,11 +21,15 @@
                     </div>
                 </nav>
             </div>
-            <div class="span__2 span__4_m justify-end-s-up hide-l-up">BURGER</div>
+            <div class="span__2 span__4_m justify-end-s-up hide-l-up">
+                <div class="nav__burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
         </div>
         <div class="dropdown-menu grid-body">
             <div class="span__10_l offset__2_l margin-top-s">
-                <div class="nav">
+                <nav class="nav">
                     <div class="subnav">
                         <a href="./project.php#overview" class="subnav-link">Overview</a>
                         <a href="./project.php#research" class="subnav-link">Research</a>
@@ -37,8 +41,19 @@
                         <a href="./about.php#team" class="subnav-link">Our Team</a>
                         <a href="./about.php#achievements" class="subnav-link">Achievements</a>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
+    </div>
+    <div class="burger_menu">
+        <nav class="nav__mobile">
+            <a href="./project.php" class="mobile_link">Project</a>
+            <a href="./about.php" class="mobile_link">About us</a>
+            <a href="./blog.php" class="mobile_link">Blog</a>
+            <a href="#footer" class="mobile_link scroller">Contact</a>
+            <a href="#get-involved" class="mobile_link mobile-cta scroller">Get involved</a>
+            <a href="./sponsors.php" class="mobile_link mobile-cta">Sponsor</a>
+            <a href="./volunteers.php" class="mobile_link mobile-cta">Volunteer</a>
+        </nav>
     </div>
 </header>

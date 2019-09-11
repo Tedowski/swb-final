@@ -49,3 +49,50 @@
 .btn-collapsible {
   position: relative;
 }
+
+// burger
+
+.nav__burger {
+  font-size: 24px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: darken($c-white, 15%);
+  }
+}
+
+.burger_menu {
+  height: 0;
+  overflow: hidden;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+
+  &.active {
+    height: calc(100vh - 88px);
+    overflow: scroll;
+  }
+}
+
+.nav__mobile {
+  text-align: center;
+  line-height: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.mobile_link {
+  display: inline-block;
+  padding: 8px 12px;
+  font-family: $font-heading-sec;
+
+  &.mobile-cta {
+    color: $c-sec;
+
+    &:first-child {
+      border-top: 2px solid $c-white;
+    }
+  }
+}

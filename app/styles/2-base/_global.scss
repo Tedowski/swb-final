@@ -21,6 +21,10 @@ body {
     width: 100%;
     height: 100vh;
     background-color: $c-background;
+
+    &.stop_scroll {
+        overflow: hidden !important;
+    }
 }
 
 a {
