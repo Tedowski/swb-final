@@ -35,7 +35,7 @@ require_once __DIR__.'/modules/popup.php';
                         <p class="margin-top-m"><?= $jContent->sec_overview->subtitle->text ?></p>
                     </div>
                 </div>
-                <div class="span__4 span__6_l s-first justify-center-s justify-end-m-up">
+                <div class="span__4 span__6_l s-first hide-s align-center-m-up justify-end-m-up">
                     <div class="img">
                         <img src="./images/Mozambique_map.png" alt="mozambique">
                     </div>
@@ -99,37 +99,43 @@ require_once __DIR__.'/modules/popup.php';
             </div>
             <div class="container grid-body margin-top-xl">
                 <div class="span__4">
-                    <div>
-                        <div class="img img-circ circ-l">
-                            <img src="./images/our_team_tomas.jpg" alt="tomas">
+                    <div class="gutter-bot-s">
+                        <div class="flex-col-center">
+                            <div class="img img-circ circ-l">
+                                <img src="./images/our_team_tomas.jpg" alt="tomas">
+                            </div>
+                            <h4 class="item-headline margin-top-s"><?= $jContent->sec_research->research_team->memeber_1->name->text ?></h4>
                         </div>
-                        <h4 class="item-headline margin-top-s"><?= $jContent->sec_research->research_team->memeber_1->name->text ?></h4>
-                        <div class="underline-container undrln__left">
-                            <div class="undrln__prim underline-inline undrln__s"></div>
+                        <div class="underline-container undrln__center">
+                            <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
                         <p class="margin-top-s"><?= $jContent->sec_research->research_team->memeber_1->research->text ?></p>
                     </div>
                 </div>
                 <div class="span__4">
-                    <div>
-                        <div class="img img-circ circ-l">
-                            <img src="./images/martin-project.jpg" alt="martin">
+                    <div class="gutter-bot-s">
+                        <div class="flex-col-center">
+                            <div class="img img-circ circ-l">
+                                <img src="./images/martin-project.jpg" alt="martin">
+                            </div>
+                            <h4 class="item-headline margin-top-s"><?= $jContent->sec_research->research_team->memeber_2->name->text ?></h4>
                         </div>
-                        <h4 class="item-headline margin-top-s"><?= $jContent->sec_research->research_team->memeber_2->name->text ?></h4>
-                        <div class="underline-container undrln__left">
-                            <div class="undrln__prim underline-inline undrln__s"></div>
+                        <div class="underline-container undrln__center">
+                            <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
                         <p class="margin-top-s"><?= $jContent->sec_research->research_team->memeber_2->research->text ?></p>
                     </div>
                 </div>
                 <div class="span__4 span__8_m span__4_l">
-                    <div>
-                        <div class="img img-circ circ-l">
-                            <img src="./images/our_team_brendan_test.png" alt="brendan">
+                    <div class="gutter-bot-s">
+                        <div class="flex-col-center">
+                            <div class="img img-circ circ-l">
+                                <img src="./images/our_team_brendan_test.png" alt="brendan">
+                            </div>
+                            <h4 class="item-headline margin-top-s"><?= $jContent->sec_research->research_team->memeber_3->name->text ?></h4>
                         </div>
-                        <h4 class="item-headline margin-top-s"><?= $jContent->sec_research->research_team->memeber_3->name->text ?></h4>
-                        <div class="underline-container undrln__left">
-                            <div class="undrln__prim underline-inline undrln__s"></div>
+                        <div class="underline-container undrln__center">
+                            <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
                         <p class="margin-top-s"><?= $jContent->sec_research->research_team->memeber_3->research->text ?></p>
                     </div>

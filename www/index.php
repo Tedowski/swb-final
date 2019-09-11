@@ -39,7 +39,7 @@ require_once __DIR__.'/modules/popup.php';
 <!--                        <p>This project will also provide the city of Maputo with a hip and resurgent place of recreation and assembly.</p>-->
                     </div>
                 </div>
-                <div class="span__4 span__6_l s-first justify-center-s justify-end-m-up">
+                <div class="span__4 span__6_l s-first align-center-m-up justify-end-m-up hide-s">
                     <div class="img">
                         <img src="./images/Mozambique_map.png" alt="mozambique">
                     </div>

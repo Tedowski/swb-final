@@ -39,7 +39,7 @@ h6 {
 
 // second level title
 .title {
-  font-size: 44px;
+  font-size: 36px;
   margin-bottom: calc(1em - 16px);
 
   @media (min-width: $bkp-small) {
@@ -57,9 +57,25 @@ h6 {
 
 // second level subtitle
 .subtitle {
-  font-size: 25px;
+  font-size: 20px;
   font-family: $font-heading-sec;
   color: $c-prim;
+
+  @media (min-width: $bkp-small) {
+    font-size: 25px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    font-size: 25px;
+  }
+
+  @media (min-width: $bkp-large) {
+    font-size: 25px;
+  }
+}
+
+.punchline {
+  font-size: 20px;
 
   @media (min-width: $bkp-small) {
     font-size: 25px;
@@ -78,10 +94,10 @@ h6 {
 // item headings
 .item-headline {
   color: $c-font-grey-dark;
-  font-size: 33px;
+  font-size: 24px;
 
   @media (min-width: $bkp-small) {
-    font-size: 33px;
+    font-size: 24px;
   }
 
   @media (min-width: $bkp-medium) {
@@ -95,10 +111,10 @@ h6 {
 
 .item-subheadline {
   color: $c-font-grey-dark;
-  font-size: 25px;
+  font-size: 18px;
 
   @media (min-width: $bkp-small) {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   @media (min-width: $bkp-medium) {

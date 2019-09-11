@@ -12,11 +12,19 @@
 }
 
 .hero {
-  padding-top: 174px;
+  padding-top: 112px;
   background-color: lighten($c-sec, 24%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (min-width: $bkp-small) {
+    padding-top: 174px;
+  }
+
+  @media (min-width: $bkp-medium) {
+    padding-top: 174px;
+  }
 }
 
 .hero__landing {
@@ -24,6 +32,10 @@
 
   max-height: 850px;
   background-image: url("./../images/hero.png");
+
+  .heading {
+    color: $c-terc;
+  }
 }
 
 .hero__subpage {

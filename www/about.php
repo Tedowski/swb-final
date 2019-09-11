@@ -23,16 +23,16 @@ require_once __DIR__.'/modules/popup.php';
     <main class="main">
         <section id="overview" class="section gutter-top-xl gutter-bot-xl">
             <div class="container grid-body gutter-bot-s">
-                <div class="span__full text-centered gutter-bot-m">
-                    <h2 class="title heading__italic"><?= $jContent->title->text ?></h2>
-                </div>
-                <div class="span__4 span__6_m offset__1_m span__8_l offset__2_l iframe-container">
+                <div class="span__4 span__6_m offset__1_m span__8_l offset__2_l gutter-bot-m iframe-container">
                     <iframe class="iframe-respo" src="<?= $jContent->video->url ?>"  allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="span__full text-centered">
+                    <h2 class="punchline heading__italic"><?= $jContent->title->text ?></h2>
                 </div>
             </div>
             <div class="container grid-body margin-top-xl">
                 <div class="span__4">
-                    <div>
+                    <div class="gutter-bot-s">
                         <div>
                             <div class="img flex-col-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118.6" height="122.022" viewBox="0 0 118.6 122.022">
@@ -85,7 +85,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div>
+                    <div class="gutter-bot-s">
                         <div>
                             <div class="img flex-col-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="142.674" height="121.672" viewBox="0 0 142.674 121.672">
@@ -110,7 +110,7 @@ require_once __DIR__.'/modules/popup.php';
                     </div>
                 </div>
                 <div class="span__4">
-                    <div>
+                    <div class="gutter-bot-s">
                         <div>
                             <div class="img flex-col-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="125.823" height="122.322" viewBox="0 0 125.823 122.322">
