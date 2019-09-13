@@ -15,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="./styles/index.css">
-    <title>Skate World Better</title>
+    <title>Skate World Better - Building first skatepark in Mozambique</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147995379-1"></script>
@@ -25,6 +25,21 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-147995379-1');
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "Organization",
+            "name": "Skate World Better",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Stampesgade 6",
+                "addressLocality": "København",
+                "addressRegion": "V",
+                "postalCode": "1702"
+            },
+            "telephone": "+45 91 61 92 31"
+        }
     </script>
 </head>
 <body class="body">
