@@ -16,8 +16,8 @@ $sSubscriberMail = $_POST['subscriber-email'];
 
 if(empty($sSubscriberMail)){sendResponse(0,__LINE__,'Email is missing');}
 if(!filter_var($sSubscriberMail,FILTER_VALIDATE_EMAIL)){sendResponse(0,__LINE__,'Not valid email');}
-foreach ($jSubscribers as $sId => $jSubscriber){
-    if($jSubscriber->email ==$sSubscriberMail ){
+foreach ($jSubscribers as $sId => $jSubscriberCheck){
+    if($jSubscriberCheck->email == $sSubscriberMail ){
         sendResponse(0,__LINE__,'Email is already subscribed to newsletter');
     }
 }

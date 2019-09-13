@@ -57,7 +57,7 @@ $jContent = $jData->contact;
                 <h5>Get updates about the cause</h5>
                 <form id="frm-newsletter" class="form">
                     <div class="input-wrapper">
-                        <input class="input" type="text" name="subscriber-email" placeholder="Your E-mail">
+                        <input id="frm-newsletter-input" class="input" type="text" name="subscriber-email" placeholder="Your E-mail">
                         <button class="btn btn-prim btn-block input-append">Sign up</button>
                     </div>
                 </form>
