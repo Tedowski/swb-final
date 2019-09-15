@@ -28,7 +28,7 @@ require_once __DIR__.'/../modules/popup.php';
 ?>
 
 <div class="wrapper admin-wrapper">
-    <section class="section gutter-top-l gutter-bot-l">
+    <section class="section">
         <div class="container grid-body gutter-bot-m">
             <div class="span__full">
                 <h1 class="title">Pages content management</h1>

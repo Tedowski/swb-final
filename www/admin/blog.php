@@ -38,6 +38,9 @@ require_once __DIR__.'/../modules/popup.php';
     <section class="section section-blog">
         <div class="container grid-body">
             <div class="span__full">
+                <h1 class="title">Blog management</h1>
+            </div>
+            <div class="span__full">
                 <button id="add-blog-post" class="btn btn-prim btn-block">Add new blog post</button>
                 <div class="hide-l-up form-container">
                     <form id="frm-add-blog" class="form form_main form_card">

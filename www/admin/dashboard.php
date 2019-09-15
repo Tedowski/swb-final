@@ -27,14 +27,12 @@ require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
 ?>
 
-<div class="wrapper admin-wrapper">
-    <section class="section gutter-top-l gutter-bot-l">
-        <div class="container grid-body gutter-bot-m">
+<div class="wrapper">
+    <section class="section">
+        <div class="container grid-body">
             <div class="span__full">
                 <h1 class="title">SWB Dashboard</h1>
             </div>
-        </div>
-        <div class="container grid-body">
             <div class="span__4">
                 <a href="content.php" class="btn btn-prim btn-block text-centered">
                     <div class="margin-top-xs">
