@@ -1,7 +1,10 @@
 {
     "subscribers": {
-        "5d7b25d8318fa": {
-            "email": "a@a.com"
+        "5d7ec29b1135f": {
+            "email": "jondoe@mail.com"
+        },
+        "5d7ec2b015139": {
+            "email": "testing@mail.com"
         }
     }
 }

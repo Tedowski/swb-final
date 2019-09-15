@@ -39,6 +39,7 @@ require_once __DIR__.'/../modules/popup.php';
         <div class="container grid-body">
             <div class="span__full">
                 <h1 class="title">Blog management</h1>
+                <a href="dashboard" class="btn btn-text">« Back to dashboard</a>
             </div>
             <div class="span__full">
                 <button id="add-blog-post" class="btn btn-prim btn-block">Add new blog post</button>
