@@ -50,7 +50,7 @@ require_once __DIR__.'/../modules/popup.php';
 </div>
 
 <?php
-require_once __DIR__.'/../modules/footer.php';
+require_once __DIR__.'/../modules/footer-admin.php';
 ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

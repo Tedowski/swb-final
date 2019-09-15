@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule (.*) $1.php [L]
+
+ErrorDocument 404 /swb-website-final/www/404.php
+ErrorDocument 403 /swb-website-final/www/403.php
+ErrorDocument 500 /swb-website-final/www/500.php
+
+# STRONG HTACCESS PROTECTION
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+
+# Protect sitemap.xml
+<Files ./sitemap.xml>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Protect robots.txt
+<Files ./robots.txt>
+Order Allow,Deny
+Deny from all
+</Files>

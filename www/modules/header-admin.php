@@ -1,9 +1,11 @@
 <header class="header">
     <div class="container grid-body">
         <div class="span__2">
-            <a href="./../index.php" class="logo img">
-<!--                <img src="./../images/logo_swb.png" alt="skate_world_better">-->
-            </a>
+            <div class="span__2 span__4_m span__2_l">
+                <a href="./../index" class="logo img">
+                    <img src="./../images/logo_header_swb.png" alt="skate_world_better">
+                </a>
+            </div>
         </div>
         <div class="span__8_l">
 

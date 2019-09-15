@@ -1,6 +1,6 @@
 <?php
 
-$sData = file_get_contents('./data/contact.json');
+$sData = file_get_contents('./../data/contact.json');
 $jData = json_decode($sData);
 
 $jContent = $jData->contact;

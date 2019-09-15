@@ -35,76 +35,89 @@ require_once __DIR__.'/../modules/popup.php';
 
 
 <div class="wrapper">
-    <section class="section gutter-top-xl gutter-top-xl">
-        <div class="container">
-            <button id="add-blog-post" class="btn btn-prim btn-block">Add new blog post</button>
-            <div class="hide-l-up form-container">
-                <form id="frm-add-blog" class="form form_main form_card">
-                    <div class="span__2">
-                        <div class="form__input-group">
-                            <label class="label">Blog post title:</label>
-                            <div class="input-wrapper">
-                                <input class="input" type="text" name="blog-title" placeholder="e.g. This is title for blog post">
+    <section class="section section-blog">
+        <div class="container grid-body">
+            <div class="span__full">
+                <button id="add-blog-post" class="btn btn-prim btn-block">Add new blog post</button>
+                <div class="hide-l-up form-container">
+                    <form id="frm-add-blog" class="form form_main form_card">
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">Blog post title:</label>
+                                <div class="input-wrapper">
+                                    <input class="input" type="text" name="blog-title" placeholder="e.g. This is title for blog post">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="span__2">
-                        <div class="form__input-group">
-                            <label class="label">Blog post subtitle:</label>
-                            <div class="input-wrapper">
-                                <textarea placeholder="e.g. This is subtitle for blog post" class="textarea input" name="blog-subtitle"></textarea>
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">Blog post subtitle:</label>
+                                <div class="input-wrapper">
+                                    <textarea placeholder="e.g. This is subtitle for blog post" class="textarea input" name="blog-subtitle"></textarea>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="span__2">
-                        <div class="form__input-group">
-                            <label class="label">Blog post content:</label>
-                            <div class="input-wrapper">
-                                <textarea placeholder="e.g. This is content for blog post" class="textarea input" name="blog-content"></textarea>
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">Blog post content:</label>
+                                <div class="input-wrapper">
+                                    <textarea placeholder="e.g. This is content for blog post" class="textarea input" name="blog-content"></textarea>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="span__2">
-                        <div class="form__input-group">
-                            <label class="label">Blog image:</label>
-                            <div class="input-wrapper">
-                                <input class="input" type="file" name="fileToUpload" id="fileToUpload">
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">Blog image:</label>
+                                <div class="input-wrapper">
+                                    <input class="input" type="file" name="fileToUpload" id="fileToUpload">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="span__2">
-                        <div class="form__input-group">
-                            <img id="preview" src="#" alt="Your image to upload" />
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <img id="preview" src="#" alt="Your image to upload" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="span__1 margin-top-m">
-                        <input class="btn btn-prim btn-block" type="submit" name="submit" value="Create new blog post">
-                    </div>
-                </form>
+                        <div class="span__1 margin-top-m">
+                            <input class="btn btn-prim btn-block" type="submit" name="submit" value="Create new blog post">
+                        </div>
+                    </form>
+                </div>
             </div>
-
-
+            <div class="span__full">
+                <table class="table">
+                    <tr class="table_row row-head">
+                        <th class="row_head-col col_grow-1 row_align-left">
+                            <p>Date</p>
+                        </th>
+                        <th class="row_head-col col_grow-3 row_align-left">
+                            <p>Title</p>
+                        </th>
+                        <th class="row_head-col col_grow-2 row_align-center">
+                            <p>Action</p>
+                        </th>
+                    </tr>
                 <?php
                 foreach ($jPosts as $jPostId => $jPost){
                     $jPostDate = date('d/m/Y',$jPost->timestamp );
                     $jPostTitle = $jPost->title->text;
-                    echo "<div id=$jPostId class=\"grid-body align-items-center  margin-top-xs btn btn-prim\">
-                              <div class=\"span__2 justify-center-s-up\">
-                                <p>$jPostDate</p>
-                              </div>
-                              <div class=\"span__8_l\">
-                                <p>$jPostTitle</p>
-                              </div>
-                              <div class=\"span__2 justify-items-center\">
-                                <a id=$jPostId class=\"edit-blog-post\">Edit</a>
-                                <a id=$jPostId class=\"remove-blog-post\">Remove</a>
-                              </div>
-                              
-                          </div>
+                    echo "<tr id=$jPostId class=\"table_row row-item\">
+                                <td class=\"row_item-col col_grow-1 row_align-left\">
+                                    <p class=\"col_impact\">$jPostDate</p>
+                                </td>
+                                <td class=\"row_item-col col_grow-3 row_align-left\">
+                                    <p>$jPostTitle</p>
+                                </td>
+                                <td class=\"row_item-col col_grow-2 row_align-center\">
+                                    <div id=$jPostId class=\"btn btn-text edit-blog-post\">Edit</div>
+                                    <div id=$jPostId class=\"btn btn-text remove-blog-post\">Remove</div>
+                                </td>
+                            </tr>
                          ";
                 }
                 ?>
-
+                </table>
+            </div>
         </div>
     </section>
 </div>
