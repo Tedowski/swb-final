@@ -31,68 +31,90 @@ require_once __DIR__.'/../modules/popup.php';
 ?>
 
 <div class="wrapper">
-    <section class="section">
-        <div class="container">
-            <div class="form-container">
-                <h3>Add new testimonial: </h3>
-                <form id="frm-add-testimon" class="form form_main form_card">
-                    <div class="span__2">
-                        <div class="form__input-group">
-                            <label class="label">Name:</label>
-                            <div class="input-wrapper">
-                                <input class="input" type="text" name="testimon-name" placeholder="e.g. This is name of person's testimonial">
+    <section class="section section-blog">
+        <div class="container grid-body">
+            <div class="span__full margin-bot-m">
+                <h1 class="title">Testimonials</h1>
+                <a href="content" class="btn btn-text">« Back to content management</a>
+            </div>
+            <div class="span__full gutter-bot-l">
+                <div class="form-container">
+                    <h3 class="item-subheadline">Add new testimonial</h3>
+                    <form id="frm-add-testimon" class="form form_main form_card">
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">Name:</label>
+                                <div class="input-wrapper">
+                                    <input class="input" type="text" name="testimon-name" placeholder="e.g. This is name of person's testimonial">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="span__2">
-                        <div class="form__input-group">
-                            <label class="label">Role:</label>
-                            <div class="input-wrapper">
-                                <input class="input" type="text" name="testimon-role" placeholder="e.g. This is role of person's testimonial">
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">Role:</label>
+                                <div class="input-wrapper">
+                                    <input class="input" type="text" name="testimon-role" placeholder="e.g. This is role of person's testimonial">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="span__2">
-                        <div class="form__input-group">
-                            <label class="label">Quote:</label>
-                            <div class="input-wrapper">
-                                <input class="input" type="text" name="testimon-quote" placeholder="e.g. This is quote of person's testimonial">
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">Quote:</label>
+                                <div class="input-wrapper">
+                                    <input class="input" type="text" name="testimon-quote" placeholder="e.g. This is quote of person's testimonial (optional)">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="span__2">
-                        <div class="form__input-group">
-                            <label class="label">Bio:</label>
-                            <div class="input-wrapper">
-                                <textarea class="textarea input" name="testimon-bio" placeholder="e.g. This is bio of person's testimonial"></textarea>
+                        <div class="span__2">
+                            <div class="form__input-group">
+                                <label class="label">Bio:</label>
+                                <div class="input-wrapper">
+                                    <textarea class="textarea input" name="testimon-bio" placeholder="e.g. This is bio of person's testimonial"></textarea>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="span__1 margin-top-m">
-                        <button class="btn btn-prim btn-block" > Add new testimonial</button>
-                    </div>
-                </form>
-                <div>
-                <div>
-                    <h3>List of actual testimonials:</h3>
+                        <div class="span__1 margin-top-m">
+                            <button class="btn btn-prim btn-block" > Add new testimonial</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="span__full">
+                <h3 class="item-headline">List of existing testimonials</h3>
+                <table class="table">
+                    <tr class="table_row row-head">
+                        <th class="row_head-col col_grow-1 row_align-left">
+                            <p>No.</p>
+                        </th>
+                        <th class="row_head-col col_grow-3 row_align-left">
+                            <p>Name</p>
+                        </th>
+                        <th class="row_head-col col_grow-2 row_align-center">
+                            <p>Action</p>
+                        </th>
+                    </tr>
                     <?php
+                    $iIndex = 1;
                     foreach ($jTestimonials as $jTestimonId => $jTestimonial){
                         $sTestimonName = $jTestimonial->name->text;
-                        echo "<div id=$jTestimonId class=\"grid-body align-items-center  margin-top-xs btn btn-prim\">
-                              <div class=\"span__2 offset__1_l justify-center-s-up\">
-                                <p>$sTestimonName</p>
-                              </div>
-                              <div class=\"span__2 offset__9_l justify-items-center\">
-                                <a id=$jTestimonId class=\"edit-testimon\">Edit</a>
-                                <a id=$jTestimonId class=\"remove-testimon offset__1_l\">Remove</a>
-                              </div>
-                              
-                          </div>
-                         ";
-                    }
+                        echo "<tr id=$jTestimonId class=\"table_row row-item\">
+                                <td class=\"row_item-col col_grow-1 row_align-left\">
+                                    <p class=\"col_impact\">$iIndex</p>
+                                </td>
+                                <td class=\"row_item-col col_grow-3 row_align-left\">
+                                    <p>$sTestimonName</p>
+                                </td>
+                                <td class=\"row_item-col col_grow-2 row_align-center\">
+                                    <div id=$jTestimonId class=\"btn btn-text edit-testimon\">Edit</div>
+                                    <div id=$jTestimonId class=\"btn btn-text remove-testimon\">Remove</div>
+                                </td>
+                                </tr>
+                             ";
+                        $iIndex++;
+                        }
                     ?>
-
-                </div>
+                </table>
+            </div>
         </div>
     </section>
 </div>

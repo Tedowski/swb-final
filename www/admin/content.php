@@ -32,8 +32,9 @@ require_once __DIR__.'/../modules/popup.php';
 <div class="wrapper">
     <section class="section">
         <div class="container grid-body">
-            <div class="span__full">
+            <div class="span__full margin-bot-m">
                 <h1 class="title">Content management</h1>
+                <a href="dashboard" class="btn btn-text">« Back to dashboard</a>
             </div>
             <div class="span__4">
                 <a href="edit_pages.php" class="btn btn-prim btn-block text-centered">

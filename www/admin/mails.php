@@ -38,7 +38,7 @@ require_once __DIR__.'/../modules/popup.php';
 <div class="wrapper">
     <section class="section section-blog">
         <div class="container grid-body">
-            <div class="span__full">
+            <div class="span__full margin-bot-m">
                 <h1 class="title">Mails management</h1>
                 <a href="dashboard" class="btn btn-text">« Back to dashboard</a>
             </div>
@@ -91,10 +91,10 @@ require_once __DIR__.'/../modules/popup.php';
                 <table class="table">
                     <tr class="table_row row-head">
                         <th class="row_head-col col_grow-1 row_align-left">
-                            <p>Date</p>
+                            <p>No.</p>
                         </th>
                         <th class="row_head-col col_grow-3 row_align-left">
-                            <p>Title</p>
+                            <p>E-mail</p>
                         </th>
                         <th class="row_head-col col_grow-2 row_align-center">
                             <p>Action</p>
