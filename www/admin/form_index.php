@@ -39,9 +39,9 @@ require_once __DIR__.'/../modules/popup.php';
 <!--    </div>-->
 <!--</div>-->
 
-<div class="wrapper admin-wrapper">
+<div class="wrapper">
     <form class="form" id="formIndex">
-        <section class="section gutter-top-xl gutter-bot-l">
+        <section class="section">
             <div class="container grid-body">
                 <div class="span__4 span__6_l justify-start-s">
                     <div class="">

@@ -9,11 +9,16 @@ $('#frm-newsletter').submit(
         })
             .done(function(jData){
                     if(jData.status == 1){
+
                         showPopup({
                             content: 'You have successfully subscribed to our newsletter',
                             state: 'success',
                             position: 'bottom'
                         });
+                        setTimeout(function () {
+                            clearInput();
+                        },1000)
+
                     }
                     else if(jData.status == 0 ){
                         showPopup({
@@ -38,3 +43,6 @@ $('#frm-newsletter').submit(
         return false;
     }
 )
+function clearInput() {
+    $('#frm-newsletter-input').val('');
+}
