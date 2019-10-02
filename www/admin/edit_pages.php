@@ -32,6 +32,7 @@ require_once __DIR__.'/../modules/popup.php';
         <div class="container grid-body">
             <div class="span__full">
                 <h1 class="title">Pages content management</h1>
+                <a href="content" class="btn btn-text">« Back to content management</a>
             </div>
             <div class="span__4">
                 <a href="form_index" class="btn btn-block btn-prim text-centered">
