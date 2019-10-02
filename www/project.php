@@ -32,7 +32,7 @@ require_once __DIR__.'/modules/popup.php';
                                 <div class="undrln__prim underline-inline undrln__l"></div>
                             </div>
                         </div>
-                        <p class="margin-top-m"><?= $jContent->sec_overview->subtitle->text ?></p>
+                        <p class="margin-top-m"><?= nl2br($jContent->sec_overview->subtitle->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4 span__6_l s-first hide-s align-center-m-up justify-end-m-up">
@@ -56,7 +56,7 @@ require_once __DIR__.'/modules/popup.php';
                             <img src="./images/project_skateboarding.jpg" alt="skateboarding_tool">
                         </div>
                         <h4 class="item-headline margin-top-s"><?= $jContent->sec_overview->content->item_1->heading->text ?></h4>
-                        <p><?= $jContent->sec_overview->content->item_1->body->text ?></p>
+                        <p><?= nl2br($jContent->sec_overview->content->item_1->body->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4">
@@ -65,7 +65,7 @@ require_once __DIR__.'/modules/popup.php';
                             <img src="./images/project_events.jpg" alt="events">
                         </div>
                         <h4 class="item-headline margin-top-s"><?= $jContent->sec_overview->content->item_2->heading->text ?></h4>
-                        <p><?= $jContent->sec_overview->content->item_2->body->text ?></p>
+                        <p><?= nl2br($jContent->sec_overview->content->item_2->body->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4 span__8_m span__4_l">
@@ -74,7 +74,7 @@ require_once __DIR__.'/modules/popup.php';
                             <img src="./images/learning_through_play.png" alt="learning_play">
                         </div>
                         <h4 class="item-headline margin-top-s"><?= $jContent->sec_overview->content->item_3->heading->text ?></h4>
-                        <p><?= $jContent->sec_overview->content->item_3->body->text ?></p>
+                        <p><?= nl2br($jContent->sec_overview->content->item_3->body->text) ?></p>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@ require_once __DIR__.'/modules/popup.php';
                             <div class="undrln__prim underline-inline undrln__l"></div>
                         </div>
                     </div>
-                    <p class="margin-top-m"><?= $jContent->sec_research->subtitle->text ?></p>
+                    <p class="margin-top-m"><?= nl2br($jContent->sec_research->subtitle->text) ?></p>
                 </div>
                 <div class="span__4 span__6_l justify-end-m-up">
                     <div class="img">
@@ -109,7 +109,7 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="underline-container undrln__center">
                             <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_research->research_team->memeber_1->research->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_research->research_team->memeber_1->research->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4">
@@ -123,7 +123,7 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="underline-container undrln__center">
                             <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_research->research_team->memeber_2->research->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_research->research_team->memeber_2->research->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4 span__8_m span__4_l">
@@ -137,7 +137,7 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="underline-container undrln__center">
                             <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_research->research_team->memeber_3->research->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_research->research_team->memeber_3->research->text) ?></p>
                     </div>
                 </div>
             </div>
@@ -209,11 +209,11 @@ require_once __DIR__.'/modules/popup.php';
                                             <div class="text-centered">
                                                 <h4 class="item-subheadline">'.$jTestimonial->role->text.'</h4>
                                                 <h3 class="item-headline">'.$jTestimonial->name->text.'</h3>
-                                                <p>'.$jTestimonial->quote->text.'</p>
+                                                <p>'.nl2br($jTestimonial->quote->text).'</p>
                                             </div>
                                             <div>
                                                 <h5 class="item-subheadline">Bio</h5>
-                                                <p>'.$jTestimonial->content->text.'</p>
+                                                <p>'.nl2br($jTestimonial->content->text).'</p>
                                             </div>
                                         </div>
                                       </div>';

@@ -7,21 +7,20 @@ $('#projectFormSubmit').on('click' ,function () {
         dataType: "JSON"
     })
         .done(function (jData) {
-            console.log(jData)
-            // if(jData.status == 0) {
-            //     showPopup({
-            //         content: jData.message,
-            //         state: 'warning',
-            //         position: 'top'
-            //     });
-            // } else if(jData.status == 1) {
-            //     // console.log(jData.message);
-            //     showPopup({
-            //         content: jData.message,
-            //         state: 'success',
-            //         position: 'top'
-            //     });
-            // }
+            if(jData.status == 0) {
+                showPopup({
+                    content: jData.message,
+                    state: 'warning',
+                    position: 'top'
+                });
+            } else if(jData.status == 1) {
+                // console.log(jData.message);
+                showPopup({
+                    content: jData.message,
+                    state: 'success',
+                    position: 'top'
+                });
+            }
         })
         .fail(function () {
             showPopup({
