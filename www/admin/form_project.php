@@ -59,6 +59,7 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group gutter-bot-m">
                             <div class="input-wrapper">
                                 <textarea class="textarea bodytext" name="overviewSubtitle" id="overviewSubtitle" required><?= $jContent->sec_overview->subtitle->text ?></textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>
@@ -85,6 +86,7 @@ require_once __DIR__.'/../modules/popup.php';
                             <label class="label" for="">Content</label>
                             <div class="input-wrapper">
                                 <textarea class="textarea bodytext" name="overviewItem1Content" id="overviewItem1Content" required><?= $jContent->sec_overview->content->item_1->body->text ?></textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>
@@ -101,6 +103,7 @@ require_once __DIR__.'/../modules/popup.php';
                             <label class="label" for="">Content</label>
                             <div class="input-wrapper">
                                 <textarea class="textarea bodytext" name="overviewItem2Content" id="overviewItem2Content" required><?= $jContent->sec_overview->content->item_2->body->text ?></textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>
@@ -117,6 +120,7 @@ require_once __DIR__.'/../modules/popup.php';
                             <label class="label" for="">Content</label>
                             <div class="input-wrapper">
                                 <textarea class="textarea bodytext" name="overviewItem3Content" id="overviewItem3Content" required><?= $jContent->sec_overview->content->item_3->body->text ?></textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>
@@ -140,6 +144,7 @@ require_once __DIR__.'/../modules/popup.php';
                     <div class="form__input-group gutter-bot-m">
                         <div class="input-wrapper">
                             <textarea class="textarea bodytext" name="researchSubtitle" id="researchSubtitle" required><?= $jContent->sec_research->subtitle->text ?></textarea>
+                            <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                         </div>
                     </div>
                 </div>
@@ -164,6 +169,7 @@ require_once __DIR__.'/../modules/popup.php';
                             <label class="label" for="">Research</label>
                             <div class="input-wrapper">
                                 <textarea class="textarea bodytext" name="memberContent1" id="memberContent1" required><?= $jContent->sec_research->research_team->memeber_1->research->text ?></textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>
@@ -185,6 +191,7 @@ require_once __DIR__.'/../modules/popup.php';
                             <label class="label" for="">Research</label>
                             <div class="input-wrapper">
                                 <textarea class="textarea bodytext" name="memberContent2" id="memberContent2" required><?= $jContent->sec_research->research_team->memeber_2->research->text ?></textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>
@@ -206,6 +213,7 @@ require_once __DIR__.'/../modules/popup.php';
                             <label class="label" for="">Research</label>
                             <div class="input-wrapper">
                                 <textarea class="textarea bodytext" name="memberContent3" id="memberContent3" required><?= $jContent->sec_research->research_team->memeber_3->research->text ?></textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>

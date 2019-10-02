@@ -43,9 +43,9 @@ require_once __DIR__.'/../modules/popup.php';
             </div>
             <div class="span__full">
                 <button id="add-blog-post" class="btn btn-prim btn-block">Add new blog post</button>
-                <div class="hide-l-up form-container">
-                    <form id="frm-add-blog" class="form form_main form_card">
-                        <div class="span__2">
+                <div class="hide-l-up form-container gutter-top-s">
+                    <form id="frm-add-blog" class="form form_card">
+                        <div class="">
                             <div class="form__input-group">
                                 <label class="label">Blog post title:</label>
                                 <div class="input-wrapper">
@@ -53,23 +53,25 @@ require_once __DIR__.'/../modules/popup.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="span__2">
+                        <div class="margin-top-s">
                             <div class="form__input-group">
                                 <label class="label">Blog post subtitle:</label>
                                 <div class="input-wrapper">
                                     <textarea placeholder="e.g. This is subtitle for blog post" class="textarea input" name="blog-subtitle"></textarea>
+                                    <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="span__2">
+                        <div class="margin-top-s">
                             <div class="form__input-group">
                                 <label class="label">Blog post content:</label>
                                 <div class="input-wrapper">
                                     <textarea placeholder="e.g. This is content for blog post" class="textarea input" name="blog-content"></textarea>
+                                    <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="span__2">
+                        <div class="margin-top-s">
                             <div class="form__input-group">
                                 <label class="label">Blog image:</label>
                                 <div class="input-wrapper">

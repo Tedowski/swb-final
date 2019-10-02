@@ -49,6 +49,7 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group gutter-bot-m">
                             <div class="input-wrapper">
                                 <textarea class="textarea bodytext" name="challengesSubtitle" id="challengesSubtitle" required><?= $jContent->sec_challenges->subtitle->text ?></textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>
@@ -247,6 +248,7 @@ require_once __DIR__.'/../modules/popup.php';
                         <div class="form__input-group gutter-bot-m">
                             <div class="input-wrapper">
                                 <textarea class="textarea bodytext" name="solutionsSubtitle" id="solutionsSubtitle" required><?= $jContent->sec_solutions->subtitle->text ?></textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>
@@ -339,6 +341,7 @@ require_once __DIR__.'/../modules/popup.php';
                     <div class="form__input-group gutter-bot-m">
                         <div class="input-wrapper">
                             <textarea class="textarea bodytext" name="partnershipsSubtitle" id="partnershipsSubtitle" required><?= $jContent->sec_partnerships->subtitle->text ?></textarea>
+                            <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                         </div>
                     </div>
                 </div>

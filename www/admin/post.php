@@ -42,14 +42,14 @@ require_once __DIR__.'/../modules/popup.php';
     <section class="section">
         <div class="container">
             <div class="grid-body">
-                <div class="span__2_l">
-                    <a href="blog.php" class="btn btn-prim btn-block">Go back to posts</a>
+                <div class="span__4_l">
+                    <a href="blog" class="btn btn-text">« Back to Blog</a>
                 </div>
             </div>
 
             <div class="form-container margin-top-s">
-                <form id="frm-edit-blog" class="form form_main form_card">
-                    <div class="span__2">
+                <form id="frm-edit-blog" class="form form_card">
+                    <div class="">
                         <div class="form__input-group">
                             <label class="label">Blog post id:</label>
                             <div class="input-wrapper">
@@ -58,7 +58,7 @@ require_once __DIR__.'/../modules/popup.php';
                             </div>
                         </div>
                     </div>
-                    <div class="span__2">
+                    <div class="margin-top-s">
                         <div class="form__input-group">
                             <label class="label">Blog post title:</label>
                             <div class="input-wrapper">
@@ -67,23 +67,23 @@ require_once __DIR__.'/../modules/popup.php';
                             </div>
                         </div>
                     </div>
-                    <div class="span__2">
+                    <div class="margin-top-s">
                         <div class="form__input-group">
                             <label class="label">Blog post subtitle:</label>
                             <div class="input-wrapper">
-                                <textarea placeholder="e.g. This is subtitle for blog post" class="input" name="blog-subtitle">
-                                    <?= $jPost->subtitle->text ?>
+                                <textarea placeholder="e.g. This is subtitle for blog post" class="input" name="blog-subtitle"><?= $jPost->subtitle->text ?>
                                 </textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>
-                    <div class="span__2">
+                    <div class="margin-top-s">
                         <div class="form__input-group">
                             <label class="label">Blog post content:</label>
                             <div class="input-wrapper">
-                                <textarea placeholder="e.g. This is content for blog post" class="input" name="blog-content">
-                                    <?= $jPost->content->text ?>
+                                <textarea placeholder="e.g. This is content for blog post" class="input" name="blog-content"><?= $jPost->content->text ?>
                                 </textarea>
+                                <div class="btn btn-prim btn-block add-link-btn">&lt;a&gt;</div>
                             </div>
                         </div>
                     </div>

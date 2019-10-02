@@ -27,7 +27,7 @@ require_once __DIR__.'/../modules/header-admin.php';
 require_once __DIR__.'/../modules/popup.php';
 ?>
 
-<div class="wrapper admin-wrapper">
+<div class="wrapper">
     <section class="section">
         <div class="container grid-body">
             <div class="span__full">
