@@ -86,7 +86,7 @@ $jContent = $jData->index;
 
 $jContent->sec_challenges->title->text = $challengesTitle;
 
-$jContent->sec_challenges->subtitle->text;
+$jContent->sec_challenges->subtitle->text = $challengesSubtitle;
 
 // insert challenges facts
 

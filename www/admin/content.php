@@ -37,7 +37,7 @@ require_once __DIR__.'/../modules/popup.php';
                 <a href="dashboard" class="btn btn-text">« Back to dashboard</a>
             </div>
             <div class="span__4">
-                <a href="edit_pages.php" class="btn btn-prim btn-block text-centered">
+                <a href="edit_pages" class="btn btn-prim btn-block text-centered">
                     <div class="margin-top-xs">
                         <i class="far fa-file-alt icon-xxl"></i>
                     </div>
@@ -45,7 +45,7 @@ require_once __DIR__.'/../modules/popup.php';
                 </a>
             </div>
             <div class="span__4">
-                <a href="edit_achievements.php" class="btn btn-prim btn-block text-centered">
+                <a href="edit_achievements" class="btn btn-prim btn-block text-centered">
                     <div class="margin-top-xs">
                         <i class="fas fa-trophy icon-xxl"></i>
                     </div>
@@ -53,7 +53,7 @@ require_once __DIR__.'/../modules/popup.php';
                 </a>
             </div>
             <div class="span__4">
-                <a href="edit_sponsors.php" class="btn btn-prim btn-block text-centered">
+                <a href="edit_sponsors" class="btn btn-prim btn-block text-centered">
                     <div class="margin-top-xs">
                         <i class="fas fa-users icon-xxl"></i>
                     </div>
@@ -61,7 +61,7 @@ require_once __DIR__.'/../modules/popup.php';
                 </a>
             </div>
             <div class="span__4">
-                <a href="edit_testimon.php" class="btn btn-prim btn-block text-centered">
+                <a href="edit_testimon" class="btn btn-prim btn-block text-centered">
                     <div class="margin-top-xs">
                         <i class="far fa-address-card icon-xxl"></i>
                     </div>
@@ -69,7 +69,7 @@ require_once __DIR__.'/../modules/popup.php';
                 </a>
             </div>
             <div class="span__4">
-                <a href="edit_team.php" class="btn btn-prim btn-block text-centered">
+                <a href="edit_team" class="btn btn-prim btn-block text-centered">
                     <div class="margin-top-xs">
                         <i class="fas fa-users-cog icon-xxl"></i>
                     </div>

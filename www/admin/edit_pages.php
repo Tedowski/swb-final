@@ -29,42 +29,50 @@ require_once __DIR__.'/../modules/popup.php';
 
 <div class="wrapper admin-wrapper">
     <section class="section">
-        <div class="container grid-body gutter-bot-m">
+        <div class="container grid-body">
             <div class="span__full">
                 <h1 class="title">Pages content management</h1>
             </div>
-        </div>
-        <div class="container grid-body">
-            <a href="form_index.php" class="btn btn-block btn-prim span__4 text-centered">
-                <div class="margin-top-xs">
-                    <i class="far fa-file-alt icon-xxl"></i>
-                </div>
-                <h3 class="margin-top-s">Landing page</h3>
-            </a>
-            <button class="btn btn-block btn-prim span__4">
-                <div class="margin-top-xs">
-                    <i class="far fa-file-alt icon-xxl"></i>
-                </div>
-                <h3 class="margin-top-s">Project page</h3>
-            </button>
-            <button class="btn btn-block btn-prim span__4">
-                <div class="margin-top-xs">
-                    <i class="far fa-file-alt icon-xxl"></i>
-                </div>
-                <h3 class="margin-top-s">About page</h3>
-            </button>
-            <button class="btn btn-block btn-prim span__4">
-                <div class="margin-top-xs">
-                    <i class="far fa-file-alt icon-xxl"></i>
-                </div>
-                <h3 class="margin-top-s">Sponsors page</h3>
-            </button>
-            <button class="btn btn-block btn-prim span__4">
-                <div class="margin-top-xs">
-                    <i class="far fa-file-alt icon-xxl"></i>
-                </div>
-                <h3 class="margin-top-s">Volunteers page</h3>
-            </button>
+            <div class="span__4">
+                <a href="form_index" class="btn btn-block btn-prim text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-file-alt icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Landing page</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="form_project" class="btn btn-block btn-prim text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-file-alt icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Project page</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="form_about" class="btn btn-block btn-prim text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-file-alt icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">About page</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="form_sponsors" class="btn btn-block btn-prim text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-file-alt icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Sponsors page</h3>
+                </a>
+            </div>
+            <div class="span__4">
+                <a href="form_volunteers" class="btn btn-block btn-prim text-centered">
+                    <div class="margin-top-xs">
+                        <i class="far fa-file-alt icon-xxl"></i>
+                    </div>
+                    <h3 class="margin-top-s">Volunteers page</h3>
+                </a>
+            </div>
         </div>
     </section>
 </div>

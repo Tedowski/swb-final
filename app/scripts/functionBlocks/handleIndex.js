@@ -1,4 +1,4 @@
-$('#formIndex').submit(function () {
+$('#indexFormSubmit').on('click', function () {
 
     $.ajax({
         method: "POST",

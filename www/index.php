@@ -1,6 +1,5 @@
 <?php
 
-
 $sData = file_get_contents('data/page_index.json');
 $jData = json_decode($sData);
 

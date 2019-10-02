@@ -88,16 +88,13 @@ require_once __DIR__.'/modules/popup.php';
 
                 $aUs = $jContent->sec_us->content;
 
-                foreach ($aUs as $jOffer) {
-                    echo '<div class="span__4">
-                               <div>
-                                    <p>'.$jOffer->text.'</p>                         
-                               </div>
-                          </div>';
-                }
-
-                ?>
-
+                foreach ($aUs as $jOffer): ?>
+                    <div class="span__4">
+                        <div>
+                            <p><?= $jOffer->text ?></p>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </section>
         <section id="get-involved" class="section">
