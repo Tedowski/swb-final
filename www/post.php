@@ -34,8 +34,8 @@ require_once __DIR__.'/modules/popup.php';
                             <div class="underline-container undrln__left">
                                 <div class="undrln__prim underline-inline undrln__xl"></div>
                             </div>
-                            <p class="margin-top-m"><?= $jPost->subtitle->text ?></p>
-                            <p><?= $jPost->content->text ?></p>
+                            <p class="margin-top-m"><?= nl2br($jPost->subtitle->text) ?></p>
+                            <p><?= nl2br($jPost->content->text) ?></p>
                         </div>
                     </article>
                     <a href="blog" class="btn btn-text"> « Go back to blog posts</a>

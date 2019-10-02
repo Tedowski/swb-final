@@ -35,10 +35,10 @@ require_once __DIR__.'/modules/popup.php';
             </div>
             <div class="container grid-body">
                 <div class="span__4 span__6_l">
-                    <p><?= $jContent->sec_initiative->column_1->text ?></p>
+                    <p><?= nl2br($jContent->sec_initiative->column_1->text) ?></p>
                 </div>
                 <div class="span__4 span__6_l">
-                    <p><?= $jContent->sec_initiative->column_2->text ?></p>
+                    <p><?= nl2br($jContent->sec_initiative->column_2->text) ?></p>
                 </div>
             </div>
         </section>
@@ -57,17 +57,15 @@ require_once __DIR__.'/modules/popup.php';
             <div class="container grid-body">
                 <?php
 
-                    $aYou = $jContent->sec_you->content;
+                $aYou = $jContent->sec_you->content;
 
-                    foreach ($aYou as $jExpectation) {
-                        echo '<div class="span__4">
-                                   <div>
-                                       <p>'.$jExpectation->text.'</p>
-                                   </div>
-                              </div>';
-                    }
-
-                ?>
+                foreach ($aYou as $jExpectation): ?>
+                    <div class="span__4">
+                       <div>
+                           <p><?= nl2br($jExpectation->text) ?></p>
+                       </div>
+                    </div>
+                <?php endforeach; ?>
 
             </div>
         </section>
@@ -91,7 +89,7 @@ require_once __DIR__.'/modules/popup.php';
                 foreach ($aUs as $jOffer): ?>
                     <div class="span__4">
                         <div>
-                            <p><?= $jOffer->text ?></p>
+                            <p><?= nl2br($jOffer->text) ?></p>
                         </div>
                     </div>
                 <?php endforeach; ?>

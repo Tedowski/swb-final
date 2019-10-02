@@ -81,7 +81,7 @@ require_once __DIR__.'/modules/popup.php';
                                 <div class="undrln__prim underline-inline undrln__l"></div>
                             </div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_holy_trio->mission->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_holy_trio->mission->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4">
@@ -106,7 +106,7 @@ require_once __DIR__.'/modules/popup.php';
                                 <div class="undrln__prim underline-inline undrln__l"></div>
                             </div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_holy_trio->vision->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_holy_trio->vision->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4">
@@ -134,7 +134,7 @@ require_once __DIR__.'/modules/popup.php';
                                 <div class="undrln__prim underline-inline undrln__l"></div>
                             </div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_holy_trio->values->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_holy_trio->values->text) ?></p>
                     </div>
                 </div>
             </div>
@@ -149,7 +149,7 @@ require_once __DIR__.'/modules/popup.php';
                                 <div class="undrln__prim underline-inline undrln__l"></div>
                             </div>
                         </div>
-                        <p class="margin-top-m"><?= $jContent->sec_partnership_triangle->subtitle->text ?></p>
+                        <p class="margin-top-m"><?= nl2br($jContent->sec_partnership_triangle->subtitle->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4 span__8_m">
@@ -165,7 +165,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_partnership_triangle->partners->partner_1->bio->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_partnership_triangle->partners->partner_1->bio->text) ?></p>
                                 <a class="btn btn-text" href="<?= $jContent->sec_partnership_triangle->partners->partner_1->link->url; ?>" target="_blank">Read more</a>
                             </div>
                         </div>
@@ -180,7 +180,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_partnership_triangle->partners->partner_2->bio->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_partnership_triangle->partners->partner_2->bio->text) ?></p>
                                 <a class="btn btn-text" href="<?= $jContent->sec_partnership_triangle->partners->partner_2->link->url; ?>" target="_blank">Read more</a>
                             </div>
                         </div>
@@ -195,7 +195,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_partnership_triangle->partners->partner_3->bio->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_partnership_triangle->partners->partner_3->bio->text) ?></p>
                                 <a class="btn btn-text" href="<?= $jContent->sec_partnership_triangle->partners->partner_3->link->url; ?>" target="_blank">Read more</a>
                             </div>
                         </div>
@@ -224,11 +224,11 @@ require_once __DIR__.'/modules/popup.php';
                                     <div class="text-centered">
                                         <h4 class="item-subheadline"><?= $jContent->sec_team->member_1->role->text ?></h4>
                                         <h3 class="item-headline"><?= $jContent->sec_team->member_1->name->text ?></h3>
-                                        <p><?= $jContent->sec_team->member_1->quote->text ?></p>
+                                        <p><?= nl2br($jContent->sec_team->member_1->quote->text) ?></p>
                                     </div>
                                     <div>
                                         <h5 class="item-subheadline">Bio</h5>
-                                        <p><?= $jContent->sec_team->member_1->bio->text ?></p>
+                                        <p><?= nl2br($jContent->sec_team->member_1->bio->text) ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -237,11 +237,11 @@ require_once __DIR__.'/modules/popup.php';
                                     <div class="text-centered">
                                         <h4 class="item-subheadline"><?= $jContent->sec_team->member_2->role->text ?></h4>
                                         <h3 class="item-headline"><?= $jContent->sec_team->member_2->name->text ?></h3>
-                                        <p><?= $jContent->sec_team->member_2->quote->text ?></p>
+                                        <p><?= nl2br($jContent->sec_team->member_2->quote->text) ?></p>
                                     </div>
                                     <div>
                                         <h5 class="item-subheadline">Bio</h5>
-                                        <p><?= $jContent->sec_team->member_2->bio->text ?></p>
+                                        <p><?= nl2br($jContent->sec_team->member_2->bio->text) ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -250,11 +250,11 @@ require_once __DIR__.'/modules/popup.php';
                                     <div class="text-centered">
                                         <h4 class="item-subheadline"><?= $jContent->sec_team->member_3->role->text ?></h4>
                                         <h3 class="item-headline"><?= $jContent->sec_team->member_3->name->text ?></h3>
-                                        <p><?= $jContent->sec_team->member_3->quote->text ?></p>
+                                        <p><?= nl2br($jContent->sec_team->member_3->quote->text) ?></p>
                                     </div>
                                     <div>
                                         <h5 class="item-subheadline">Bio</h5>
-                                        <p><?= $jContent->sec_team->member_3->bio->text ?></p>
+                                        <p><?= nl2br($jContent->sec_team->member_3->bio->text) ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -280,20 +280,17 @@ require_once __DIR__.'/modules/popup.php';
 
                 $aPeople = $jContent->sec_people_behind->people;
 
-                foreach ($aPeople as $jPerson) {
-                    echo '<div class="span__4 span__3_l">
-                            <div class="flex-col-center gutter-bot-m person_behind">
-                               <div class="img img-circ circ-l">
-                                   <img src="./images/'.$jPerson->img->url.'" alt="">
-                               </div>
-                               
-                               <p class="margin-top-s">'.$jPerson->role->text.'</p>
-                               <h4>'.$jPerson->name->text.'</h4>
-                            </div>
-                          </div>';
-                }
-
-                ?>
+                foreach ($aPeople as $jPerson): ?>
+                    <div class="span__4 span__3_l">
+                        <div class="flex-col-center gutter-bot-m person_behind">
+                           <div class="img img-circ circ-l">
+                               <img src="./images/<?= $jPerson->img->url ?>" alt="">
+                           </div>
+                           <p class="margin-top-s"><?= $jPerson->role->text ?></p>
+                           <h4><?= $jPerson->name->text ?></h4>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </section>
         <section id="achievements" class="section section-dark">

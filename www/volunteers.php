@@ -32,7 +32,7 @@ require_once __DIR__.'/modules/popup.php';
                                 <div class="undrln__prim underline-inline undrln__l"></div>
                             </div>
                         </div>
-                        <p class="margin-top-m"><?= $jContent->sec_overview->subtitle->text ?></p>
+                        <p class="margin-top-m"><?= nl2br($jContent->sec_overview->subtitle->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4 span__6_l s-first align-center-m-up justify-end-m-up hide-s">
@@ -53,7 +53,7 @@ require_once __DIR__.'/modules/popup.php';
                                 <div class="undrln__prim underline-inline undrln__l"></div>
                             </div>
                         </div>
-                        <p class="margin-top-m"><?= $jContent->sec_help->subtitle->text ?></p>
+                        <p class="margin-top-m"><?= nl2br($jContent->sec_help->subtitle->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4 span__8_m">
@@ -85,7 +85,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s undrln__left"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_help->helps->help_1->content->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_help->helps->help_1->content->text) ?></p>
                             </div>
                         </div>
                         <div class="span__4">
@@ -133,7 +133,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s undrln__left"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_help->helps->help_2->content->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_help->helps->help_2->content->text) ?></p>
                             </div>
                         </div>
                         <div class="span__4">
@@ -155,7 +155,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s undrln__left"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_help->helps->help_3->content->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_help->helps->help_3->content->text) ?></p>
                             </div>
                         </div>
                         <div class="span__4">
@@ -212,7 +212,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s undrln__left"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_help->helps->help_4->content->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_help->helps->help_4->content->text) ?></p>
                             </div>
                         </div>
                     </div>

@@ -25,7 +25,7 @@ require_once __DIR__.'/modules/popup.php';
         <section class="section section-blog">
             <div class="container grid-body">
                 <?php
-                foreach (array_reverse($jPosts) as $iPostId => $jPost){
+                foreach (array_reverse($jPosts) as $iPostId => $jPost) {
                     if(isset($jPost['title']['text']) && $jPost['title']['text'] != ''){
                         $sPostTitle = $jPost['title']['text'];
                         $sPostSubtitle = $jPost['subtitle']['text'];

@@ -32,7 +32,7 @@ require_once __DIR__.'/modules/popup.php';
                                 <div class="undrln__prim underline-inline undrln__l"></div>
                             </div>
                         </div>
-                        <p class="margin-top-m"><?= $jContent->sec_challenges->subtitle->text ?></p>
+                        <p class="margin-top-m"><?= nl2br($jContent->sec_challenges->subtitle->text) ?></p>
                     </div>
                 </div>
                 <div class="span__4 span__6_l s-first align-center-m-up justify-end-m-up hide-s">
@@ -49,7 +49,7 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="underline-container undrln__left">
                             <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_1->body->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_challenges->challenges_facts->fact_1->body->text) ?></p>
                         <div class="underline-container undrln__right">
                             <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_1->link->src ?>" target="_blank">Read more</a>
                         </div>
@@ -62,7 +62,7 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="underline-container undrln__left">
                             <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_2->body->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_challenges->challenges_facts->fact_2->body->text) ?></p>
                         <div class="underline-container undrln__right">
                             <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_2->link->src ?>" target="_blank">Read more</a>
                         </div>
@@ -75,7 +75,7 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="underline-container undrln__left">
                             <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_3->body->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_challenges->challenges_facts->fact_3->body->text) ?></p>
                         <div class="underline-container undrln__right">
                             <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_3->link->src ?>" target="_blank">Read more</a>
                         </div>
@@ -88,7 +88,7 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="underline-container undrln__left">
                             <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_4->body->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_challenges->challenges_facts->fact_4->body->text) ?></p>
                         <div class="underline-container undrln__right">
                             <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_4->link->src ?>" target="_blank">Read more</a>
                         </div>
@@ -101,7 +101,7 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="underline-container undrln__left">
                             <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_5->body->text ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_challenges->challenges_facts->fact_5->body->text) ?></p>
                         <div class="underline-container undrln__right">
                             <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_5->link->src ?>" target="_blank">Read more</a>
                         </div>
@@ -114,7 +114,7 @@ require_once __DIR__.'/modules/popup.php';
                         <div class="underline-container undrln__left">
                             <div class="undrln__prim underline-inline undrln__m"></div>
                         </div>
-                        <p class="margin-top-s"><?= $jContent->sec_challenges->challenges_facts->fact_6->body->text; ?></p>
+                        <p class="margin-top-s"><?= nl2br($jContent->sec_challenges->challenges_facts->fact_6->body->text); ?></p>
                         <div class="underline-container undrln__right">
                             <a class="btn btn-text" href="<?= $jContent->sec_challenges->challenges_facts->fact_6->link->src; ?>" target="_blank">Read more</a>
                         </div>
@@ -133,7 +133,7 @@ require_once __DIR__.'/modules/popup.php';
                                 <div class="undrln__prim underline-inline undrln__l"></div>
                             </div>
                         </div>
-                        <p class="margin-top-m"><?= $jContent->sec_solutions->subtitle->text ?></p>
+                        <p class="margin-top-m"><?= nl2br($jContent->sec_solutions->subtitle->text) ?></p>
                         <a class="btn btn-text" href="project.php#overview">Read more</a>
                     </div>
                 </div>
@@ -166,7 +166,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s undrln__left"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_solutions->solutions->solution_1->content->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_solutions->solutions->solution_1->content->text) ?></p>
                             </div>
                         </div>
                         <div class="span__4">
@@ -214,7 +214,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s undrln__left"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_solutions->solutions->solution_2->content->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_solutions->solutions->solution_2->content->text) ?></p>
                             </div>
                         </div>
                         <div class="span__4">
@@ -236,7 +236,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s undrln__left"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_solutions->solutions->solution_3->content->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_solutions->solutions->solution_3->content->text) ?></p>
                             </div>
                         </div>
                         <div class="span__4">
@@ -293,7 +293,7 @@ require_once __DIR__.'/modules/popup.php';
                                         <div class="undrln__prim underline-inline undrln__s undrln__left"></div>
                                     </div>
                                 </div>
-                                <p class="margin-top-m"><?= $jContent->sec_solutions->solutions->solution_4->content->text ?></p>
+                                <p class="margin-top-m"><?= nl2br($jContent->sec_solutions->solutions->solution_4->content->text) ?></p>
                             </div>
                         </div>
                     </div>
@@ -322,7 +322,7 @@ require_once __DIR__.'/modules/popup.php';
                             <div class="undrln__prim underline-inline undrln__l"></div>
                         </div>
                     </div>
-                    <p class="margin-top-m"><?= $jContent->sec_partnerships->subtitle->text ?></p>
+                    <p class="margin-top-m"><?= nl2br($jContent->sec_partnerships->subtitle->text) ?></p>
                 </div>
                 <div class="span__4 span__6_l justify-center-s justify-end-m-up">
                     <div class="img">
